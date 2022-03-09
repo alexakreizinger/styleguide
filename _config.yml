@@ -11,10 +11,10 @@ collections: #stored in the `audiences` folder
     permalink: /techdocs/:path/
   marketing:
     output: true
-    permalink: /techdocs/:path/
+    permalink: /marketing/:path/
   dev:
     output: true
-    permalink: /techdocs/:path/
+    permalink: /dev/:path/
   all:
     output: true
-    permalink: /techdocs/:path/
+    permalink: /all/:path/
