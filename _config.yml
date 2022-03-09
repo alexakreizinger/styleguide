@@ -1,19 +1,20 @@
 theme: jekyll-theme-minimal
 title: Style Guide WIP
 description: (What are you doing here? This is still a work in progress!)
-
-collections: #stored in the `audiences` folder
-  techdocs #make sure the corresponding folder starts with an underscore (e.g., _techdocs)
-    output: true
-    permalink: /techdocs/:path
-  marketing
-    output: true
-    permalink: /marketing/:path
-  dev
-    output: true
-    permalink: /dev/:path
-  all
-    output: true
-    permalink: /all/:path
+url: https://alexakreizinger.github.io
+baseurl: /styleguide
 
 collections_dir: audiences #sets the collections folder location
+collections: #stored in the `audiences` folder
+  techdocs: #make sure the corresponding folder starts with an underscore (e.g., _techdocs)
+    output: true
+    permalink: /techdocs/:path/
+  marketing:
+    output: true
+    permalink: /marketing/:path/
+  dev:
+    output: true
+    permalink: /dev/:path/
+  all:
+    output: true
+    permalink: /all/:path/
