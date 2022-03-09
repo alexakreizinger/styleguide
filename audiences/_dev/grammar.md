@@ -1,5 +1,5 @@
 ---
-permalink: /techdocs/grammar
+permalink: /dev/grammar
 ---
 ## Abbreviations
 {% for style in site.data.grammar.abbreviations %}
