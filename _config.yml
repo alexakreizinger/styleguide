@@ -4,16 +4,16 @@ description: (What are you doing here? This is still a work in progress!)
 
 collections_dir: audiences #sets the collections folder location
 collections: #stored in the `audiences` folder
-  techdocs #make sure the corresponding folder starts with an underscore (e.g., _techdocs)
+  techdocs: #make sure the corresponding folder starts with an underscore (e.g., _techdocs)
     output: true
     permalink: /:path/:basename/
-  marketing
+  marketing:
     output: true
     permalink: /:path/:basename/
-  dev
+  dev:
     output: true
     permalink: /:path/:basename/
-  all
+  all:
     output: true
     permalink: /:path/:basename/
 
