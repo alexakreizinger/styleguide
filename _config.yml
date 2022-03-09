@@ -13,4 +13,4 @@ collections: #stored in the `audiences` folder
   all:
     output: true
 
-
+peramlinks: pretty
