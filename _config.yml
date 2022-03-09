@@ -2,18 +2,19 @@ theme: jekyll-theme-minimal
 title: Style Guide WIP
 description: (What are you doing here? This is still a work in progress!)
 
+collections_dir: audiences #sets the collections folder location
 collections: #stored in the `audiences` folder
   techdocs #make sure the corresponding folder starts with an underscore (e.g., _techdocs)
     output: true
-    permalink: /techdocs/:path/
+    permalink: /:collection/:name
   marketing
     output: true
-    permalink: /marketing/:path/
+    permalink: /:collection/:name
   dev
     output: true
-    permalink: /dev/:path/
+    permalink: /:collection/:name
   all
     output: true
-    permalink: /all/:path/
+    permalink: /:collection/:name
 
-collections_dir: audiences #sets the collections folder location
+
