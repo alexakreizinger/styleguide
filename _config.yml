@@ -1,7 +1,15 @@
 theme: jekyll-theme-minimal
 title: Style Guide WIP
 description: (What are you doing here? This is still a work in progress!)
-collections:
-  - techdocs
-  - marketing
-  - dev
+
+collections: #stored in the `audiences` folder
+  techdocs #make sure the corresponding folder starts with an underscore (e.g., _techdocs)
+    output: true
+  marketing
+    output: true
+  dev
+    output: true
+  all
+    output: true
+
+collections_dir: audiences #sets the collections folder location
