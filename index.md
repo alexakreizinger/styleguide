@@ -1,7 +1,5 @@
 {% for dev in site.dev %}
-<a href="{{ dev.url }}">
-      'link!
-    </a>
+{{ dev.url | markdownify}}
 {% endfor %}
 
 
