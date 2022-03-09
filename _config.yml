@@ -8,9 +8,13 @@ collections_dir: audiences #sets the collections folder location
 collections: #stored in the `audiences` folder
   techdocs: #make sure the corresponding folder starts with an underscore (e.g., _techdocs)
     output: true
+    permalink: /techdocs/:path/
   marketing:
     output: true
+    permalink: /techdocs/:path/
   dev:
     output: true
+    permalink: /techdocs/:path/
   all:
     output: true
+    permalink: /techdocs/:path/
