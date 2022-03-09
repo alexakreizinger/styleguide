@@ -1,3 +1,6 @@
+---
+permalink: /techdocs/grammar
+---
 ## Abbreviations
 {% for style in site.data.grammar.abbreviations %}
 {{ style.rule }}

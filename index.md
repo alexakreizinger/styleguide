@@ -1,8 +1,3 @@
-{% for dev in site.dev %}
-{{ dev.url | markdownify}}
-{% endfor %}
-
-
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/alexakreizinger/styleguide/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
