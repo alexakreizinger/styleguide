@@ -2,8 +2,8 @@
 permalink: /dev/grammar/
 ---
 ## Abbreviations
-{% for item in site.data.grammar.abbreviations %}
-  "{ abbreviation.rule }}
+{% for abbreviation in site.data.grammar.abbreviations %}
+  {{ abbreviation.rule }}
   {{ abbreviation.example }}
 {% endfor %}
 
