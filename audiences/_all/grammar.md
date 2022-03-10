@@ -1,4 +1,5 @@
 ---
+layout: default
 permalink: /all/grammar/
 ---
 ## Abbreviations

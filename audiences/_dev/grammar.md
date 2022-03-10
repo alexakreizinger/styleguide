@@ -1,4 +1,5 @@
 ---
+layout: default
 permalink: /dev/grammar/
 ---
 ## Abbreviations
