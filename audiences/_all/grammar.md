@@ -4,7 +4,8 @@ permalink: /all/grammar/
 ## Abbreviations
 {% for style in site.data.grammar.abbreviations %}
   {{ style.rule }}
-  {{ style.example }}
+  {% for example in style %}
+    {{ style.example}}
 {% endfor %}
 
 ## Active Voice
