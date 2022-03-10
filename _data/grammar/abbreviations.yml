@@ -1,11 +1,11 @@
 
 - rule: Don't abbreviate HUMAN's product names in client-facing documentation.
   examples:
-    - NO: BGforA, BGforA
-      YES: BotGuard for Applications
+    - "NO: BGforA, BGforA"
+    - "YES: BotGuard for Applications"
 
 - rule: Provide a definition for acronyms and abbreviations the first time they appear in a given document.
 
 - rule: Don't use acronyms as verbs.
   examples:
-    - NO: SSH into the remote shell.
+    - "NO: SSH into the remote shell.""
