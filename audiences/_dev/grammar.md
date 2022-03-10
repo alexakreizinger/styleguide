@@ -2,13 +2,17 @@
 permalink: /dev/grammar/
 ---
 ## Abbreviations
-{% for abbreviation in site.data.grammar.abbreviations %}
-  {{ abbreviation.rule }}
-  - {{ abbreviation.examples }}
+{% for style in site.data.grammar.abbreviations %}
+  {{ style.rule }}
+  {% for example in style.examples %}
+    - {{ example }}
+  {% endfor %}
 {% endfor %}
 
 ## Active Voice
-{% for voice in site.data.grammar.active_voice %}
-  {{ voice.rule }}
-  - {{ voice.examples }}
+{% for style in site.data.grammar.active_voice %}
+  {{ style.rule }}
+  {% for example in style.examples %}
+  - {{ example }}
+  {% endfor %}
 {% endfor %}

@@ -12,15 +12,15 @@ permalink: /all/grammar/
 ## Active Voice
 {% for style in site.data.grammar.active_voice %}
   {{ style.rule }}
-  {% for example in style %}
-  - {{ style.example }}
+  {% for example in style.examples %}
+  - {{ example }}
   {% endfor %}
 {% endfor %}
 
 ## Capitalization
 {% for style in site.data.grammar.capitalization %}
   {{ style.rule }}
-  {% for example in style %}
-  - {{ style.example }}
+  {% for example in style.examples %}
+  - {{ example }}
   {% endfor %}
 {% endfor %}
