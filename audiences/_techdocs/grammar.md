@@ -1,3 +1,3 @@
 ---
-permalink: /techdocs/grammar
+permalink: /techdocs/grammar/
 ---

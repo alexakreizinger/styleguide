@@ -1,3 +1,3 @@
 ---
-permalink: /marketing/grammar
+permalink: /marketing/grammar/
 ---
