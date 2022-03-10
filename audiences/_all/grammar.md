@@ -6,6 +6,7 @@ permalink: /all/grammar/
   {{ style.rule }}
   {% for example in style %}
     {{ style.example}}
+  {% endfor %}
 {% endfor %}
 
 ## Active Voice
