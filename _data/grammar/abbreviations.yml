@@ -8,4 +8,4 @@
 
 - rule: Don't use acronyms as verbs.
   examples:
-    - "NO: SSH into the remote shell.""
+    - "NO: SSH into the remote shell."
