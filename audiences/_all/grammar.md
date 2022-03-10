@@ -4,8 +4,8 @@ permalink: /all/grammar/
 ## Abbreviations
 {% for style in site.data.grammar.abbreviations %}
   {{ style.rule }}
-  {% for example in style %}
-    - {{ style.example }}
+  {% for example in style.rule %}
+    - {{ style.rule.example }}
   {% endfor %}
 {% endfor %}
 
