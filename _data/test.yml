@@ -1,0 +1,25 @@
+- section: abbrev
+  title: Abbreviations and Acronyms
+  description: 'blah blah blah'
+  audience: sales, marketing, dev
+
+  topics:
+  - rule: Don't abbreviate.
+    featured: true
+    examples:
+      - 'yay!'
+      - 'no.'
+
+  - rule: Spell stuff out.
+
+- section: commas
+  title: Commas
+  description: 'blah blah blah'
+  audience: marketing, dev
+  topics:
+  - rule: Don't abbreviate.
+    examples:
+      - 'yay!'
+      - 'no.'
+
+  - rule: Spell stuff out.
