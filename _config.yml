@@ -16,3 +16,6 @@ collections: #stored in the `audiences` folder
   all:
     output: true
     permalink: /:collection/:path/
+
+header_pages:
+
