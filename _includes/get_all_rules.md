@@ -1,9 +1,9 @@
-{% for style in include.filename %}
-## {{ style.section }}
-{% for rule in style.topics.rule %}
-* {{ rule }}
-{% for example in style.topics.rule.example %}
-> {{ example }}
+{% for sect in include.filename %}
+## {{ sect.section }}
+{% for stylerule in sect.topics %}
+* {{ stylerule.rule }}
+{% for ex in stylerule.rule.examples %}
+> {{ ex }}
 {% endfor %}
 {% endfor %}
 {% endfor %}
