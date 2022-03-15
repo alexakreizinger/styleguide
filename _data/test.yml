@@ -1,4 +1,8 @@
+- |
+  [click me]({{ page.testDomain }}.com)
 
+- |
+  [click me 2](crouton.net)
 
-link: |
-  [click me]({{ page.testURL }})
+- |
+  {{ page.testDomain }}

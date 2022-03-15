@@ -1,7 +1,7 @@
 ---
 layout: default
 permalink: /testpage/
-testURL: zombo.com
+testDomain: zombo
 ---
 
 beep beep ribby ribby
