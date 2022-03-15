@@ -3,7 +3,7 @@
 {% for stylerule in sect.topics %}
 * {{ stylerule.rule }}
 {% for ex in stylerule.rule.examples %}
-> {{ ex }}
+> {{ ex.examples}}
 {% endfor %}
 {% endfor %}
 {% endfor %}
