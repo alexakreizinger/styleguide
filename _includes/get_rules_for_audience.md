@@ -7,7 +7,7 @@
     {% endfor %}
     {% for stylerule in sect.topics %}
         {% if stylerule.audience contains include.audience %}
-{{ stylerule.rule }}
+* {{ stylerule.rule }}
             {% for ex in stylerule.examples %}
 > {{ ex }}
             {% endfor %}
