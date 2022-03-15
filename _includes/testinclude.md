@@ -1,4 +1,6 @@
-{{{% assign testDomain = include.x %}}}
+---
+testDomain: "zombo"
+---
 
 {% for item in site.data.test %}
 {{ item | liquify }}
