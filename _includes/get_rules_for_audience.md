@@ -6,6 +6,6 @@
 {% for example in style.topics.rule.example %}
 > {{ example }}
 {% endfor %}
-{% endif }
+{% endif %}
 {% endfor %}
 {% endfor %}
