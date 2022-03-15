@@ -54,11 +54,11 @@
   - rule: |
       However, there may be times when the passive voice is preferable, including:
       
-      * To focus on the outcome or recipient of action rather than who's performing it.
+          * To focus on the outcome or recipient of action rather than who's performing it.
       
-      * To avoid blaming the user for an error.
+          * To avoid blaming the user for an error.
       
-      * When the reader doesn't need to know who performed an action (in the case of an automatic process or backend system).
+          * When the reader doesn't need to know who performed an action (in the case of an automatic process or backend system).
     examples:
       - |
         YES: Your password will be reset.
