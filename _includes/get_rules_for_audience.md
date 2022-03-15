@@ -10,7 +10,7 @@
 {% for sect in include.filename %}
     {% for stylerule in sect.topics %}
         {% if stylerule.audience contains include.audience %}
-* {{ rule }}
+* {{ stylerule.rule }}
             {% for ex in stylerule.examples %}
 > {{ ex }}
             {% endfor %}
