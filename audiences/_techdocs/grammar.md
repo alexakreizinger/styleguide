@@ -2,6 +2,7 @@
 layout: default
 permalink: /techdocs/grammar/
 ---
+
 {% assign file = site.data.grammar %}
 {% assign aud = "techdocs" %}
 
