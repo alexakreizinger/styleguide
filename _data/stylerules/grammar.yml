@@ -54,11 +54,11 @@
   - rule: |
       However, there may be times when the passive voice is preferable, including:
       
-      (1) To focus on the outcome or recipient of action rather than who's performing it.
+      >To focus on the outcome or recipient of action rather than who's performing it.
       
-      (2) To avoid blaming the user for an error.
+      >To avoid blaming the user for an error.
       
-      (3) When the reader doesn't need to know who performed an action (in the case of an automatic process or backend system).
+      >When the reader doesn't need to know who performed an action (in the case of an automatic process or backend system).
     examples:
       - |
         YES: Your password will be reset.
@@ -200,11 +200,11 @@
       In API reference documentation (and certain types of non-API glossaries), describe each item or method in the present continual tense rather than as an imperative or procedural instruction. In other words, describe what the method does, not what the user must do.
     examples:
       - |
-        "WEAK: `end()`: Cancel the current session. 
-        (Implied subject is "you"—the user will cancel the session.)"
+        WEAK: `end()`: Cancel the current session. 
+        (Implied subject is "you"—the user will cancel the session.)
       - |
-        "STRONG: `end()`: Cancels the current session. 
-        (The subject is the method itself—the method cancels the session.)"
+        STRONG: `end()`: Cancels the current session. 
+        (The subject is the method itself—the method cancels the session.)
     audience: [techdocs, dev]
 
   - rule: |
