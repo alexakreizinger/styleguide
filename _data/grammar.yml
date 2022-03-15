@@ -11,7 +11,7 @@
       Don't abbreviate HUMAN's product names in public-facing documentation.
     examples:
       - "NO: BGforA protects your website or application from bots."
-      - "BotGuard for Applications protects your website or application from bots."
+      - "YES: BotGuard for Applications protects your website or application from bots."
     audience: [techdocs, dev, marketing]
 
   - rule: |
@@ -53,9 +53,9 @@
 
   - rule: |
       However, there may be times when the passive voice is preferable, including:
-        * To focus on the outcome or recipient of action rather than who's performing it.
-        * To avoid blaming the user for an error.
-        * When the reader doesn't need to know who performed an action (in the case of an automatic process or backend system).
+      * To focus on the outcome or recipient of action rather than who's performing it.
+      * To avoid blaming the user for an error.
+      * When the reader doesn't need to know who performed an action (in the case of an automatic process or backend system).
     examples:
       - |
         YES: Your password will be reset.
