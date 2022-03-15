@@ -1,2 +1,4 @@
+
+
 link: |
-  [click me]({{ URL }})
+  [click me]({{ page.testURL }})
