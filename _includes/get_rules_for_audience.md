@@ -5,9 +5,6 @@
 {% break %}
         {% endif %}
     {% endfor %}
-{% endfor %}
-
-{% for sect in include.filename %}
     {% for stylerule in sect.topics %}
         {% if stylerule.audience contains include.audience %}
 * {{ stylerule.rule }}
