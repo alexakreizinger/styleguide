@@ -17,5 +17,8 @@ collections: #stored in the `audiences` folder
     output: true
     permalink: /:collection/:path/
 
+plugins:
+  - liquify
+
 header_pages:
 
