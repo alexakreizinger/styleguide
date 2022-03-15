@@ -1,4 +1,4 @@
-remote_theme: mmistakes/minimal-mistakes@4.24.0
+theme: minima
 title: Style Guide WIP
 description: (What are you doing here? This is still a work in progress!)
 
@@ -16,11 +16,3 @@ collections: #stored in the `audiences` folder
   all:
     output: true
     permalink: /:collection/:path/
-
-plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jemoji
-  - jekyll-include-cache
