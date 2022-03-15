@@ -22,7 +22,7 @@
     audience: techdocs, dev
 
   - rule: |
-      * It"s okay to use Latin abbreviations inside parentheses (e.g., like this), but not in the body of a sentence.
+      It"s okay to use Latin abbreviations inside parentheses (e.g., like this), but not in the body of a sentence.
     examples:
       - "NO: The beach is home to fish, crabs, sharks, etc."
       - "YES: The beach is home to fish, crabs, and so on."
@@ -53,9 +53,9 @@
 
   - rule: |
       However, there may be times when the passive voice is preferable, including:
-      * To focus on the outcome or recipient of action rather than who"s performing it.
-      * To avoid blaming the user for an error.
-      * When the reader doesn't need to know who performed an action (in the case of an automatic process or backend system).
+        * To focus on the outcome or recipient of action rather than who"s performing it.
+        * To avoid blaming the user for an error.
+        * When the reader doesn't need to know who performed an action (in the case of an automatic process or backend system).
     examples:
       - |
         YES: Your password will be reset.
