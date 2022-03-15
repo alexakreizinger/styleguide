@@ -6,9 +6,9 @@ permalink: /testpage/
 beep beep ribby ribby
 
 {% for item in site.data.test %}
-{{ item.link | liquify }}
+{{ item | liquify }}
 {% endfor %}
 
 {% for item in site.data.test %}
-{{ item.link }}
+{{ item }}
 {% endfor %}
