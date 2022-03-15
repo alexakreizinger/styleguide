@@ -177,7 +177,7 @@
     audience: [techdocs, dev]
 
   - rule: |
-      Use standard American English spelling conventions. However, here may be exceptions to this rule when addressing audiences who are accustomed to another form of English—for example, if you're writing a sales deck for a European audience, it may be more appropriate to use British English. 
+      However, there may be exceptions to this rule when addressing audiences who are accustomed to another form of English—for example, if you're writing a sales deck for a European audience, it may be more appropriate to use British English. 
     audience: [marketing]
 
 - section: Tense
