@@ -4,4 +4,4 @@ permalink: /testpage/
 ---
 
 beep beep ribby ribby
-{% include testinclude.md %}
+{% include testinclude.md x="zombo" %}
