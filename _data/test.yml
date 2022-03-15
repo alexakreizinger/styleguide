@@ -1,25 +1,26 @@
-- section: abbrev
-  title: Abbreviations and Acronyms
-  description: 'blah blah blah'
-  audience: sales, marketing, dev
-
+- section: name
   topics:
-  - rule: Don't abbreviate.
-    featured: true
+
+  - rule: |
+      blah blah blah
+    audience: techdocs, dev, marketing
+
+  - rule: |
+      blah blah blah
     examples:
-      - 'yay!'
-      - 'no.'
+      - "example"
+    audience: techdocs, dev, marketing
 
-  - rule: Spell stuff out.
-
-- section: commas
-  title: Commas
-  description: 'blah blah blah'
-  audience: marketing, dev
+- section: name2
   topics:
-  - rule: Don't abbreviate.
-    examples:
-      - 'yay!'
-      - 'no.'
 
-  - rule: Spell stuff out.
+  - rule: |
+      blah blah blah
+    audience: techdocs, dev, marketing
+
+  - rule: |
+      blah blah blah
+    examples:
+      - "example"
+    audience: techdocs, dev, marketing
+
