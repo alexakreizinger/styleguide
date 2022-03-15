@@ -3,7 +3,7 @@
         {% if stylerule.audience contains include.audience %}
 ## {{ sect.section }}
 {% break %}
-        {% endif }
+        {% endif %}
     {% endfor %}
 {% endfor %}
 
@@ -14,6 +14,6 @@
             {% for ex in stylerule.examples %}
 > {{ ex }}
             {% endfor %}
-        {% endif }
+        {% endif %}
     {% endfor %}
 {% endfor %}
