@@ -1,11 +1,19 @@
-{% for style in include.filename %}
-## {{ style.section }}
-{% for rule in style.topics.rule %}
-{% if rule.audience contains include.audience %}
+{% for sect in include.filename %}
+    {% for stylerule in sect.topics %}
+        {% if stylerule.audience contains include.audience %}
+## {{ sect.section }}
+{% break %}
+        {% endif }
+    {% endfor %}
+{% endfor %}
+
+{% for sect in include.filename %}
+    {% for stylerule in sect.topics %}
+        {% if stylerule.audience contains include.audience %}
 * {{ rule }}
-{% for example in style.topics.rule.example %}
-> {{ example }}
-{% endfor %}
-{% endif %}
-{% endfor %}
+            {% for ex in stylerule.examples %}
+> {{ ex }}
+            {% endfor %}
+        {% endif }
+    {% endfor %}
 {% endfor %}
