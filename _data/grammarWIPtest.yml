@@ -2,27 +2,27 @@
 
   topics:
   - rule: |
-      If you"re using an acronym or abbreviation that isn"t well-known, spell out the full acronym the first time it appears and provide its shortened form in parentheses. You can then use the shortened form throughout the rest of the document.
+      If you're using an acronym or abbreviation that isn't well-known, spell out the full acronym the first time it appears and provide its shortened form in parentheses. You can then use the shortened form throughout the rest of the document.
     examples:
       - "EXAMPLE: The HUMAN Dashboard supports single sign-on (SSO). To configure SSO for your organization..."
     audience: techdocs, dev, marketing
 
   - rule: |
-      Don"t abbreviate HUMAN"s product names in public-facing documentation.
+      Don't abbreviate HUMAN's product names in public-facing documentation.
     examples:
       - "NO: BGforA protects your website or application from bots."
       - "BotGuard for Applications protects your website or application from bots."
     audience: techdocs, dev, marketing
 
   - rule: |
-      Don"t use acronyms as verbs.
+      Don't use acronyms as verbs.
     examples:
       - "NO: CNAME the domain."
       - "YES: Add the domain to your CNAME records."
     audience: techdocs, dev
 
   - rule: |
-      It"s okay to use Latin abbreviations inside parentheses (e.g., like this), but not in the body of a sentence.
+      It's okay to use Latin abbreviations inside parentheses (e.g., like this), but not in the body of a sentence.
     examples:
       - "NO: The beach is home to fish, crabs, sharks, etc."
       - "YES: The beach is home to fish, crabs, and so on."
@@ -31,7 +31,7 @@
     audience: techdocs, dev, marketing
 
   - rule: |
-      Don"t confuse "i.e." (*id est*, that is to say) and "e.g." (*exempli gratia*, for the sake of example). When in doubt, spell it out—use the English phrase instead!
+      Don't confuse "i.e." (*id est*, that is to say) and "e.g." (*exempli gratia*, for the sake of example). When in doubt, spell it out—use the English phrase instead!
     audience: techdocs, dev, marketing
 
 - section: Active and passive voice
@@ -53,7 +53,7 @@
 
   - rule: |
       However, there may be times when the passive voice is preferable, including:
-        * To focus on the outcome or recipient of action rather than who"s performing it.
+        * To focus on the outcome or recipient of action rather than who's performing it.
         * To avoid blaming the user for an error.
         * When the reader doesn't need to know who performed an action (in the case of an automatic process or backend system).
     examples:
@@ -75,35 +75,35 @@
 
   - rule: |
       Be sure to properly capitalize HUMAN and all appropriate product names. 
-      For more information, see HUMAN"s brand guidelines.
+      For more information, see HUMAN's brand guidelines.
     audience: techdocs, dev, marketing
 
   - rule: |
-      Don"t capitalize the name of glossary entries or index terms unless the term is a proper noun.
+      Don't capitalize the name of glossary entries or index terms unless the term is a proper noun.
     audience: techdocs, dev
 
   - rule: |
-      Don"t capitalize the names of product features or processes unless the feature or process in question is a proper noun. 
+      Don't capitalize the names of product features or processes unless the feature or process in question is a proper noun. 
       (Rule of thumb: when in doubt, leave it lowercase.)
     audience: techdocs, dev, marketing
 
 - section: Contractions
   topics:
   - rule: |
-      It"s okay to use contractions. 
+      It's okay to use contractions. 
     audience: techdocs, dev, marketing
 
 - section: Pronouns
   topics:
 
   - rule: |
-      It"s okay to refer to HUMAN with first-person pronouns like "we" or "our." For best results, try to mention HUMAN by name at least one time before using a pronoun in its place.
+      It's okay to refer to HUMAN with first-person pronouns like "we" or "our." For best results, try to mention HUMAN by name at least one time before using a pronoun in its place.
     examples:
       - "EXAMPLE: HUMAN does not collect information about your age or date of birth. But if we did, we might throw you a surprise party."
     audience: techdocs, dev, marketing
 
   - rule: |
-      However, there may be times when it"s clearer to refer to HUMAN by name, especially if you need to specify the name of our product or company.
+      However, there may be times when it's clearer to refer to HUMAN by name, especially if you need to specify the name of our product or company.
     examples:
       - "EXAMPLE: This feature prevents a conflict between ACME's servers and HUMAN's integration."
     audience: techdocs, dev, marketing
