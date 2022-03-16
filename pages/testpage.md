@@ -8,4 +8,4 @@ testVar: {{ page.title }}
 beep beep ribby ribby
 {% include testinclude.md x="zombo" %}
 
-The title of this page is {{ testVar | liquify }}
+The title of this page is {{ page.testVar | liquify }}
