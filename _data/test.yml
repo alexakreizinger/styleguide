@@ -1,5 +1,5 @@
 - |
-  [click me]({{ page.testVar }}.com)
+  [click me](https://{{ page.testVar }}.com)
 
 - |
   [click me 2](crouton.net)
