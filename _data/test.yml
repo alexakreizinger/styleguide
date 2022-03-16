@@ -9,3 +9,6 @@
 
 - |
   {{ page.url }}
+
+- |
+  {{ page.testVar2 }}
