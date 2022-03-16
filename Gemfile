@@ -6,4 +6,5 @@ gem "minima"
 
 group :jekyll_plugins do
     gem 'liquify'
+    gem 'github-pages'
   end
