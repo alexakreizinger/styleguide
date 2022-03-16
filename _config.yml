@@ -2,7 +2,7 @@ theme: minima
 title: Style Guide WIP
 description: (What are you doing here? This is still a work in progress!)
 url: https://alexakreizinger.github.io #theme breaks without this?
-base_url: /styleguide #theme breaks without this?
+baseurl: /styleguide #theme breaks without this?
 
 collections_dir: audiences #sets the collections folder location
 collections: #stored in the `audiences` folder
