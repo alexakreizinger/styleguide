@@ -1,4 +1,4 @@
-name: Build and deploy Jekyll site to GitHub Pages
+name: Build and deploy Jekyll site to GitHub Pages #taken from here https://jekyllrb.com/docs/continuous-integration/github-actions/
 
 on:
   push:
@@ -19,4 +19,4 @@ jobs:
       - uses: helaili/jekyll-action@v2
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          target_branch: 'gh-pages'
+          target_branch: 'gh-pages' # had to add this line or it wouldn't work
