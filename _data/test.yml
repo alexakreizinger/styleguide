@@ -1,11 +1,8 @@
 - |
-  [click me]({{ page.testDomain }}.com)
+  [click me]({{ page.testVar }}.com)
 
 - |
   [click me 2](crouton.net)
-
-- |
-  {{ page.testDomain }}
 
 - |
   {{ page.url }}
