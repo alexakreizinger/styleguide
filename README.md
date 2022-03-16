@@ -36,11 +36,7 @@ Outputs every single rule in a given `_data/stylerules/` file.
 #### `get_rules_for_audience`
 Outputs every applicable rule in a given `_data/stylerules/` file based on your audience of choice (current options: `dev`, `marketing`, and `techdocs`). 
 
-{ % note % }
-
-**NOTE** : Does not accept `all` as an audience. If you want to output all style rules, use `get_all_rules.md` instead.
-
-{ % endnote % }
+> **NOTE** : Does not accept `all` as an audience. If you want to output all style rules, use `get_all_rules.md` instead.
 
 **Usage** (when including in an actual page):
 ```
@@ -54,11 +50,7 @@ Outputs every applicable rule in a given `_data/stylerules/` file based on your 
 
 Sourced from [here](https://github.com/vividh/liquify). For more information about using Liquify, see below. 
 
-{ % note % }
-
-**NOTE:** If you add any additional plugins, make sure to update the Gemfile as well!
-
-{ % endnote % }
+> **NOTE:** If you add any additional plugins, make sure to update the Gemfile as well!
 
 ### `_github/workflows/build-jekyll.yml`
 
@@ -82,11 +74,7 @@ The collections folder for the actual style guide output. Each audience has its 
 
 * As such, the output will include all style rules from `_data/stylerules/grammar.yml` that are aimed at developers.
 
-{ % note % }
-
-**NOTE:** New subfolders must be added to the `collections` item in `_config.yml`. Subfolders must start with an underscore (`audiences/_marketing`), but their entry in `_config.yml` must not (`marketing`).
-
-{ % endnote % }
+> **NOTE:** New subfolders must be added to the `collections` item in `_config.yml`. Subfolders must start with an underscore (`audiences/_marketing`), but their entry in `_config.yml` must not (`marketing`).
 
 ### `pages`
 
@@ -131,13 +119,9 @@ tagline: {{ page.title }} — Population: You
 
 `My Page - Population: You`
 
-{ % note % }
-
-**NOTE:** Tags are parsed on the final page or file they're rendered on, not the page or file in which `liquify` is initially called. That is to say, if you use `include` to call upon another page that uses the `liquify` tag, the tag will use any `page.variables` from the page where the `include` was *called*, not the location of the include file itself. 
-
-To see this in action, consult `pages/testpage.md`, which calls upon `_includes/testinclude.md` to pull data from `_data/test.yml`.
-
-{ % endnote % }
+> **NOTE:** Tags are parsed on the final page or file they're rendered on, not the page or file in which `liquify` is initially called. That is to say, if you use `include` to call upon another page that uses the `liquify` tag, the tag will use any `page.variables` from the page where the `include` was *called*, not the location of the include file itself. 
+>
+> To see this in action, consult `pages/testpage.md`, which calls upon `_includes/testinclude.md` to pull data from `_data/test.yml`.
 
 (WRITE UP EXPLANATION OF HOW I ACTUALLY IMPLEMENT THIS W/ RELATIVE URLS IN THE STYLE GUIDE YAML FILES OR WHATEVER)
 
