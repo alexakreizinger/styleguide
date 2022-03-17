@@ -201,9 +201,11 @@
     examples:
       - |
         WEAK: `end()`: Cancel the current session. 
+        
         (Implied subject is "you"—the user will cancel the session.)
       - |
         STRONG: `end()`: Cancels the current session. 
+        
         (The subject is the method itself—the method cancels the session.)
     audience: [techdocs, dev]
 
