@@ -174,7 +174,7 @@
   
   - rule: |
       Use standard American English spelling conventions.
-    audience: [techdocs, dev]
+    audience: [techdocs, dev, marketing]
 
   - rule: |
       However, there may be exceptions to this rule when addressing audiences who are accustomed to another form of English—for example, if you're writing a sales deck for a European audience, it may be more appropriate to use British English. 
