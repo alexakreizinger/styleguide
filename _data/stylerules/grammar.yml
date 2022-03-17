@@ -4,8 +4,8 @@
   - rule: |
       If you're using an acronym or abbreviation that isn't well-known, spell out the full acronym the first time it appears and provide its shortened form in parentheses. You can then use the shortened form throughout the rest of the document.
     examples:
-      |
-      EXAMPLE: The HUMAN Dashboard supports single sign-on (SSO). To configure SSO for your organization...
+      - |
+        EXAMPLE: The HUMAN Dashboard supports single sign-on (SSO). To configure SSO for your organization... <br>
     audience: [techdocs, dev, marketing]
 
   - rule: |
