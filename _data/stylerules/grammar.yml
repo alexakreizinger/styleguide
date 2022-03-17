@@ -4,8 +4,8 @@
   - rule: |
       If you're using an acronym or abbreviation that isn't well-known, spell out the full acronym the first time it appears and provide its shortened form in parentheses. You can then use the shortened form throughout the rest of the document.
     examples:
-      - |
-        EXAMPLE: The HUMAN Dashboard supports single sign-on (SSO). To configure SSO for your organization...
+      |
+      EXAMPLE: The HUMAN Dashboard supports single sign-on (SSO). To configure SSO for your organization...
     audience: [techdocs, dev, marketing]
 
   - rule: |
@@ -89,8 +89,7 @@
     audience: [techdocs, dev]
 
   - rule: |
-      Don't capitalize the names of product features or processes unless the feature or process in question is a proper noun.<br> 
-      (Rule of thumb: when in doubt, leave it lowercase.)
+      Don't capitalize the names of product features or processes unless the feature or process in question is a proper noun. (Rule of thumb: when in doubt, leave it lowercase.)
     audience: [techdocs, dev, marketing]
 
 - section: Contractions
