@@ -45,7 +45,6 @@ Outputs every applicable rule in a given `_data/stylerules/` file based on your 
 
 {% include get_rules_for_audience.md filename=file audience=aud %}
 ```             
-
 ### `_plugins/liquify.rb`
 
 Sourced from [here](https://github.com/vividh/liquify). For more information about using Liquify, see below. 
@@ -100,7 +99,6 @@ tagline: {{ page.title }} — Population: You
 
 {{ page.tagline }}
 ```
-
 Under normal circumstances, this would render the following output (the literal contents of the `page.tagline` item):
 
 `{{ page.title }} — Population: You`
@@ -114,7 +112,6 @@ tagline: {{ page.title }} — Population: You
 
 {{ page.tagline | liquify }}
 ```
-
 ...you'd render the following output (with the `page.tagline` item's own Liquid rendered accordingly):
 
 `My Page - Population: You`
