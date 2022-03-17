@@ -129,3 +129,15 @@ tagline: {{ page.title }} — Population: You
 * The custom GitHub Action that lets you use plugins that haven't been approved by GitHub Pages (*without* running Jekyll locally) won't work unless you include `target_branch: 'gh-pages'` in the last line of the file in `.github/workflows/build-jekyll.yml`.
 
 * Collection files need YAML frontmatter or their pages won't render. This was a major point of confusion for a while because the official Jekyll documentation said they *wouldn't* need frontmatter... but apparently the Jekyll documentation lies.
+
+* To get multiline bullet points for `examples`, either use a <br> tag after the first line or use two spaces after the first line, like so:
+
+```
+This will be rendered as a multi-line bullet point.<br>
+It has two lines!
+```
+
+```
+This will be rendered as a multi-line bullet point.  #there are two spaces here
+It has two lines!
+```
