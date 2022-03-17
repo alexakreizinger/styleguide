@@ -50,13 +50,13 @@
       Try to use the active voice (which focuses on the "do-er" of an action) whenever possible.
     examples:
       - |
-        NO: The data must be updated. <br>
+        NO: The data must be updated.<br>
         (Focuses on the data itself, not the subject of the sentence—who needs to update the data? The user? The program itself?)
       - |
-        YES: You must update your data before continuing.  
+        YES: You must update your data before continuing.<br>
         (The subject is *you*—the reader knows who must perform the action.)
       - |
-        ALSO YES: Update your data.
+        ALSO YES: Update your data.<br>
         (Imperative verbs are active and speak directly to the reader, which is useful for procedural instructions.)
     audience: [techdocs, dev, marketing]
 
@@ -64,7 +64,7 @@
       However, there may be times when the passive voice is preferable, including: (1) to focus on the outcome or recipient of action rather than who's performing it, (2) to avoid blaming the user for an error, or (3) when the reader doesn't need to know who performed an action (in the case of an automatic process or backend system).
     examples:
       - |
-        YES: Your password will be reset.
+        YES: Your password will be reset.<br>
         (Since the reader doesn't need to do anything, the performer of the action is less important than its outcome.)
     audience: [techdocs, dev, marketing]
 
@@ -80,7 +80,7 @@
     audience: [techdocs, dev, marketing]
 
   - rule: |
-      Be sure to properly capitalize HUMAN and all appropriate product names. 
+      Be sure to properly capitalize HUMAN and all appropriate product names.<br> 
       For more information, see HUMAN's brand guidelines.
     audience: [techdocs, dev, marketing]
 
@@ -89,7 +89,7 @@
     audience: [techdocs, dev]
 
   - rule: |
-      Don't capitalize the names of product features or processes unless the feature or process in question is a proper noun. 
+      Don't capitalize the names of product features or processes unless the feature or process in question is a proper noun.<br> 
       (Rule of thumb: when in doubt, leave it lowercase.)
     audience: [techdocs, dev, marketing]
 
@@ -133,10 +133,10 @@
       Make sure that each pronoun has a clear antecedent. (In other words, make sure it's obvious what the pronoun is referring to.) One of the easiest ways to avoid ambiguity is to repeat the actual noun instead of using a pronoun in its place.
     examples:
       - |
-        UNCLEAR: The boy hit the bat against the pillar until it broke.
+        UNCLEAR: The boy hit the bat against the pillar until it broke.<br>
         (What broke—the pole, or the pillar? There's no way to tell from context alone.)
       - |
-        CLEAR: The boy hit the bat against the pillar until the pillar broke.
+        CLEAR: The boy hit the bat against the pillar until the pillar broke.<br>
         (It was the pillar!)
     audience: [techdocs, dev, marketing]
 
@@ -144,10 +144,10 @@
       Similarly, when using relative pronouns like "this" or "that," you can reduce ambiguity by also restating the word or concept you're referring to (or replacing the pronoun entirely).
     examples:
       - |
-        UNCLEAR: Send all data to HUMAN's secure servers via carrier pigeon. This prevents hackers from intercepting your data.
+        UNCLEAR: Send all data to HUMAN's secure servers via carrier pigeon. This prevents hackers from intercepting your data.<br>
         (Which part thwarts hackers: sending data to HUMAN's secure servers, or the fact it was sent via carrier pigeon?)
       - |
-        CLEAR: Send all data to HUMAN's secure servers via carrier pigeon. This pigeon relay prevents hackers from intercepting your data.
+        CLEAR: Send all data to HUMAN's secure servers via carrier pigeon. This pigeon relay prevents hackers from intercepting your data.<br>
         (The pigeons thwart hackers!)
     audience: [techdocs, dev, marketing]
               
@@ -212,10 +212,10 @@
       In API reference documentation (and certain types of non-API glossaries), describe each item or method in the present continual tense rather than as an imperative or procedural instruction. In other words, describe what the method does, not what the user must do.
     examples:
       - |
-        WEAK: `end()`: Cancel the current session. 
+        WEAK: `end()`: Cancel the current session.<br> 
         (Implied subject is "you"—the user will cancel the session.)
       - |
-        STRONG: `end()`: Cancels the current session.
+        STRONG: `end()`: Cancels the current session.<br>
         (The subject is the method itself—the method cancels the session.)
     audience: [techdocs, dev]
 

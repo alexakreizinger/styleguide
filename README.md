@@ -130,7 +130,7 @@ tagline: {{ page.title }} — Population: You
 
 * Collection files need YAML frontmatter or their pages won't render. This was a major point of confusion for a while because the official Jekyll documentation said they *wouldn't* need frontmatter... but apparently the Jekyll documentation lies.
 
-* To get multiline bullet points for `examples`, either use a <br> tag after the first line or use two spaces after the first line, like so:
+* To get multiline bullet points for `rules` or `examples`, either use a <br> tag after the first line or use two spaces after the first line, like so:
 
 ```
 This will be rendered as a multi-line bullet point.<br>
