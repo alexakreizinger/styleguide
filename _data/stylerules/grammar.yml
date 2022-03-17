@@ -147,9 +147,9 @@
               
   - rule: |
       The relative pronouns "that" and "which" are not interchangable—use "that" for restrictive clauses and "which" for nonrestrictive clauses. (A good rule of thumb: nonrestrictive clauses tend to be offset by commas, while restrictive clauses do not.)
-    examples:
-      - "RESTRICTIVE: The new bass that I bought last week has two humbucker pickups."  
-      - "NONRESTRICTIVE: The new bass, which I bought last week, has two humbucker pickups."
+    examples: |
+      - RESTRICTIVE: The new bass that I bought last week has two humbucker pickups."  
+      - NONRESTRICTIVE: The new bass, which I bought last week, has two humbucker pickups.
     audience: [techdocs, dev, marketing]
 
 - section: Sentence structure
@@ -183,8 +183,8 @@
   
   - rule: |
       However, it can sometimes be helpful to use the future tense for specific examples of cause and effect.
-    examples: 
-      - "EXAMPLE: If you run multiple reports, each report will generate its own file. "
+    examples: |
+      - EXAMPLE: If you run multiple reports, each report will generate its own file.
     audience: [techdocs, dev, marketing]
 
 - section: Verb forms
@@ -195,18 +195,16 @@
     examples:
       - |
         WEAK: `end()`: Cancel the current session. 
-        
         (Implied subject is "you"—the user will cancel the session.)
       - |
-        STRONG: `end()`: Cancels the current session. 
-        
+        STRONG: `end()`: Cancels the current session.
         (The subject is the method itself—the method cancels the session.)
     audience: [techdocs, dev]
 
   - rule: |
       However, if you're describing how to use a method rather than a definition of what the method does, it's okay to use standard procedural instructions.
-    examples:
-      - "EXAMPLE: Call `end()` to cancel the current session."
+    examples: |
+      - EXAMPLE: Call `end()` to cancel the current session.
     audience: [techdocs, dev]
 
 - section: Word choice
