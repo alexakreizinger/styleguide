@@ -9,7 +9,7 @@
         {% if stylerule.audience contains include.audience %}
 * {{ stylerule.rule }}
             {% for ex in stylerule.examples %}
-    * {{ ex }}  {::comment} the two trailing spaces at the end are important! (otherwise you can't properly render multiline bullet points) {:/comment}
+    * {{ ex }}
             {% endfor %}
         {% endif %}
     {% endfor %}
