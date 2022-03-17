@@ -4,30 +4,39 @@
   - rule: |
       If you're using an acronym or abbreviation that isn't well-known, spell out the full acronym the first time it appears and provide its shortened form in parentheses. You can then use the shortened form throughout the rest of the document.
     examples:
-      - "EXAMPLE: The HUMAN Dashboard supports single sign-on (SSO). To configure SSO for your organization..."
+      - |
+        EXAMPLE: The HUMAN Dashboard supports single sign-on (SSO). To configure SSO for your organization...
     audience: [techdocs, dev, marketing]
 
   - rule: |
       Don't abbreviate HUMAN's product names in public-facing documentation.
     examples:
-      - "NO: BGforA protects your website or application from bots."
-      - "YES: BotGuard for Applications protects your website or application from bots."
+      - |
+        NO: BGforA protects your website or application from bots.
+      - |
+        YES: BotGuard for Applications protects your website or application from bots.
     audience: [techdocs, dev, marketing]
 
   - rule: |
       Don't use acronyms as verbs.
     examples:
-      - "NO: CNAME the domain."
-      - "YES: Add the domain to your CNAME records."
+      - |
+        NO: CNAME the domain.
+      - |
+        YES: Add the domain to your CNAME records.
     audience: [techdocs, dev]
 
   - rule: |
       It's okay to use Latin abbreviations inside parentheses (e.g., like this), but not in the body of a sentence.
     examples:
-      - "NO: The beach is home to fish, crabs, sharks, etc."
-      - "YES: The beach is home to fish, crabs, and so on."
-      - "ALSO YES: Many sea creatures (fish, crabs, sharks, etc.) live at the beach."
-      - "ALSO ALSO YES: Many sea creatures (e.g., the loggerhead turtle) are endangered."
+      - |
+        NO: The beach is home to fish, crabs, sharks, etc.
+      - |
+        YES: The beach is home to fish, crabs, and so on.
+      - |
+        ALSO YES: Many sea creatures (fish, crabs, sharks, etc.) live at the beach.
+      - |
+        ALSO ALSO YES: Many sea creatures (e.g., the loggerhead turtle) are endangered.
     audience: [techdocs, dev, marketing]
 
   - rule: |
@@ -96,13 +105,15 @@
   - rule: |
       It's okay to refer to HUMAN with first-person pronouns like "we" or "our." For best results, try to mention HUMAN by name at least one time before using a pronoun in its place.
     examples:
-      - "EXAMPLE: HUMAN does not collect information about your age or date of birth. But if we did, we might throw you a surprise party."
+      - |
+        EXAMPLE: HUMAN does not collect information about your age or date of birth. But if we did, we might throw you a surprise party.
     audience: [techdocs, dev, marketing]
 
   - rule: |
       However, there may be times when it's clearer to refer to HUMAN by name, especially if you need to specify the name of our product or company.
     examples:
-      - "EXAMPLE: This feature prevents a conflict between ACME's servers and HUMAN's integration."
+      - |
+        EXAMPLE: This feature prevents a conflict between ACME's servers and HUMAN's integration.
     audience: [techdocs, dev, marketing]
 
   - rule: |
@@ -112,8 +123,10 @@
   - rule: |
       When referring to a person of indeterminate or unknown gender, use the singular "they" rather than gendered pronouns like "she," "he," or any combination thereof (like "(s)he" or "his or her").
     examples:
-      - "NO: Someone left his or her bike outside."
-      - "YES: Someone left their bike outside."
+      - |
+        NO: Someone left his or her bike outside.
+      - |
+        YES: Someone left their bike outside.
     audience: [techdocs, dev, marketing]
 
   - rule: |
@@ -141,15 +154,19 @@
   - rule: |
       Use "who" (not "that") in reference to people.
     examples:
-      - "NO: Send an email to users that registered early."  
-      - "YES: Send an email to users who registered early."
+      - |
+        NO: Send an email to users that registered early. 
+      - |
+        YES: Send an email to users who registered early.
     audience: [techdocs, dev, marketing]
               
   - rule: |
       The relative pronouns "that" and "which" are not interchangable—use "that" for restrictive clauses and "which" for nonrestrictive clauses. (A good rule of thumb: nonrestrictive clauses tend to be offset by commas, while restrictive clauses do not.)
-    examples: |
-      - RESTRICTIVE: The new bass that I bought last week has two humbucker pickups."  
-      - NONRESTRICTIVE: The new bass, which I bought last week, has two humbucker pickups.
+    examples: 
+      - |
+        RESTRICTIVE: The new bass that I bought last week has two humbucker pickups."  
+      - |
+        NONRESTRICTIVE: The new bass, which I bought last week, has two humbucker pickups.
     audience: [techdocs, dev, marketing]
 
 - section: Sentence structure
@@ -183,8 +200,9 @@
   
   - rule: |
       However, it can sometimes be helpful to use the future tense for specific examples of cause and effect.
-    examples: |
-      - EXAMPLE: If you run multiple reports, each report will generate its own file.
+    examples:
+      - |
+        EXAMPLE: If you run multiple reports, each report will generate its own file.
     audience: [techdocs, dev, marketing]
 
 - section: Verb forms
@@ -203,8 +221,9 @@
 
   - rule: |
       However, if you're describing how to use a method rather than a definition of what the method does, it's okay to use standard procedural instructions.
-    examples: |
-      - EXAMPLE: Call `end()` to cancel the current session.
+    examples:
+      - |
+        EXAMPLE: Call `end()` to cancel the current session.
     audience: [techdocs, dev]
 
 - section: Word choice
@@ -213,8 +232,10 @@
   - rule: |
       When possible, try to use short and simple words instead of long, abstract words.
     examples:
-      - "WEAK: This setting facilitates data filtering."
-      - "STRONG: This setting lets you filter data."
+      - |
+        WEAK: This setting facilitates data filtering.
+      - |
+        STRONG: This setting lets you filter data.
     audience: [techdocs, dev, marketing]
 
   - rule: |
@@ -231,6 +252,8 @@
   - rule: |
       Treat "data" as a singular, uncountable noun.
     examples:
-      - "NO: The data support this conclusion."
-      - "YES: The data supports this conclusion."
+      - |
+        NO: The data support this conclusion.
+      - |
+        YES: The data supports this conclusion.
     audience: [techdocs, dev, marketing]

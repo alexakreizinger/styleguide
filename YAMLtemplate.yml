@@ -7,8 +7,9 @@
 
   - rule: |
       blah blah blah
-    examples: |
-      - example
+    examples:
+      - |
+        example
     audience: [techdocs, dev, marketing]
 
 - section: name2
@@ -20,7 +21,8 @@
 
   - rule: |
       blah blah blah
-    examples: |
-      - example
+    examples:
+      - |
+        "example"
     audience: [techdocs, dev, marketing]
 
