@@ -50,16 +50,13 @@
       Try to use the active voice (which focuses on the "do-er" of an action) whenever possible.
     examples:
       - |
-        NO: The data must be updated.
-        
+        NO: The data must be updated. <br>
         (Focuses on the data itself, not the subject of the sentence—who needs to update the data? The user? The program itself?)
       - |
         YES: You must update your data before continuing.
-        
         (The subject is *you*—the reader knows who must perform the action.)
       - |
         ALSO YES: Update your data.
-        
         (Imperative verbs are active and speak directly to the reader, which is useful for procedural instructions.)
     audience: [techdocs, dev, marketing]
 
