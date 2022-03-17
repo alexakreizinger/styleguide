@@ -52,13 +52,7 @@
     audience: [techdocs, dev, marketing]
 
   - rule: |
-      However, there may be times when the passive voice is preferable, including:
-      
-      >To focus on the outcome or recipient of action rather than who's performing it.
-      
-      >To avoid blaming the user for an error.
-      
-      >When the reader doesn't need to know who performed an action (in the case of an automatic process or backend system).
+      However, there may be times when the passive voice is preferable, including: (1) to focus on the outcome or recipient of action rather than who's performing it, (2) to avoid blaming the user for an error, or (3) when the reader doesn't need to know who performed an action (in the case of an automatic process or backend system).
     examples:
       - |
         YES: Your password will be reset.
@@ -166,7 +160,7 @@
     audience: [techdocs, dev, marketing]
   
   - rule: |
-      It's okay to end a sentence with a preposition. However, if rewriting the sentence to avoid using an end preposition would improve the sentence's overall clarity or structure, you should try to rewrite it.
+      It's okay to end a sentence with a preposition. However, if rewriting the sentence to avoid using an end preposition would help make its meaning clearer, you should try to rewrite it.
     audience: [techdocs, dev, marketing]
 
 - section: Spelling
