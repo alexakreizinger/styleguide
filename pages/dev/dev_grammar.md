@@ -5,7 +5,17 @@ title: Grammar
 parent: Developers
 audience: dev
 ---
-# {{page.title}}
+## {{page.title}} 
+{: .no_toc }
+<details markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+- TOC
+{:toc}
+</details>
+
 {% assign file = site.data.stylerules.grammar %}
 {% assign aud = page.audience %}
 
