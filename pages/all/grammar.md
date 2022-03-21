@@ -1,8 +1,10 @@
 ---
 layout: default
 permalink: /all/grammar/
-title: All
+title: All - Grammar
+nav_exclude: true
 ---
+# Grammar
 {% assign file = site.data.stylerules.grammar %}
 
 {% include get_all_rules.md filename=file %}

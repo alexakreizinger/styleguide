@@ -1,9 +1,9 @@
 ---
 layout: default
 permalink: /marketing/grammar/
-title: Marketing
+title: Marketing - Grammar
 ---
-
+# Grammar
 {% assign file = site.data.stylerules.grammar %}
 {% assign aud = "marketing" %}
 

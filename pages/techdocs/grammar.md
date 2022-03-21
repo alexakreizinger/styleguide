@@ -1,9 +1,9 @@
 ---
 layout: default
 permalink: /techdocs/grammar/
-title: Technical Writers
+title: Technical Writers - Grammar
 ---
-
+# Grammar
 {% assign file = site.data.stylerules.grammar %}
 {% assign aud = "techdocs" %}
 
