@@ -1,11 +1,12 @@
 ---
 layout: default
-permalink: /techdocs/grammar/
-title: Technical Writers - Grammar
-parent: Technical Writers
+permalink: /marketing/grammar/
+title: Grammar
+parent: Marketers
+audience: mktg
 ---
-# Grammar
+# {{page.title}}
 {% assign file = site.data.stylerules.grammar %}
-{% assign aud = "tw" %}
+{% assign aud = page.audience %}
 
 {% include get_rules_for_audience.md filename=file audience=aud %}

@@ -3,9 +3,10 @@ layout: default
 permalink: /dev/grammar/
 title: Grammar
 parent: Developers
+audience: dev
 ---
-# Grammar
+# {{page.title}}
 {% assign file = site.data.stylerules.grammar %}
-{% assign aud = "dev" %}
+{% assign aud = page.audience %}
 
 {% include get_rules_for_audience.md filename=file audience=aud %}
