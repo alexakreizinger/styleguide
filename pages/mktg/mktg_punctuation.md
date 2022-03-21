@@ -6,4 +6,4 @@ parent: Marketers
 audience: mktg
 ---
 # {{page.title}}
-![construction pikachu](assets/images/construction.gif)
+![construction pikachu]({{ site.url }}{{ site.baseurl }}/assets/images/construction.gif)
