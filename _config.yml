@@ -1,4 +1,4 @@
-remote_theme: just-the-docs/just-the-docs
+theme: just-the-docs
 title: Style Guide WIP
 description: (What are you doing here? This is still a work in progress!)
 url: https://alexakreizinger.github.io #theme breaks without this?
