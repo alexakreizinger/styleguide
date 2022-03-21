@@ -3,6 +3,7 @@ source "https://rubygems.org"
 
 gem "jekyll"
 gem "just-the-docs"
+gem "jemoji" 
 
 group :jekyll_plugins do
     gem 'liquify'

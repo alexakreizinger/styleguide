@@ -40,3 +40,4 @@ search.button: false
 
 plugins:
   - liquify
+  - jemoji
