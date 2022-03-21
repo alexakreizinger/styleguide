@@ -1,6 +1,7 @@
 ---
 title: Style Guide WIP
 nav_exclude: true
+layout: default
 ---
 
 ## >>UNDER CONSTRUCTION<<
