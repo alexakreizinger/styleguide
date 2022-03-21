@@ -1,8 +1,8 @@
 ---
-title: Style Guide WIP
+title: Home
 layout: default
 permalink: /
-nav_exclude: true
+nav_order: 1
 ---
 
 ## :warning: UNDER CONSTRUCTION :warning:

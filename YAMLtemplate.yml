@@ -3,26 +3,26 @@
 
   - rule: |
       blah blah blah
-    audience: [techdocs, dev, marketing]
+    audience: [tw, dev, mktg]
 
   - rule: |
       blah blah blah
     examples:
       - |
         example
-    audience: [techdocs, dev, marketing]
+    audience: [tw, dev, mktg]
 
 - section: name2
   topics:
 
   - rule: |
       blah blah blah
-    audience: [techdocs, dev, marketing]
+    audience: [tw, dev, mktg]
 
   - rule: |
       blah blah blah
     examples:
       - |
         "example"
-    audience: [techdocs, dev, marketing]
+    audience: [tw, dev, mktg]
 

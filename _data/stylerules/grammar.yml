@@ -6,7 +6,7 @@
     examples:
       - |
         EXAMPLE: The HUMAN Dashboard supports single sign-on (SSO). To configure SSO for your organization...
-    audience: [techdocs, dev, marketing]
+    audience: [tw, dev, mktg]
 
   - rule: |
       Don't abbreviate HUMAN's product names in public-facing documentation.
@@ -15,7 +15,7 @@
         NO: BGforA protects your website or application from bots.
       - |
         YES: BotGuard for Applications protects your website or application from bots.
-    audience: [techdocs, dev, marketing]
+    audience: [tw, dev, mktg]
 
   - rule: |
       Don't use acronyms as verbs.
@@ -24,7 +24,7 @@
         NO: CNAME the domain.
       - |
         YES: Add the domain to your CNAME records.
-    audience: [techdocs, dev]
+    audience: [tw, dev]
 
   - rule: |
       It's okay to use Latin abbreviations inside parentheses (e.g., like this), but not in the body of a sentence.
@@ -37,11 +37,11 @@
         ALSO YES: Many sea creatures (fish, crabs, sharks, etc.) live at the beach.
       - |
         ALSO ALSO YES: Many sea creatures (e.g., the loggerhead turtle) are endangered.
-    audience: [techdocs, dev, marketing]
+    audience: [tw, dev, mktg]
 
   - rule: |
       Don't confuse "i.e." (*id est*, that is to say) and "e.g." (*exempli gratia*, for the sake of example). When in doubt, spell it out—use the English phrase instead!
-    audience: [techdocs, dev, marketing]
+    audience: [tw, dev, mktg]
 
 - section: Active and passive voice
   topics:
@@ -58,7 +58,7 @@
       - |
         ALSO YES: Update your data.<br>
         (Imperative verbs are active and speak directly to the reader, which is useful for procedural instructions.)
-    audience: [techdocs, dev, marketing]
+    audience: [tw, dev, mktg]
 
   - rule: |
       However, there may be times when the passive voice is preferable, including: (1) to focus on the outcome or recipient of action rather than who's performing it, (2) to avoid blaming the user for an error, or (3) when the reader doesn't need to know who performed an action (in the case of an automatic process or backend system).
@@ -66,37 +66,37 @@
       - |
         YES: Your password will be reset.<br>
         (Since the reader doesn't need to do anything, the performer of the action is less important than its outcome.)
-    audience: [techdocs, dev, marketing]
+    audience: [tw, dev, mktg]
 
 - section: Capitalization
   topics:
 
   - rule: |
       Use title case for page titles (h1).
-    audience: [techdocs, dev, marketing]
+    audience: [tw, dev, mktg]
 
   - rule: |
       Use sentence case for headers (h2, h3, and so on).
-    audience: [techdocs, dev, marketing]
+    audience: [tw, dev, mktg]
 
   - rule: |
       Be sure to properly capitalize HUMAN and all appropriate product names.<br> 
       For more information, see HUMAN's brand guidelines.
-    audience: [techdocs, dev, marketing]
+    audience: [tw, dev, mktg]
 
   - rule: |
       Don't capitalize the name of glossary entries or index terms unless the term is a proper noun.
-    audience: [techdocs, dev]
+    audience: [tw, dev]
 
   - rule: |
       Don't capitalize the names of product features or processes unless the feature or process in question is a proper noun. (Rule of thumb: when in doubt, leave it lowercase.)
-    audience: [techdocs, dev, marketing]
+    audience: [tw, dev, mktg]
 
 - section: Contractions
   topics:
   - rule: |
       It's okay to use contractions. 
-    audience: [techdocs, dev, marketing]
+    audience: [tw, dev, mktg]
 
 - section: Pronouns
   topics:
@@ -106,18 +106,18 @@
     examples:
       - |
         EXAMPLE: HUMAN does not collect information about your age or date of birth. But if we did, we might throw you a surprise party.
-    audience: [techdocs, dev, marketing]
+    audience: [tw, dev, mktg]
 
   - rule: |
       However, there may be times when it's clearer to refer to HUMAN by name, especially if you need to specify the name of our product or company.
     examples:
       - |
         EXAMPLE: This feature prevents a conflict between ACME's servers and HUMAN's integration.
-    audience: [techdocs, dev, marketing]
+    audience: [tw, dev, mktg]
 
   - rule: |
       When addressing the reader, it's okay to use second-person language like "you" and "your." Don't use third-person language like "user" or "customer" in public-facing materials written for those very same users and customers—address them directly instead!
-    audience: [techdocs, dev]
+    audience: [tw, dev]
 
   - rule: |
       When referring to a person of indeterminate or unknown gender, use the singular "they" rather than gendered pronouns like "she," "he," or any combination thereof (like "(s)he" or "his or her").
@@ -126,7 +126,7 @@
         NO: Someone left his or her bike outside.
       - |
         YES: Someone left their bike outside.
-    audience: [techdocs, dev, marketing]
+    audience: [tw, dev, mktg]
 
   - rule: |
       Make sure that each pronoun has a clear antecedent. (In other words, make sure it's obvious what the pronoun is referring to.) One of the easiest ways to avoid ambiguity is to repeat the actual noun instead of using a pronoun in its place.
@@ -137,7 +137,7 @@
       - |
         CLEAR: The boy hit the bat against the pillar until the pillar broke.<br>
         (It was the pillar!)
-    audience: [techdocs, dev, marketing]
+    audience: [tw, dev, mktg]
 
   - rule: |
       Similarly, when using relative pronouns like "this" or "that," you can reduce ambiguity by also restating the word or concept you're referring to (or replacing the pronoun entirely).
@@ -148,7 +148,7 @@
       - |
         CLEAR: Send all data to HUMAN's secure servers via carrier pigeon. This pigeon relay prevents hackers from intercepting your data.<br>
         (The pigeons thwart hackers!)
-    audience: [techdocs, dev, marketing]
+    audience: [tw, dev, mktg]
               
   - rule: |
       Use "who" (not "that") in reference to people.
@@ -157,7 +157,7 @@
         NO: Send an email to users that registered early. 
       - |
         YES: Send an email to users who registered early.
-    audience: [techdocs, dev, marketing]
+    audience: [tw, dev, mktg]
               
   - rule: |
       The relative pronouns "that" and "which" are not interchangable—use "that" for restrictive clauses and "which" for nonrestrictive clauses. (A good rule of thumb: nonrestrictive clauses tend to be offset by commas, while restrictive clauses do not.)
@@ -166,43 +166,43 @@
         RESTRICTIVE: The new bass that I bought last week has two humbucker pickups."  
       - |
         NONRESTRICTIVE: The new bass, which I bought last week, has two humbucker pickups.
-    audience: [techdocs, dev, marketing]
+    audience: [tw, dev, mktg]
 
 - section: Sentence structure
   topics:
 
   - rule: |
       It's okay to start a sentence with "and" or "but."
-    audience: [techdocs, dev, marketing]
+    audience: [tw, dev, mktg]
   
   - rule: |
       It's okay to end a sentence with a preposition. However, if rewriting the sentence to avoid using an end preposition would help make its meaning clearer, you should try to rewrite it.
-    audience: [techdocs, dev, marketing]
+    audience: [tw, dev, mktg]
 
 - section: Spelling
   topics:
   
   - rule: |
       Use standard American English spelling conventions.
-    audience: [techdocs, dev, marketing]
+    audience: [tw, dev, mktg]
 
   - rule: |
       However, there may be exceptions to this rule when addressing audiences who are accustomed to another form of English—for example, if you're writing a sales deck for a European audience, it may be more appropriate to use British English. 
-    audience: [marketing]
+    audience: [mktg]
 
 - section: Tense
   topics:
 
   - rule: |
       Use present tense whenever possible.
-    audience: [techdocs, dev]
+    audience: [tw, dev]
   
   - rule: |
       However, it can sometimes be helpful to use the future tense for specific examples of cause and effect.
     examples:
       - |
         EXAMPLE: If you run multiple reports, each report will generate its own file.
-    audience: [techdocs, dev, marketing]
+    audience: [tw, dev, mktg]
 
 - section: Verb forms
   topics:
@@ -216,14 +216,14 @@
       - |
         STRONG: `end()`: Cancels the current session.<br>
         (The subject is the method itself—the method cancels the session.)
-    audience: [techdocs, dev]
+    audience: [tw, dev]
 
   - rule: |
       However, if you're describing how to use a method rather than a definition of what the method does, it's okay to use standard procedural instructions.
     examples:
       - |
         EXAMPLE: Call `end()` to cancel the current session.
-    audience: [techdocs, dev]
+    audience: [tw, dev]
 
 - section: Word choice
   topics:
@@ -235,18 +235,18 @@
         WEAK: This setting facilitates data filtering.
       - |
         STRONG: This setting lets you filter data.
-    audience: [techdocs, dev, marketing]
+    audience: [tw, dev, mktg]
 
   - rule: |
       Avoid filler words like "very." Rather than describing a task as *very important*, you might say that it's *critical*. 
-    audience: [techdocs, dev, marketing]
+    audience: [tw, dev, mktg]
 
 - section: Miscellaneous
   topics:
 
   - rule: |
       Don't use phrasal nouns and phrasal verbs interchangably. Although "login" and "log in" may look similar, they mean different things—a *login* (noun) is the credential you use to *log in* (verb).
-    audience: [techdocs, dev, marketing]
+    audience: [tw, dev, mktg]
 
   - rule: |
       Treat "data" as a singular, uncountable noun.
@@ -255,4 +255,4 @@
         NO: The data support this conclusion.
       - |
         YES: The data supports this conclusion.
-    audience: [techdocs, dev, marketing]
+    audience: [tw, dev, mktg]
