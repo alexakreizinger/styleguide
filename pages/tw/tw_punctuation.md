@@ -6,4 +6,4 @@ parent: Technical Writers
 audience: tw
 ---
 # {{page.title}}
-![construction pikachu](/assets/images/construction.gif)
+![construction pikachu]({{ site. url }}/assets/images/construction.gif)
