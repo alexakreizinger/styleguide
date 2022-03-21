@@ -1,9 +1,10 @@
 ---
 title: Style Guide WIP
-nav_exclude: true
 layout: default
+permalink: /
+nav_exclude: true
 ---
 
-## >>UNDER CONSTRUCTION<<
+## :warning: UNDER CONSTRUCTION :warning:
 
-![construction pikachu](/assets/images/construction.gif)
+![construction pikachu](styleguide/assets/images/construction.gif)
