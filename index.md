@@ -7,4 +7,4 @@ nav_exclude: true
 
 ## :warning: UNDER CONSTRUCTION :warning:
 
-![construction pikachu](styleguide/assets/images/construction.gif)
+![construction pikachu](/assets/images/construction.gif)
