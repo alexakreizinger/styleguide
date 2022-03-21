@@ -15,7 +15,7 @@ search.heading_level: 2
 
 # Maximum amount of previews per search result
 # Default: 3
-search.previews: 3
+search.previews: 6
 
 # Maximum amount of words to display before a matched word in the preview
 # Default: 5
@@ -32,7 +32,7 @@ search.tokenizer_separator: /[\s/]+/
 
 # Display the relative url in search results
 # Supports true (default) or false
-search.rel_url: true
+search.rel_url: false
 
 # Enable or disable the search button that appears in the bottom right corner of every page
 # Supports true or false (default)
