@@ -3,6 +3,7 @@ layout: default
 permalink: /all/grammar/
 title: All - Grammar
 nav_exclude: true
+search_exclude: true
 ---
 # Grammar
 {% assign file = site.data.stylerules.grammar %}
