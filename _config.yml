@@ -1,4 +1,4 @@
-theme: minima
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 title: Style Guide WIP
 description: (What are you doing here? This is still a work in progress!)
 url: https://alexakreizinger.github.io #theme breaks without this?
@@ -21,6 +21,7 @@ collections: #stored in the `audiences` folder
 
 plugins:
   - liquify
+  - jekyll-include-cache
 
 header_pages:
   - 
