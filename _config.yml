@@ -4,7 +4,7 @@ url: https://alexakreizinger.github.io #theme breaks without this?
 baseurl: /styleguide #theme breaks without this?
 repository: alexakreizinger/styleguide
 
-theme: just-the-docs
+remote_theme: just-the-docs/just-the-docs
 # Enable or disable the site search
 # Supports true (default) or false
 search_enabled: true
