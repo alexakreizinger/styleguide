@@ -5,7 +5,7 @@ title: Grammar
 parent: Technical Writers
 audience: tw
 ---
-# {{page.title}}
+# {{page.title}} {: .no_toc }
 <details markdown="block">
   <summary>
     Table of contents
