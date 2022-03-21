@@ -1,7 +1,7 @@
 ---
 layout: default
 permalink: /all/grammar/
-search_exclude: false
+title: All - Grammar
 ---
 {% assign file = site.data.stylerules.grammar %}
 
