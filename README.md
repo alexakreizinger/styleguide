@@ -143,3 +143,5 @@ It has two lines!
 ```
 
 > **NOTE:** I don't include the actual bullet points in these examples because the bullet point itself is rendered by the `get_all_rules` and `get_rules_For_audience` files, not in the YAML file where the data is actually written/stored. You need to use the <br> or two spaces in the YAML file, not in the include files.
+
+* Plugins suddenly not working? Make sure you don't have `github-pages` anywhere in your Gemfile or `_config.yml`—this will disable custom plugins from loading unless you remove it.
