@@ -1,5 +1,5 @@
-- "[click me](https://{{ page.testVar }}.com)"
+- |
+  [click me](https://{{ page.testVar }}.com)
 
-- "{{ page.testVar2 }}"
-
-- "{{ page.title }}"
+- |
+  {{ page.testVar2 }}
