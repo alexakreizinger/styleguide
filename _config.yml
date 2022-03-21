@@ -3,6 +3,7 @@ title: Style Guide WIP
 description: (What are you doing here? This is still a work in progress!)
 url: https://alexakreizinger.github.io #theme breaks without this?
 baseurl: /styleguide #theme breaks without this?
+repository: alexakreizinger/styleguide
 
 collections_dir: audiences #sets the collections folder location
 collections: #stored in the `audiences` folder
