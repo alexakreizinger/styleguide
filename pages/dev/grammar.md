@@ -1,6 +1,7 @@
 ---
 layout: default
 permalink: /dev/grammar/
+title: Developers
 ---
 
 {% assign file = site.data.stylerules.grammar %}

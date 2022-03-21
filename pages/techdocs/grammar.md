@@ -1,6 +1,7 @@
 ---
 layout: default
 permalink: /techdocs/grammar/
+title: Technical Writers
 ---
 
 {% assign file = site.data.stylerules.grammar %}
