@@ -2,10 +2,4 @@
   [click me](https://{{ page.testVar }}.com)
 
 - |
-  [click me 2](crouton.net)
-
-- |
-  {{ page.url }}
-
-- |
   {{ page.testVar2 }}
