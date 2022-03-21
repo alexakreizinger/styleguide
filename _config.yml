@@ -27,7 +27,6 @@ collections: #stored in the `audiences` folder
 
 plugins:
   - liquify
-  - jekyll-include-cache
 
 header_pages:
   - 
