@@ -6,6 +6,15 @@ parent: Technical Writers
 audience: tw
 ---
 # {{page.title}}
+<details markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
+
 {% assign file = site.data.stylerules.grammar %}
 {% assign aud = page.audience %}
 
