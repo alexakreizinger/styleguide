@@ -156,3 +156,5 @@ It has two lines!
 * Plugins suddenly not working? Make sure you don't have `github-pages` anywhere in your Gemfile or `_config.yml`—this will disable custom plugins from loading unless you remove it.
 
 * If you're having issues getting images from the `assets` folder to display properly, try using the `{{ site.url }}{{ site.baseurl }}/assets/images/cats.png` path.
+
+* If you're using the Just the Docs theme and want your sidebar nav to have unclickable parent pages, just make the parent URL and the first child's URL equal the same path—for example, both `^_mktg_index.md` and `mktg_grammar.md` would have a path of `/marketing/grammar/`. However, all other parent/child requirements must be implemented as normal.
