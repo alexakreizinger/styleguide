@@ -34,7 +34,7 @@ Outputs every single rule in a given `_data/stylerules/` file.
 ```
 
 #### `get_rules_for_audience`
-Outputs every applicable rule in a given `_data/stylerules/` file based on your audience of choice (current options: `dev`, `marketing`, and `techdocs`). 
+Outputs every applicable rule in a given `_data/stylerules/` file based on your audience of choice (current options: `dev`, `mktg`, and `tw`). 
 
 > **NOTE** : Does not accept `all` as an audience. If you want to output all style rules, use `get_all_rules.md` instead.
 
@@ -63,25 +63,34 @@ A custom GitHub Actions workflow that lets you deploy the GitHub Pages site as i
 
 In other words, stick to making changes in `main` as usual and don't touch anything in `gh-pages`. 
 
-### `audiences`
+### `pages`
 
-The collections folder for the actual style guide output. Each audience has its own subfolder (`audiences/_all`, `audiences/_dev`, `audiences/_marketing`, and `audiences/_techdocs`), and each subfolder contains the pages associated with that audiences.
+The `pages` folder for the actual style guide output. Each audience has its own subfolder (`pages/dev`, `pages/mktg`, and `pages/tw`), and each subfolder contains the pages associated with that audience.
 
-* For example, `audiences/_dev/grammar.md` generates a page you can visit at https://alexakreizinger.github.io/styleguide/marketing/grammar/. 
+> **NOTE:** The `^[AUDIENCE].index.md` files start with a caret so that the index file will appear first alphabetically (because it's convenient when it's at the top of the list). The caret doesn't serve an actual purpose, Jekyll-wise.
+
+* For example, `pages/mktg/grammar.md` generates a page you can visit at https://alexakreizinger.github.io/styleguide/marketing/grammar/. 
 
 * The page itself pulls data from `_data/stylerules/grammar.yml`. It does this by using `include` to call upon the `get_rules_for_audience.md` (where the filename is `site.data.stylerules.grammar` and the audience is `dev`).
 
 * As such, the output will include all style rules from `_data/stylerules/grammar.yml` that are aimed at developers.
 
-> **NOTE:** New subfolders must be added to the `collections` item in `_config.yml`. Subfolders must start with an underscore (`audiences/_marketing`), but their entry in `_config.yml` must not (`marketing`).
-
-### `pages`
-
-Any pages that don't fall under `audiences`. 
+#### **Developers**
+* audience: `dev`
+* url: `/dev/`
+* title: Developers
+#### **Marketers**: 
+* audience: `mktg`
+* url: `/marketing/`
+* title: Marketers
+#### **Technical Writers**
+* audience: `tw`
+* url: `/techdocs/`
+* title: Technical Writers
 
 ### `YAMLtemplate.yml`
 
-Template for the YAML files in `_data/stylerules`.
+Template for the YAML files in `_data/stylerules`. Not actually referenced by any other pages, this is just a regular old template.
 
 ## Using Liquify
 
@@ -124,7 +133,7 @@ tagline: {{ page.title }} — Population: You
 
 ## Things I don't fully understand but will probably come up later so I'm writing them down now
 
-* Your theme (at least with the Minima theme, haven't tried any others yet) will break unless your `_config.yml` file includes `url: https://alexakreizinger.github.io` and `baseurl: /styleguide`.
+* Your theme will break unless your `_config.yml` file includes `url: https://alexakreizinger.github.io` and `baseurl: /styleguide`.
 
 * The custom GitHub Action that lets you use plugins that haven't been approved by GitHub Pages (*without* running Jekyll locally) won't work unless you include `target_branch: 'gh-pages'` in the last line of the file in `.github/workflows/build-jekyll.yml`.
 
@@ -145,3 +154,5 @@ It has two lines!
 > **NOTE:** I don't include the actual bullet points in these examples because the bullet point itself is rendered by the `get_all_rules` and `get_rules_For_audience` files, not in the YAML file where the data is actually written/stored. You need to use the <br> or two spaces in the YAML file, not in the include files.
 
 * Plugins suddenly not working? Make sure you don't have `github-pages` anywhere in your Gemfile or `_config.yml`—this will disable custom plugins from loading unless you remove it.
+
+* If you're having issues getting images from the `assets` folder to display properly, try using the `{{ site.url }}{{ site.baseurl }}/assets/images/cats.png` path.
