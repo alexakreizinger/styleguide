@@ -4,6 +4,7 @@ permalink: /all/
 title: All Rules
 nav_exclude: true
 search_exclude: true
+# this page is designed to generate all rules for all audiences ON A SINGLE PAGE (no parent/child subpages)
 ---
 All rules for all audiences.
 
