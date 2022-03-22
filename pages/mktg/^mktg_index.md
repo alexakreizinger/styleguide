@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /marketing/grammar/
+permalink: /marketing/ 
 title: Marketers
 has_children: true
 ---
