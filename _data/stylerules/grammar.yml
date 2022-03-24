@@ -158,7 +158,7 @@
       Similarly, when using relative pronouns like *this* or *that,* you can reduce ambiguity by also restating the word or concept you're referring to (or replacing the pronoun entirely).
     examples:
       - |
-        **Unclear** Send all data to HUMAN's secure servers via carrier pigeon. This prevents hackers from intercepting your data.<br>
+        **Unclear:** Send all data to HUMAN's secure servers via carrier pigeon. This prevents hackers from intercepting your data.<br>
         (Which part thwarts hackers: sending data to HUMAN's secure servers, or the fact it was sent via carrier pigeon?)
       - |
         **Clear:** Send all data to HUMAN's secure servers via carrier pigeon. This pigeon relay prevents hackers from intercepting your data.<br>
