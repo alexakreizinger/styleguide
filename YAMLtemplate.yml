@@ -23,6 +23,6 @@
       blah blah blah
     examples:
       - |
-        "example"
+        example
     audience: [tw, dev, mktg]
 
