@@ -105,6 +105,7 @@
 - section: Contractions
   topics:
   - rule: |
+      ### Contractions are okay<br>
       It's okay to use contractions. 
     audience: [tw, dev, mktg]
 
@@ -201,6 +202,7 @@
   topics:
   
   - rule: |
+      ### American English<br>
       Use standard American English spelling conventions.
     audience: [tw, dev, mktg]
 
@@ -212,10 +214,12 @@
   topics:
 
   - rule: |
+      ### Present tense<br>
       Use present tense whenever possible.
     audience: [tw, dev, mktg]
   
   - rule: |
+      ### Future tense<br>
       However, it can sometimes be helpful to use the future tense for specific examples of cause and effect.
     examples:
       - |
@@ -271,7 +275,7 @@
     audience: [tw, dev, mktg]
 
   - rule: |
-      ### Data is singular<br>
+      ### *Data* is singular<br>
       Treat *data* as a singular, uncountable noun.
     examples:
       - |
