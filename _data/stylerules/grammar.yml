@@ -194,7 +194,6 @@
   topics:
 
   - rule: |
-      ### Present tense <br>
       Use present tense whenever possible.
     audience: [tw, dev, mktg]
   
