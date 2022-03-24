@@ -2,6 +2,7 @@
 
   topics:
   - rule: |
+      ### Spelling out acronyms<br>
       If you're using an acronym or abbreviation that isn't well-known, spell out the full acronym the first time it appears and provide its shortened form in parentheses. You can then use the shortened form throughout the rest of the document.
     examples:
       - |
@@ -9,6 +10,7 @@
     audience: [tw, dev, mktg]
 
   - rule: |
+      ### HUMAN product names<br>
       Don't abbreviate HUMAN's product names in public-facing documentation.
     examples:
       - |
@@ -18,6 +20,7 @@
     audience: [tw, dev, mktg]
 
   - rule: |
+      ### Acronyms as verbs<br>
       Don't use acronyms as verbs.
     examples:
       - |
@@ -27,6 +30,7 @@
     audience: [tw, dev]
 
   - rule: |
+      ### Latin abbreviations<br>
       It's okay to use Latin abbreviations inside parentheses (e.g., like this), but not in the body of a sentence.
     examples:
       - |
@@ -47,6 +51,7 @@
   topics:
 
   - rule: |
+      ### Active voice<br>
       Try to use the active voice (which focuses on the "do-er" of an action) whenever possible.
     examples:
       - |
@@ -61,6 +66,7 @@
     audience: [tw, dev, mktg]
 
   - rule: |
+      ### Passive voice<br>
       However, there may be times when the passive voice is preferable, including: (1) to focus on the outcome or recipient of action rather than who's performing it, (2) to avoid blaming the user for an error, or (3) when the reader doesn't need to know who performed an action (in the case of an automatic process or backend system).
     examples:
       - |
@@ -72,25 +78,29 @@
   topics:
 
   - rule: |
+      ### Titles<br>
       Use title case for page titles (h1).
     audience: [tw, dev, mktg]
 
   - rule: |
+      ### Headers<br>
       Use sentence case for headers (h2, h3, and so on).
     audience: [tw, dev, mktg]
 
   - rule: |
+      ### HUMAN product names<br>
       Be sure to properly capitalize HUMAN and all appropriate product names.<br> 
       For more information, see HUMAN's brand guidelines.
     audience: [tw, dev, mktg]
 
   - rule: |
-      Don't capitalize the name of glossary entries or index terms unless the term is a proper noun.
-    audience: [tw, dev]
+      However, don't capitalize the names of product features or processes unless the feature or process in question is a proper noun. (Rule of thumb: when in doubt, leave it lowercase.)
+    audience: [tw, dev, mktg]
 
   - rule: |
-      Don't capitalize the names of product features or processes unless the feature or process in question is a proper noun. (Rule of thumb: when in doubt, leave it lowercase.)
-    audience: [tw, dev, mktg]
+      ### Glossary entries<br>
+      Don't capitalize the name of glossary entries or index terms unless the term is a proper noun.
+    audience: [tw, dev]
 
 - section: Contractions
   topics:
@@ -102,6 +112,7 @@
   topics:
 
   - rule: |
+      ### First-person pronouns<br>
       It's okay to refer to HUMAN with first-person pronouns like *we* or *our.* For best results, try to mention HUMAN by name at least one time before using a pronoun in its place.
     examples:
       - |
@@ -116,10 +127,12 @@
     audience: [tw, dev, mktg]
 
   - rule: |
-      When addressing the reader, it's okay to use second-person language like *you* and *your.* Don't use third-person language like *user* or *customer* in public-facing materials written for those very same users and customers—address them directly instead!
+      ### Second-person pronouns<br>
+      When addressing the reader, it's okay to use second-person pronouns like *you* and *your.* Don't use third-person language like *user* or *customer* in public-facing materials written for those very same users and customers—address them directly instead!
     audience: [tw, dev]
 
   - rule: |
+      ### Gender-neutral pronouns<br>
       When referring to a person of indeterminate or unknown gender, use the singular *they* rather than gendered pronouns like *she,* *he,* or any combination thereof (like *(s)he* or *his or her*).
     examples:
       - |
@@ -129,6 +142,7 @@
     audience: [tw, dev, mktg]
 
   - rule: |
+      ### Pronouns and clarity<br>
       Make sure that each pronoun has a clear antecedent. (In other words, make sure it's obvious what the pronoun is referring to.) One of the easiest ways to avoid ambiguity is to repeat the actual noun instead of using a pronoun in its place.
     examples:
       - |
@@ -151,15 +165,7 @@
     audience: [tw, dev, mktg]
               
   - rule: |
-      Use *who* (instead of *that*) in reference to people.
-    examples:
-      - |
-        **No:** Send an email to users that registered early. 
-      - |
-        **Yes:** Send an email to users who registered early.
-    audience: [tw, dev, mktg]
-              
-  - rule: |
+      ### Relative pronouns<br>
       The relative pronouns *that* and *which* are not interchangable—use *that* for restrictive clauses and *which* for nonrestrictive clauses. (A good rule of thumb: nonrestrictive clauses tend to be offset by commas, while restrictive clauses do not.)
     examples: 
       - |
@@ -168,14 +174,26 @@
         **Nonrestrictive:** The new bass, which I bought last week, has two humbucker pickups.
     audience: [tw, dev, mktg]
 
+  - rule: |
+      ### Referring to groups of people<br>
+      Always use *who* (instead of *that*) when referring to people, even if the group of people is abstract.
+    examples:
+      - |
+        **No:** Send an email to users that registered early. 
+      - |
+        **Yes:** Send an email to users who registered early.
+    audience: [tw, dev, mktg]              
+
 - section: Sentence structure
   topics:
 
   - rule: |
+      ### *And* and *but*<br>
       It's okay to start a sentence with *and* or *but.*
     audience: [tw, dev, mktg]
   
   - rule: |
+      ### End prepositions<br>
       It's okay to end a sentence with a preposition. However, if rewriting the sentence to avoid using an end preposition would help make its meaning clearer, you should try to rewrite it.
     audience: [tw, dev, mktg]
 
@@ -194,7 +212,6 @@
   topics:
 
   - rule: |
-      ### Present tense <br>
       Use present tense whenever possible.
     audience: [tw, dev, mktg]
   
@@ -209,6 +226,7 @@
   topics:
 
   - rule: |
+      ### API reference<br>
       In API reference documentation (and certain types of non-API glossaries), describe each item or method in the present continual tense rather than as an imperative or procedural instruction. In other words, describe what the method does, not what the user must do.
     examples:
       - |
@@ -230,7 +248,8 @@
   topics:
 
   - rule: |
-      When possible, try to use short and simple words instead of long, abstract words.
+      ### Simple vs. complex<br>
+      When possible, try to use short and simple words instead of complex, abstract words.
     examples:
       - |
         **Weak:** This setting facilitates data filtering.
@@ -239,6 +258,7 @@
     audience: [tw, dev, mktg]
 
   - rule: |
+      ### Filler words<br>
       Avoid filler words like *very.* Rather than describing a task as *very important*, you might say that it's *critical*. 
     audience: [tw, dev, mktg]
 
@@ -246,14 +266,16 @@
   topics:
 
   - rule: |
+      ### Phrasal nouns vs. phrasal verbs<br>
       Don't use phrasal nouns and phrasal verbs interchangably. Although *login* and *log in* may look similar, they mean different things—a *login* (noun) is the credential you use to *log in* (verb).
     audience: [tw, dev, mktg]
 
   - rule: |
+      ### Data is singular<br>
       Treat *data* as a singular, uncountable noun.
     examples:
       - |
-        NO: The data support this conclusion.
+        **No:** The data support this conclusion.
       - |
-        YES: The data supports this conclusion.
+        **Yes:*** The data supports this conclusion.
     audience: [tw, dev, mktg]
