@@ -5,16 +5,16 @@
       If you're using an acronym or abbreviation that isn't well-known, spell out the full acronym the first time it appears and provide its shortened form in parentheses. You can then use the shortened form throughout the rest of the document.
     examples:
       - |
-        EXAMPLE: The HUMAN Dashboard supports single sign-on (SSO). To configure SSO for your organization...
+        :pencil2: **Example:** The HUMAN Dashboard supports single sign-on (SSO). To configure SSO for your organization...
     audience: [tw, dev, mktg]
 
   - rule: |
       Don't abbreviate HUMAN's product names in public-facing documentation.
     examples:
       - |
-        NO: BGforA protects your website or application from bots.
+        :x: **No:** BGforA protects your website or application from bots.
       - |
-        YES: BotGuard for Applications protects your website or application from bots.
+        :white_check_mark: **Yes:** BotGuard for Applications protects your website or application from bots.
     audience: [tw, dev, mktg]
 
   - rule: |
@@ -40,7 +40,7 @@
     audience: [tw, dev, mktg]
 
   - rule: |
-      Don't confuse "i.e." (*id est*, that is to say) and "e.g." (*exempli gratia*, for the sake of example). When in doubt, spell it out—use the English phrase instead!
+      Don't confuse *i.e.* (*id est*, that is to say) and *e.g.* (*exempli gratia*, for the sake of example). When in doubt, spell it out—use the English phrase instead!
     audience: [tw, dev, mktg]
 
 - section: Active and passive voice
@@ -102,7 +102,7 @@
   topics:
 
   - rule: |
-      It's okay to refer to HUMAN with first-person pronouns like "we" or "our." For best results, try to mention HUMAN by name at least one time before using a pronoun in its place.
+      It's okay to refer to HUMAN with first-person pronouns like *we* or *our.* For best results, try to mention HUMAN by name at least one time before using a pronoun in its place.
     examples:
       - |
         EXAMPLE: HUMAN does not collect information about your age or date of birth. But if we did, we might throw you a surprise party.
@@ -116,11 +116,11 @@
     audience: [tw, dev, mktg]
 
   - rule: |
-      When addressing the reader, it's okay to use second-person language like "you" and "your." Don't use third-person language like "user" or "customer" in public-facing materials written for those very same users and customers—address them directly instead!
+      When addressing the reader, it's okay to use second-person language like *you* and *your.* Don't use third-person language like *user* or *customer* in public-facing materials written for those very same users and customers—address them directly instead!
     audience: [tw, dev]
 
   - rule: |
-      When referring to a person of indeterminate or unknown gender, use the singular "they" rather than gendered pronouns like "she," "he," or any combination thereof (like "(s)he" or "his or her").
+      When referring to a person of indeterminate or unknown gender, use the singular *they* rather than gendered pronouns like *she,* *he,* or any combination thereof (like *(s)he* or *his or her*).
     examples:
       - |
         NO: Someone left his or her bike outside.
@@ -140,7 +140,7 @@
     audience: [tw, dev, mktg]
 
   - rule: |
-      Similarly, when using relative pronouns like "this" or "that," you can reduce ambiguity by also restating the word or concept you're referring to (or replacing the pronoun entirely).
+      Similarly, when using relative pronouns like *this* or *that,* you can reduce ambiguity by also restating the word or concept you're referring to (or replacing the pronoun entirely).
     examples:
       - |
         UNCLEAR: Send all data to HUMAN's secure servers via carrier pigeon. This prevents hackers from intercepting your data.<br>
@@ -151,7 +151,7 @@
     audience: [tw, dev, mktg]
               
   - rule: |
-      Use "who" (not "that") in reference to people.
+      Use *who* (not *that*) in reference to people.
     examples:
       - |
         NO: Send an email to users that registered early. 
@@ -160,10 +160,10 @@
     audience: [tw, dev, mktg]
               
   - rule: |
-      The relative pronouns "that" and "which" are not interchangable—use "that" for restrictive clauses and "which" for nonrestrictive clauses. (A good rule of thumb: nonrestrictive clauses tend to be offset by commas, while restrictive clauses do not.)
+      The relative pronouns *that* and *which* are not interchangable—use *that* for restrictive clauses and *which* for nonrestrictive clauses. (A good rule of thumb: nonrestrictive clauses tend to be offset by commas, while restrictive clauses do not.)
     examples: 
       - |
-        RESTRICTIVE: The new bass that I bought last week has two humbucker pickups."  
+        RESTRICTIVE: The new bass that I bought last week has two humbucker pickups.  
       - |
         NONRESTRICTIVE: The new bass, which I bought last week, has two humbucker pickups.
     audience: [tw, dev, mktg]
@@ -172,7 +172,7 @@
   topics:
 
   - rule: |
-      It's okay to start a sentence with "and" or "but."
+      It's okay to start a sentence with *and* or *but.*
     audience: [tw, dev, mktg]
   
   - rule: |
@@ -212,7 +212,7 @@
     examples:
       - |
         WEAK: `end()`: Cancel the current session.<br> 
-        (Implied subject is "you"—the user will cancel the session.)
+        (Implied subject is *you*—the user will cancel the session.)
       - |
         STRONG: `end()`: Cancels the current session.<br>
         (The subject is the method itself—the method cancels the session.)
@@ -238,18 +238,18 @@
     audience: [tw, dev, mktg]
 
   - rule: |
-      Avoid filler words like "very." Rather than describing a task as *very important*, you might say that it's *critical*. 
+      Avoid filler words like *very.* Rather than describing a task as *very important*, you might say that it's *critical*. 
     audience: [tw, dev, mktg]
 
 - section: Miscellaneous
   topics:
 
   - rule: |
-      Don't use phrasal nouns and phrasal verbs interchangably. Although "login" and "log in" may look similar, they mean different things—a *login* (noun) is the credential you use to *log in* (verb).
+      Don't use phrasal nouns and phrasal verbs interchangably. Although *login* and *log in* may look similar, they mean different things—a *login* (noun) is the credential you use to *log in* (verb).
     audience: [tw, dev, mktg]
 
   - rule: |
-      Treat "data" as a singular, uncountable noun.
+      Treat *data* as a singular, uncountable noun.
     examples:
       - |
         NO: The data support this conclusion.
