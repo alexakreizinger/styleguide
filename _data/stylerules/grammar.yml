@@ -5,38 +5,38 @@
       If you're using an acronym or abbreviation that isn't well-known, spell out the full acronym the first time it appears and provide its shortened form in parentheses. You can then use the shortened form throughout the rest of the document.
     examples:
       - |
-        :pencil2: **Example:** The HUMAN Dashboard supports single sign-on (SSO). To configure SSO for your organization...
+        **Example:** The HUMAN Dashboard supports single sign-on (SSO). To configure SSO for your organization...
     audience: [tw, dev, mktg]
 
   - rule: |
       Don't abbreviate HUMAN's product names in public-facing documentation.
     examples:
       - |
-        :x: **No:** BGforA protects your website or application from bots.
+        **No:** BGforA protects your website or application from bots.
       - |
-        :white_check_mark: **Yes:** BotGuard for Applications protects your website or application from bots.
+        **Yes:** BotGuard for Applications protects your website or application from bots.
     audience: [tw, dev, mktg]
 
   - rule: |
       Don't use acronyms as verbs.
     examples:
       - |
-        NO: CNAME the domain.
+        **No:** CNAME the domain.
       - |
-        YES: Add the domain to your CNAME records.
+        **Yes:** Add the domain to your CNAME records.
     audience: [tw, dev]
 
   - rule: |
       It's okay to use Latin abbreviations inside parentheses (e.g., like this), but not in the body of a sentence.
     examples:
       - |
-        NO: The beach is home to fish, crabs, sharks, etc.
+        **No:** The beach is home to fish, crabs, sharks, etc.
       - |
-        YES: The beach is home to fish, crabs, and so on.
+        **Yes:** The beach is home to fish, crabs, and so on.
       - |
-        ALSO YES: Many sea creatures (fish, crabs, sharks, etc.) live at the beach.
+        **Also yes:** Many sea creatures (fish, crabs, sharks, etc.) live at the beach.
       - |
-        ALSO ALSO YES: Many sea creatures (e.g., the loggerhead turtle) are endangered.
+        **Also also yes:** Many sea creatures (e.g., the loggerhead turtle) are endangered.
     audience: [tw, dev, mktg]
 
   - rule: |
@@ -50,13 +50,13 @@
       Try to use the active voice (which focuses on the "do-er" of an action) whenever possible.
     examples:
       - |
-        NO: The data must be updated.<br>
+        **No:** The data must be updated.<br>
         (Focuses on the data itself, not the subject of the sentence—who needs to update the data? The user? The program itself?)
       - |
-        YES: You must update your data before continuing.<br>
+        **Yes:** You must update your data before continuing.<br>
         (The subject is *you*—the reader knows who must perform the action.)
       - |
-        ALSO YES: Update your data.<br>
+        **Also yes:** Update your data.<br>
         (Imperative verbs are active and speak directly to the reader, which is useful for procedural instructions.)
     audience: [tw, dev, mktg]
 
@@ -64,7 +64,7 @@
       However, there may be times when the passive voice is preferable, including: (1) to focus on the outcome or recipient of action rather than who's performing it, (2) to avoid blaming the user for an error, or (3) when the reader doesn't need to know who performed an action (in the case of an automatic process or backend system).
     examples:
       - |
-        YES: Your password will be reset.<br>
+        **Yes:** Your password will be reset.<br>
         (Since the reader doesn't need to do anything, the performer of the action is less important than its outcome.)
     audience: [tw, dev, mktg]
 
@@ -105,14 +105,14 @@
       It's okay to refer to HUMAN with first-person pronouns like *we* or *our.* For best results, try to mention HUMAN by name at least one time before using a pronoun in its place.
     examples:
       - |
-        EXAMPLE: HUMAN does not collect information about your age or date of birth. But if we did, we might throw you a surprise party.
+        **Example:** HUMAN does not collect information about your age or date of birth. But if we did, we might throw you a surprise party.
     audience: [tw, dev, mktg]
 
   - rule: |
       However, there may be times when it's clearer to refer to HUMAN by name, especially if you need to specify the name of our product or company.
     examples:
       - |
-        EXAMPLE: This feature prevents a conflict between ACME's servers and HUMAN's integration.
+        **Example:** This feature prevents a conflict between ACME's servers and HUMAN's integration.
     audience: [tw, dev, mktg]
 
   - rule: |
@@ -123,19 +123,19 @@
       When referring to a person of indeterminate or unknown gender, use the singular *they* rather than gendered pronouns like *she,* *he,* or any combination thereof (like *(s)he* or *his or her*).
     examples:
       - |
-        NO: Someone left his or her bike outside.
+        **No:** Someone left his or her bike outside.
       - |
-        YES: Someone left their bike outside.
+        **Yes:** Someone left their bike outside.
     audience: [tw, dev, mktg]
 
   - rule: |
       Make sure that each pronoun has a clear antecedent. (In other words, make sure it's obvious what the pronoun is referring to.) One of the easiest ways to avoid ambiguity is to repeat the actual noun instead of using a pronoun in its place.
     examples:
       - |
-        UNCLEAR: The boy hit the bat against the pillar until it broke.<br>
+        **Unclear:** The boy hit the bat against the pillar until it broke.<br>
         (What broke—the pole, or the pillar? There's no way to tell from context alone.)
       - |
-        CLEAR: The boy hit the bat against the pillar until the pillar broke.<br>
+        **Clear:** The boy hit the bat against the pillar until the pillar broke.<br>
         (It was the pillar!)
     audience: [tw, dev, mktg]
 
@@ -143,29 +143,29 @@
       Similarly, when using relative pronouns like *this* or *that,* you can reduce ambiguity by also restating the word or concept you're referring to (or replacing the pronoun entirely).
     examples:
       - |
-        UNCLEAR: Send all data to HUMAN's secure servers via carrier pigeon. This prevents hackers from intercepting your data.<br>
+        **Unclear** Send all data to HUMAN's secure servers via carrier pigeon. This prevents hackers from intercepting your data.<br>
         (Which part thwarts hackers: sending data to HUMAN's secure servers, or the fact it was sent via carrier pigeon?)
       - |
-        CLEAR: Send all data to HUMAN's secure servers via carrier pigeon. This pigeon relay prevents hackers from intercepting your data.<br>
+        **Clear:** Send all data to HUMAN's secure servers via carrier pigeon. This pigeon relay prevents hackers from intercepting your data.<br>
         (The pigeons thwart hackers!)
     audience: [tw, dev, mktg]
               
   - rule: |
-      Use *who* (not *that*) in reference to people.
+      Use *who* (instead of *that*) in reference to people.
     examples:
       - |
-        NO: Send an email to users that registered early. 
+        **No:** Send an email to users that registered early. 
       - |
-        YES: Send an email to users who registered early.
+        **Yes:** Send an email to users who registered early.
     audience: [tw, dev, mktg]
               
   - rule: |
       The relative pronouns *that* and *which* are not interchangable—use *that* for restrictive clauses and *which* for nonrestrictive clauses. (A good rule of thumb: nonrestrictive clauses tend to be offset by commas, while restrictive clauses do not.)
     examples: 
       - |
-        RESTRICTIVE: The new bass that I bought last week has two humbucker pickups.  
+        **Restrictive:** The new bass that I bought last week has two humbucker pickups.  
       - |
-        NONRESTRICTIVE: The new bass, which I bought last week, has two humbucker pickups.
+        **Nonrestrictive:** The new bass, which I bought last week, has two humbucker pickups.
     audience: [tw, dev, mktg]
 
 - section: Sentence structure
@@ -194,15 +194,16 @@
   topics:
 
   - rule: |
+      ### Present tense <br>
       Use present tense whenever possible.
-    audience: [tw, dev]
+    audience: [tw, dev, mktg]
   
   - rule: |
       However, it can sometimes be helpful to use the future tense for specific examples of cause and effect.
     examples:
       - |
-        EXAMPLE: If you run multiple reports, each report will generate its own file.
-    audience: [tw, dev, mktg]
+        **Example:** If you run multiple reports, each report will generate its own file.
+    audience: [tw, dev]
 
 - section: Verb forms
   topics:
@@ -211,10 +212,10 @@
       In API reference documentation (and certain types of non-API glossaries), describe each item or method in the present continual tense rather than as an imperative or procedural instruction. In other words, describe what the method does, not what the user must do.
     examples:
       - |
-        WEAK: `end()`: Cancel the current session.<br> 
+        **Weak:** `end()`: Cancel the current session.<br> 
         (Implied subject is *you*—the user will cancel the session.)
       - |
-        STRONG: `end()`: Cancels the current session.<br>
+        **Strong:** `end()`: Cancels the current session.<br>
         (The subject is the method itself—the method cancels the session.)
     audience: [tw, dev]
 
@@ -222,7 +223,7 @@
       However, if you're describing how to use a method rather than a definition of what the method does, it's okay to use standard procedural instructions.
     examples:
       - |
-        EXAMPLE: Call `end()` to cancel the current session.
+        **Example:** Call `end()` to cancel the current session.
     audience: [tw, dev]
 
 - section: Word choice
@@ -232,9 +233,9 @@
       When possible, try to use short and simple words instead of long, abstract words.
     examples:
       - |
-        WEAK: This setting facilitates data filtering.
+        **Weak:** This setting facilitates data filtering.
       - |
-        STRONG: This setting lets you filter data.
+        **Strong:** This setting lets you filter data.
     audience: [tw, dev, mktg]
 
   - rule: |
