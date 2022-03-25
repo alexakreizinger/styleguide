@@ -18,8 +18,7 @@
       - |
         **Yes:** BotGuard for Applications protects your website or application from bots.
     audience: [tw, dev, mktg]
-    featured: true 
-    featured_text: |
+    featured: |
       [Don't abbreviate HUMAN's product names.]({{site.baseurl}}{{page.permalink}}grammar/#HUMAN-product-names)
 
   - rule: |
@@ -67,8 +66,7 @@
         **Also yes:** Update your data.<br>
         (Imperative verbs are active and speak directly to the reader, which is useful for procedural instructions.)
     audience: [tw, dev, mktg]
-    featured: true 
-    featured_text: |
+    featured: |
       [Use the active voice whenever possible.]({{site.baseurl}}{{page.permalink}}grammar/#active-and-passive-voice)
 
   - rule: |
@@ -88,8 +86,7 @@
       Make sure to properly capitalize HUMAN and HUMAN's product names.<br> 
       For more information, see HUMAN's brand guidelines.
     audience: [tw, dev, mktg]
-    featured: true 
-    featured_text: |
+    featured: |
       [Make sure to properly capitalize HUMAN and HUMAN's product names.]({{site.baseurl}}{{page.permalink}}grammar/#HUMAN-branding)
 
   - rule: |
@@ -130,8 +127,7 @@
       ### Second-person pronouns<br>
       When addressing the reader, it's okay to use second-person pronouns like *you* and *your.* Don't use third-person language like *user* or *customer* in public-facing materials written for those very same users and customers—address them directly instead!
     audience: [tw, dev]
-    featured: true 
-    featured_text: |
+    featured: |
       [Use second-person pronouns like *you* and *your* to address the reader.]({{site.baseurl}}{{page.permalink}}grammar/#second-person-pronouns)
 
   - rule: |
@@ -143,8 +139,7 @@
       - |
         **Yes:** Someone left their bike outside.
     audience: [tw, dev, mktg]
-    featured: true 
-    featured_text: |
+    featured: |
       [Use the singular *they* as a gender-neutral pronoun.]({{site.baseurl}}{{page.permalink}}grammar/#gender-neutral-pronouns)
 
   - rule: |
@@ -210,8 +205,7 @@
       ### American English<br>
       Use standard American English spelling conventions.
     audience: [tw, dev, mktg]
-    featured: true 
-    featured_text: |
+    featured: |
       [Use standard American English spelling conventions.]({{site.baseurl}}{{page.permalink}}grammar/#american-english)
 
   - rule: |
@@ -225,8 +219,7 @@
       ### Present tense<br>
       Use the present tense whenever possible.
     audience: [tw, dev, mktg]
-    featured: true 
-    featured_text: |
+    featured: |
       [Use the present tense whenever possible.]({{site.baseurl}}{{page.permalink}}grammar/#present-tense)
 
   - rule: |

@@ -23,16 +23,14 @@
       ### Be friendly<br>
       Strive for an approachable, friendly tone—polished, professional, but not excessively formal. 
     audience: [tw, dev, mktg]
-    featured: true 
-    featured_text: |
+    featured: |
       [Strive for an approachable, friendly tone.]({{site.baseurl}}{{page.permalink}}tone-and-content/#be-friendly)
 
   - rule: |
       ### Write for non-experts<br>
       Write in a way that's easy to understand, even if the reader isn't an expert in a given topic.
     audience: [tw, dev, mktg]
-    featured: true 
-    featured_text: |
+    featured: |
       [Write for a broad audience, not just for experts.]({{site.baseurl}}{{page.permalink}}tone-and-content/#write-for-non-experts)
 
 
@@ -48,8 +46,7 @@
       - |
         **Strong:** This setting lets you filter data.
     audience: [tw, dev, mktg]
-    featured: true 
-    featured_text: |
+    featured: |
       [Simple words are usually better than complex words.]({{site.baseurl}}{{page.permalink}}tone-and-content/#simple-vs.-complex)
 
   - rule: |
@@ -65,7 +62,6 @@
       ### Filler words<br>
       Avoid filler words like *very.* Rather than describing a task as *very important*, you might say that it's *critical*. 
     audience: [tw, dev, mktg]
-    featured: true 
-    featured_text: |
+    featured: |
       [Avoid filler words.]({{site.baseurl}}{{page.permalink}}tone-and-content/#filler-words)
 

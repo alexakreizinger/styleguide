@@ -25,7 +25,6 @@
       - |
         example
     audience: [tw, dev, mktg]
-    featured: true 
-    featured_text: |
+    featured: |
       [blah blah.]({{site.baseurl}}{{page.permalink}}SECTION/#HEADING-GOES-HERE)
 
