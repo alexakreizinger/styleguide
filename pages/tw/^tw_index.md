@@ -4,6 +4,7 @@ permalink: /techdocs/
 title: Technical Writers
 has_children: true
 has_toc: false
+search_exclude: true
 audience: tw
 ---
 # {{page.title}}

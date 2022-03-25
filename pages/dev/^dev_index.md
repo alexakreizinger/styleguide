@@ -4,6 +4,7 @@ permalink: /dev/
 title: Developers
 has_children: true
 has_toc: false
+search_exclude: true
 audience: dev
 ---
 # {{page.title}}

@@ -4,6 +4,7 @@ permalink: /marketing/
 title: Marketers
 has_children: true
 has_toc: false
+search_exclude: true
 audience: mktg
 ---
 # {{page.title}}
