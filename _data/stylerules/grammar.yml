@@ -84,10 +84,13 @@
   topics:
 
   - rule: |
-      ### HUMAN product names<br>
-      Be sure to properly capitalize HUMAN and all appropriate product names.<br> 
+      ### HUMAN branding<br>
+      Make sure to properly capitalize HUMAN and HUMAN's product names.<br> 
       For more information, see HUMAN's brand guidelines.
     audience: [tw, dev, mktg]
+    featured: true 
+    featured_text: |
+      [Make sure to properly capitalize HUMAN and HUMAN's product names.]({{site.baseurl}}{{page.permalink}}grammar/#HUMAN-branding)
 
   - rule: |
       However, don't capitalize the names of product features or processes unless the feature or process in question is a proper noun. (Rule of thumb: when in doubt, leave it lowercase.)
@@ -127,6 +130,9 @@
       ### Second-person pronouns<br>
       When addressing the reader, it's okay to use second-person pronouns like *you* and *your.* Don't use third-person language like *user* or *customer* in public-facing materials written for those very same users and customers—address them directly instead!
     audience: [tw, dev]
+    featured: true 
+    featured_text: |
+      [Use second-person pronouns like *you* and *your* to address the reader.]({{site.baseurl}}{{page.permalink}}grammar/#second-person-pronouns)
 
   - rule: |
       ### Gender-neutral pronouns<br>
@@ -137,6 +143,9 @@
       - |
         **Yes:** Someone left their bike outside.
     audience: [tw, dev, mktg]
+    featured: true 
+    featured_text: |
+      [Use the singular *they* as a gender-neutral pronoun.]({{site.baseurl}}{{page.permalink}}grammar/#gender-neutral-pronouns)
 
   - rule: |
       ### Pronouns and clarity<br>
@@ -201,6 +210,9 @@
       ### American English<br>
       Use standard American English spelling conventions.
     audience: [tw, dev, mktg]
+    featured: true 
+    featured_text: |
+      [Use standard American English spelling conventions.]({{site.baseurl}}{{page.permalink}}grammar/#american-english)
 
   - rule: |
       However, there may be exceptions to this rule when addressing audiences who are accustomed to another form of English—for example, if you're writing a sales deck for a European audience, it may be more appropriate to use British English. 
@@ -211,9 +223,12 @@
 
   - rule: |
       ### Present tense<br>
-      Use present tense whenever possible.
+      Use the present tense whenever possible.
     audience: [tw, dev, mktg]
-  
+    featured: true 
+    featured_text: |
+      [Use the present tense whenever possible.]({{site.baseurl}}{{page.permalink}}grammar/#present-tense)
+
   - rule: |
       ### Future tense<br>
       However, it can sometimes be helpful to use the future tense for specific examples of cause and effect.
