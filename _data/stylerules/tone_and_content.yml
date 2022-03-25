@@ -5,6 +5,8 @@
       ### Latency and uptime<br>
       Don't make specific promises about latency, uptime, or related topics in public-facing documentation. These details should be reserved for SLAs and contracts.
     audience: [tw, dev]
+    featured: true
+    featured_text: Don't make promises about latency.
 
   - rule: |
       ### Unrealistic claims<br>
