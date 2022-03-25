@@ -1,8 +1,12 @@
-{% for x in include.filename %}
-    {% if x.topics.audience contains include.audience and x.featured == true %}
+{% assign titleLoop = 0 %}
+{% for sect in include.filename %}
+    {% for stylerule in sect.topics %}
+        {% if stylerule.audience contains include.audience and stylerule.featured == true and titleLoop == 0 %}
 ### [{{ include.sectionname }}]({{ include.sectionlink }})
-        {% break %}
+{% assign titleLoop = titleLoop | plus: 1 %}
+{% break %}
         {% endif %}
+    {% endfor %}
 {% endfor %}
 
 {% for sect in include.filename %}
