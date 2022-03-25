@@ -7,7 +7,7 @@
             {% for stylerule in sect.topics %}
                 {% if stylerule.audience contains include.audience and stylerule.featured == true %}
 * {{ stylerule.featured_text | liquify }}
-            {% endfor %}
-        {% endif %}
+                {% endif %}
+            {% endfor %}    
     {% endfor %}
 {% endfor %}
