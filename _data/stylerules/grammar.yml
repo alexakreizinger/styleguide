@@ -261,7 +261,7 @@
       - |
         **No:** The data support this conclusion.
       - |
-        **Yes:*** The data supports this conclusion.
+        **Yes:** The data supports this conclusion.
     audience: [tw, dev, mktg]
 
   - rule: |
