@@ -1,8 +1,8 @@
 {% for x in include.filename %}
         {% if x.topics.rule.audience contains include.audience and stylerule.featured == true %}
 ### [{{ include.sectionname }}]({{ include.sectionlink }})
+        {% break %}
         {% endif %}
-{% break %}
 {% endfor %}
 
 {% for sect in include.filename %}
