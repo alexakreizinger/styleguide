@@ -13,5 +13,5 @@ audience: dev
 {% assign aud = page.audience %}
 
 ## Quick tips
-{% include get_featured_rules_for_audience.md filename=file1 audience=aud sectionname="[Grammar]({{ 'grammar' }} | relative_url )" %}
+{% include get_featured_rules_for_audience.md filename=file1 audience=aud sectionname="[Grammar]({{ 'grammar' | relative_url }})" %}
 {% include get_featured_rules_for_audience.md filename=file2 audience=aud sectionname="[Tone and content](/tone-and-content)"] %}
