@@ -8,6 +8,16 @@ search_exclude: true
 audience: tw
 ---
 # {{page.title}}
+{: .no_toc }
+<details markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+- TOC
+{:toc}
+</details>
+
 
 {% assign aud = page.audience %}
 {% assign file1 = site.data.stylerules.grammar %}
@@ -21,6 +31,7 @@ audience: tw
 {% capture link3 %}{{site.baseurl}}{{page.permalink}}formatting-and-organization/{% endcapture %}
 
 ## Quick tips
+{: .no_toc }
 {% include get_featured_rules_for_audience.md filename=file1 audience=aud sectionname=section1 sectionlink=link1 %}
 {% include get_featured_rules_for_audience.md filename=file2 audience=aud sectionname=section2 sectionlink=link2 %}
 {% include get_featured_rules_for_audience.md filename=file3 audience=aud sectionname=section3 sectionlink=link3 %}
