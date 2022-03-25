@@ -10,4 +10,4 @@ audience: dev
 {% assign file = site.data.stylerules.grammar %}
 {% assign aud = page.audience %}
 
-{% include get_rules_for_audience.md filename=file audience=aud sectionname=Grammar%}
+{% include get_rules_for_audience.md filename=file audience=aud sectionname=Grammar %}
