@@ -1,7 +1,7 @@
 {% for sect in include.filename %}
     {% for stylerule in sect.topics %}
         {% if stylerule.audience contains include.audience and stylerule.featured == true %}
-### {{ include.sectionname | liquify }}
+### [{{ include.sectionname }}]({{ include.sectionlink }})
 {% break %}
         {% endif %}
     {% endfor %}
