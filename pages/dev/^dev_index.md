@@ -14,4 +14,4 @@ audience: dev
 
 ## Quick tips
 {% include get_featured_rules_for_audience.md filename=file1 audience=aud sectionname="[Grammar]({{ 'grammar' | relative_url }})" %}
-{% include get_featured_rules_for_audience.md filename=file2 audience=aud sectionname="[Tone and content](/tone-and-content)"] %}
+{% include get_featured_rules_for_audience.md filename=file2 audience=aud sectionname="[Tone and content]({{ page.permalink }}/tone-and-content)" %}
