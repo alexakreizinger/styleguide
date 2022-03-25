@@ -6,6 +6,7 @@
         {% endif %}
 {% break %}
     {% endfor %}
+{% break %}
 {% endfor %}
 
 {% for sect in include.filename %}
