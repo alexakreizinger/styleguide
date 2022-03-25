@@ -1,13 +1,16 @@
-- section: Abbreviations and acronyms
+- section: Abbreviations
 
   topics:
   - rule: |
-      ### Spelling out acronyms<br>
-      If you're using an acronym or abbreviation that isn't well-known, spell out the full acronym the first time it appears and provide its shortened form in parentheses. You can then use the shortened form throughout the rest of the document.
+      ### Spelling out abbreviations<br>
+      If you're using an abbreviation that isn't well-known, use its full, unabbreviated form the first time it appears and provide its shortened form in parentheses. You can then use the shortened form throughout the rest of the document.
     examples:
       - |
         **Example:** The HUMAN Dashboard supports single sign-on (SSO). To configure SSO for your organization...
     audience: [tw, dev, mktg]
+    featured: true 
+    featured_text: |
+      Spell out abbreviations.
 
   - rule: |
       ### HUMAN product names<br>
@@ -20,8 +23,8 @@
     audience: [tw, dev, mktg]
 
   - rule: |
-      ### Acronyms as verbs<br>
-      Don't use acronyms as verbs.
+      ### Abbreviations as verbs<br>
+      Don't use abbreviations or acronyms as verbs.
     examples:
       - |
         **No:** CNAME the domain.
@@ -83,8 +86,8 @@
     audience: [tw, dev, mktg]
 
   - rule: |
-      ### Headers<br>
-      Use sentence case for headers (h2, h3, and so on).
+      ### Headings<br>
+      Use sentence case for headings (h2, h3, and so on).
     audience: [tw, dev, mktg]
 
   - rule: |
@@ -248,31 +251,8 @@
         **Example:** Call `end()` to cancel the current session.
     audience: [tw, dev]
 
-- section: Word choice
-  topics:
-
-  - rule: |
-      ### Simple vs. complex<br>
-      When possible, try to use short and simple words instead of complex, abstract words.
-    examples:
-      - |
-        **Weak:** This setting facilitates data filtering.
-      - |
-        **Strong:** This setting lets you filter data.
-    audience: [tw, dev, mktg]
-
-  - rule: |
-      ### Filler words<br>
-      Avoid filler words like *very.* Rather than describing a task as *very important*, you might say that it's *critical*. 
-    audience: [tw, dev, mktg]
-
 - section: Miscellaneous
   topics:
-
-  - rule: |
-      ### Phrasal nouns vs. phrasal verbs<br>
-      Don't use phrasal nouns and phrasal verbs interchangably. Although *login* and *log in* may look similar, they mean different things—a *login* (noun) is the credential you use to *log in* (verb).
-    audience: [tw, dev, mktg]
 
   - rule: |
       ### *Data* is singular<br>
@@ -282,4 +262,9 @@
         **No:** The data support this conclusion.
       - |
         **Yes:*** The data supports this conclusion.
+    audience: [tw, dev, mktg]
+
+  - rule: |
+      ### Phrasal nouns vs. phrasal verbs<br>
+      Don't use phrasal nouns and phrasal verbs interchangably. Although *login* and *log in* may look similar, they mean different things—a *login* (noun) is the credential you use to *log in* (verb).
     audience: [tw, dev, mktg]
