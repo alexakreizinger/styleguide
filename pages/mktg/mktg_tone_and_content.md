@@ -2,7 +2,7 @@
 layout: default
 permalink: /marketing/tone-and-content/
 title: Tone and Content
-parent: Marketing
+parent: Marketers
 audience: mktg
 ---
 # {{page.title}} 
