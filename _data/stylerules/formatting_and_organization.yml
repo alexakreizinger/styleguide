@@ -1,0 +1,18 @@
+- section: Titles and headings
+  topics:
+
+  - rule: |
+      ### Title capitalization<br>
+      Use title case for titles (h1).
+    audience: [tw, dev, mktg]
+    featured: true 
+    featured_text: |
+      [Use title case for titles.]({{site.baseurl}}{{page.permalink}}formatting-and-organization/#title-capitalization)
+
+  - rule: |
+      ### Heading capitalization<br>
+      Use sentence case for headings (h2, h3, and so on).
+    audience: [tw, dev, mktg]
+    featured: true 
+    featured_text: |
+      [Use sentence case for headings.]({{site.baseurl}}{{page.permalink}}formatting-and-organization/#heading-capitalization)

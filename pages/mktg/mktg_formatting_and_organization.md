@@ -1,9 +1,9 @@
 ---
 layout: default
-permalink: /techdocs/tone-and-content/
-title: Tone and Content
-parent: Technical Writers
-audience: tw
+permalink: /marketing/formatting-and-organization/
+title: Formatting and Organization
+parent: Marketers
+audience: mktg
 ---
 # {{page.title}} 
 {: .no_toc }
@@ -16,7 +16,7 @@ audience: tw
 {:toc}
 </details>
 
-{% assign file = site.data.stylerules.tone_and_content %}
+{% assign file = site.data.stylerules.formatting_and_organization %}
 {% assign aud = page.audience %}
 
 {% include get_rules_for_audience.md filename=file audience=aud %}

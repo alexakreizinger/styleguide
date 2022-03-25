@@ -8,9 +8,6 @@
       - |
         **Example:** The HUMAN Dashboard supports single sign-on (SSO). To configure SSO for your organization...
     audience: [tw, dev, mktg]
-    featured: true 
-    featured_text: |
-      [Spell out abbreviations.]({{site.baseurl}}{{ page.permalink }}grammar/#spelling-out-abbreviations)
 
   - rule: |
       ### HUMAN product names<br>
@@ -21,6 +18,9 @@
       - |
         **Yes:** BotGuard for Applications protects your website or application from bots.
     audience: [tw, dev, mktg]
+    featured: true 
+    featured_text: |
+      [Don't abbreviate HUMAN's product names.]({{site.baseurl}}{{page.permalink}}grammar/#HUMAN-product-names)
 
   - rule: |
       ### Abbreviations as verbs<br>
@@ -67,6 +67,9 @@
         **Also yes:** Update your data.<br>
         (Imperative verbs are active and speak directly to the reader, which is useful for procedural instructions.)
     audience: [tw, dev, mktg]
+    featured: true 
+    featured_text: |
+      [Use the active voice whenever possible.]({{site.baseurl}}{{page.permalink}}grammar/#active-and-passive-voice)
 
   - rule: |
       ### Passive voice<br>
@@ -79,16 +82,6 @@
 
 - section: Capitalization
   topics:
-
-  - rule: |
-      ### Titles<br>
-      Use title case for page titles (h1).
-    audience: [tw, dev, mktg]
-
-  - rule: |
-      ### Headings<br>
-      Use sentence case for headings (h2, h3, and so on).
-    audience: [tw, dev, mktg]
 
   - rule: |
       ### HUMAN product names<br>
