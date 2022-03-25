@@ -5,8 +5,6 @@
       ### Latency and uptime<br>
       Don't make specific promises about latency, uptime, or related topics in public-facing documentation. These details should be reserved for SLAs and contracts.
     audience: [tw, dev]
-    featured: true
-    featured_text: Don't make promises about latency.
 
   - rule: |
       ### Unrealistic claims<br>
@@ -25,14 +23,18 @@
       ### Be friendly<br>
       Strive for an approachable, friendly tone—polished, professional, but not excessively formal. 
     audience: [tw, dev, mktg]
+    featured: true 
+    featured_text: |
+      [Strive for an approachable, friendly tone.]({{site.baseurl}}{{page.permalink}}tone-and-content/#be-friendly)
 
   - rule: |
       ### Write for non-experts<br>
       Write in a way that's easy to understand, even if the reader isn't an expert in a given topic.
-    examples:
-      - |
-        example
     audience: [tw, dev, mktg]
+    featured: true 
+    featured_text: |
+      [Write for a broad audience, not just for experts.]({{site.baseurl}}{{page.permalink}}tone-and-content/#write-for-non-experts)
+
 
 - section: Word choice
   topics:
@@ -46,6 +48,9 @@
       - |
         **Strong:** This setting lets you filter data.
     audience: [tw, dev, mktg]
+    featured: true 
+    featured_text: |
+      [Simple words are usually better than complex words.]({{site.baseurl}}{{page.permalink}}tone-and-content/#simple-vs.-complex)
 
   - rule: |
       However, if there's no way to avoid using complicated words or technical jargon, it's often helpful to provide a definition or other additional context.
@@ -60,4 +65,7 @@
       ### Filler words<br>
       Avoid filler words like *very.* Rather than describing a task as *very important*, you might say that it's *critical*. 
     audience: [tw, dev, mktg]
+    featured: true 
+    featured_text: |
+      [Avoid filler words.]({{site.baseurl}}{{page.permalink}}tone-and-content/#filler-words)
 
