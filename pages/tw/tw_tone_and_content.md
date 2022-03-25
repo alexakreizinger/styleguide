@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /tw/tone_and_content/
+permalink: /tw/tone-and-content/
 title: Tone and Content
 parent: Technical Writers
 audience: tw

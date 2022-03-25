@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /marketing/tone_and_content/
+permalink: /marketing/tone-and-content/
 title: Tone and Content
 parent: Marketing
 audience: mktg

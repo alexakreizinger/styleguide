@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /dev/tone_and_content/
+permalink: /dev/tone-and-content/
 title: Tone and Content
 parent: Developers
 audience: dev

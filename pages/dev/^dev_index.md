@@ -3,11 +3,15 @@ layout: default
 permalink: /dev/
 title: Developers
 has_children: true
+has_toc: false
 audience: dev
 ---
 # {{page.title}}
 
-{% assign file = site.data.stylerules.grammar %}
+{% assign file1 = site.data.stylerules.grammar %}
+{% assign file2 = site.data.stylerules.tone_and_content %}
 {% assign aud = page.audience %}
 
-{% include get_featured_rules_for_audience.md filename=file audience=aud sectionname="Grammar" %}
+## Quick tips
+{% include get_featured_rules_for_audience.md filename=file1 audience=aud sectionname="[Grammar]({{ 'grammar' }} | relative_url )" %}
+{% include get_featured_rules_for_audience.md filename=file2 audience=aud sectionname="[Tone and content](/tone-and-content)"] %}
