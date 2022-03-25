@@ -4,10 +4,10 @@
 ### [{{ include.sectionname }}]({{ include.sectionlink }})
 {% break %}
         {% endif %}
-    {% endfor %}
-    {% for stylerule in sect.topics %}
-        {% if stylerule.audience contains include.audience and stylerule.featured == true %}
+            {% for stylerule in sect.topics %}
+                {% if stylerule.audience contains include.audience and stylerule.featured == true %}
 * {{ stylerule.featured_text | liquify }}
+            {% endfor %}
         {% endif %}
     {% endfor %}
 {% endfor %}
