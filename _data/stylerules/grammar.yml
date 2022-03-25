@@ -10,7 +10,7 @@
     audience: [tw, dev, mktg]
     featured: true 
     featured_text: |
-      Spell out abbreviations.
+      [Spell out abbreviations.]({{ page.permalink }}grammar/#spelling-out-abbreviations)
 
   - rule: |
       ### HUMAN product names<br>
