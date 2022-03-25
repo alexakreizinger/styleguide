@@ -4,11 +4,8 @@
 
 **TO DO:** 
 * add `liquify` syntax to `_include` files
-    * also, figure out how to add Liquid variables to data files; do I need to define the variables in the page where the content is output (i.e., the collection page)? or can I use a global variable of some sort (site.url type stuff) directly in the YAML file without having to define its value elsewhere?
-* write up implementation of `liquify` for this readme 
-* set up sidebar nav
-* add the rest of the style rules
-* rule formatting (both in CSS and YAML files themselves)
+   * add links to the YAML files as necessary)
+* add the rest of the style rules (grammar is finished, tone and content finished for now, all others are WIP)
 * "featured" rules + minimum threshold rules
 
 ## Repo basics
