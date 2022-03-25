@@ -9,9 +9,11 @@ audience: dev
 # {{page.title}}
 
 {% assign file1 = site.data.stylerules.grammar %}
+{% assign link1 = "/dev/grammar/"
 {% assign file2 = site.data.stylerules.tone_and_content %}
+{% assign link2 = "/grammar/"}
 {% assign aud = page.audience %}
 
 ## Quick tips
-{% include get_featured_rules_for_audience.md filename=file1 audience=aud sectionname="[Grammar]({{ 'grammar' | relative_url }})" %}
-{% include get_featured_rules_for_audience.md filename=file2 audience=aud sectionname="[Tone and content]({{ page.permalink }}/tone-and-content)" %}
+{% include get_featured_rules_for_audience.md filename=file1 audience=aud sectionname="Grammar" sectionlink=link1 %}
+{% include get_featured_rules_for_audience.md filename=file2 audience=aud sectionname="Tone and content" sectionlink=link2%}
