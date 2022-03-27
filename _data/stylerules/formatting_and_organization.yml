@@ -165,17 +165,6 @@
     audience: [tw, dev]  
 
   - rule: |
-      When presenting a list of options to choose from, use a lettered (ordered) list.
-    examples:
-      - |
-        **Example:**<br>
-        You can choose one of the following colors:<br>
-          A. Red
-          B. Yellow
-          C. Green
-    audience: [tw, dev]  
-
-  - rule: |
       ### Paired data<br>
       For lists that include two pieces of data per list item (like a glossary term and its definition), use a bulleted (unordered) list. 
 
