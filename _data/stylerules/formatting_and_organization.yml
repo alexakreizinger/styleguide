@@ -138,18 +138,18 @@
     examples:
       - |
         **Example:**<br>
-        A bicycle has three main components:<br>
-        * Seat<br>
-        * Handlebars<br>
-        * Tires
+        A bicycle has three main components:
+          * Seat<br>
+          * Handlebars<br>
+          * Tires
     audience: [tw, dev]
 
   - rule: |
       When the order of list items is important, use a numbered (ordered) list. This usually appplies to sequences of steps or instructions. 
     examples:
       - |
-        **Example:**
-        To bake a cake, follow these steps:<br>
+        **Example:** <br>
+        To bake a cake, follow these steps:
         1. Mix the batter.<br>
         2. Bake in the oven.<br>
         3. Decorate to perfection.
@@ -160,7 +160,7 @@
     examples:
       - |
         **Example:**<br>
-        To turn on the light:<br>
+        To turn on the light:
         * Flip the light switch to the ON position.
     audience: [tw, dev]  
 
@@ -169,10 +169,10 @@
     examples:
       - |
         **Example:**<br>
-        You can choose one of the following colors:<br>
-        A. Red<br>
-        B. Yellow<br>
-        C: Green
+        You can choose one of the following colors:
+        A. Red
+        B. Yellow
+        C. Green
     audience: [tw, dev]  
 
   - rule: |
