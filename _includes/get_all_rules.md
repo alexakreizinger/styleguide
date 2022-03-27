@@ -1,9 +1,9 @@
 {% for sect in include.filename %}
 ## {{ sect.section }}
     {% for stylerule in sect.topics %}
-* {{ stylerule.rule }}
+{{ stylerule.rule | liquify }}
         {% for ex in stylerule.examples %}
-    * {{ ex }}
+* {{ ex | liquify }}
         {% endfor %}
     {% endfor %}
 {% endfor %}
