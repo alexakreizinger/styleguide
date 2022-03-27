@@ -172,10 +172,10 @@
     examples:
       - |
         **Example:**<br>
-        The theme park offers three attractions.<br>
-        * **Screamin' Mean Crazy Coaster:** A high-speed roller coaster. Not recommended for children.<br>
-        * **Big Joe's River Adventure:** A log ride with water features. Suitable for all ages, but riders will get wet.<br>
-        * **Schubert Express:** An interactive train tour. Perfect for young guests.
+        The theme park offers three attractions.
+          * **Screamin' Mean Crazy Coaster:** A high-speed roller coaster. Not recommended for children.
+          * **Big Joe's River Adventure:** A log ride with water features. Suitable for all ages, but riders will get wet.
+          * **Schubert Express:** An interactive train tour. Perfect for young guests.
     audience: [tw, dev]  
 
   - rule: |
