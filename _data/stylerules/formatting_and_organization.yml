@@ -68,7 +68,7 @@
       This also means that procedural instructions may sometimes include screenshots, but not for every step. A single screenshot will often correspond to multiple steps.
     audience: [tw, dev]
     featured: |
-      Use screenshots sparingly.({{site.baseurl}}{{page.permalink}}formatting-and-organization/#when-to-use-screenshots)
+      [Use screenshots sparingly.]({{site.baseurl}}{{page.permalink}}formatting-and-organization/#when-to-use-screenshots)
 
 - section: Links
   topics:
