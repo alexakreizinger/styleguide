@@ -160,7 +160,7 @@
     examples:
       - |
         **Example:**<br>
-        To turn on the light:
+        To turn on the light:<br>
           * Flip the light switch to the ON position.
     audience: [tw, dev]  
 
@@ -169,7 +169,7 @@
     examples:
       - |
         **Example:**<br>
-        You can choose one of the following colors:
+        You can choose one of the following colors:<br>
           A. Red
           B. Yellow
           C. Green
