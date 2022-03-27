@@ -139,8 +139,8 @@
       - |
         **Example:**<br>
         A bicycle has three main components:
-          * Seat<br>
-          * Handlebars<br>
+          * Seat
+          * Handlebars
           * Tires
     audience: [tw, dev]
 
@@ -161,7 +161,7 @@
       - |
         **Example:**<br>
         To turn on the light:
-        * Flip the light switch to the ON position.
+          * Flip the light switch to the ON position.
     audience: [tw, dev]  
 
   - rule: |
@@ -170,9 +170,9 @@
       - |
         **Example:**<br>
         You can choose one of the following colors:
-        A. Red
-        B. Yellow
-        C. Green
+          A. Red
+          B. Yellow
+          C. Green
     audience: [tw, dev]  
 
   - rule: |
