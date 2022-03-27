@@ -9,7 +9,7 @@
         {% if stylerule.audience contains include.audience %}
 {{ stylerule.rule | liquify }}
             {% for ex in stylerule.examples %}
-* {{ ex }}
+* {{ ex | liquify }}
             {% endfor %}
         {% endif %}
     {% endfor %}
