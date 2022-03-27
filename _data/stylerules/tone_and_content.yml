@@ -38,6 +38,13 @@
   topics:
 
   - rule: |
+      ### Filler words<br>
+      Avoid filler words like *very.* Rather than describing a task as *very important*, you might say that it's *critical*. 
+    audience: [tw, dev, mktg]
+    featured: |
+      [Avoid filler words.]({{site.baseurl}}{{page.permalink}}tone-and-content/#filler-words)
+
+  - rule: |
       ### Simple vs. complex<br>
       When possible, try to use short and simple words instead of complex, abstract words.
     examples:
@@ -50,18 +57,9 @@
       [Simple words are usually better than complex words.]({{site.baseurl}}{{page.permalink}}tone-and-content/#simple-vs.-complex)
 
   - rule: |
-      However, if there's no way to avoid using complicated words or technical jargon, it's often helpful to provide a definition or other additional context.
-
+      However, if there's no way to avoid using complicated words or technical jargon, it's often helpful to give a definition, include [a hyperlink]({{site.baseurl}}{{page.permalink}}formatting-and-organization/#links) to related materials, or provide other additional context.
     examples:
       - |
         **Example:** Be careful not to cross the black hole's event horizon. An event horizon is the point at which an object's gravity becomes too strong to escape—if you cross the event horizon, you'll never come back.
-
     audience: [tw, dev, mktg]
-
-  - rule: |
-      ### Filler words<br>
-      Avoid filler words like *very.* Rather than describing a task as *very important*, you might say that it's *critical*. 
-    audience: [tw, dev, mktg]
-    featured: |
-      [Avoid filler words.]({{site.baseurl}}{{page.permalink}}tone-and-content/#filler-words)
 

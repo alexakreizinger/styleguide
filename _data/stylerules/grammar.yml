@@ -2,12 +2,14 @@
 
   topics:
   - rule: |
-      ### Spelling out abbreviations<br>
-      If you're using an abbreviation that isn't well-known, use its full, unabbreviated form the first time it appears and provide its shortened form in parentheses. You can then use the shortened form throughout the rest of the document.
+      ### Abbreviations as verbs<br>
+      Don't use abbreviations or acronyms as verbs.
     examples:
       - |
-        **Example:** The HUMAN Dashboard supports single sign-on (SSO). To configure SSO for your organization...
-    audience: [tw, dev, mktg]
+        **No:** CNAME the domain.
+      - |
+        **Yes:** Add the domain to your CNAME records.
+    audience: [tw, dev]
 
   - rule: |
       ### HUMAN product names<br>
@@ -20,16 +22,6 @@
     audience: [tw, dev, mktg]
     featured: |
       [Don't abbreviate HUMAN's product names.]({{site.baseurl}}{{page.permalink}}grammar/#HUMAN-product-names)
-
-  - rule: |
-      ### Abbreviations as verbs<br>
-      Don't use abbreviations or acronyms as verbs.
-    examples:
-      - |
-        **No:** CNAME the domain.
-      - |
-        **Yes:** Add the domain to your CNAME records.
-    audience: [tw, dev]
 
   - rule: |
       ### Latin abbreviations<br>
@@ -48,6 +40,15 @@
   - rule: |
       Don't confuse *i.e.* (*id est*, that is to say) and *e.g.* (*exempli gratia*, for the sake of example). When in doubt, spell it out—use the English phrase instead!
     audience: [tw, dev, mktg]
+
+  - rule: |
+      ### Spell out abbreviations<br>
+      If you're using an abbreviation that isn't well-known, use its full, unabbreviated form the first time it appears and provide its shortened form in parentheses. You can then use the shortened form throughout the rest of the document.
+    examples:
+      - |
+        **Example:** The HUMAN Dashboard supports single sign-on (SSO). To configure SSO for your organization...
+    audience: [tw, dev, mktg]
+
 
 - section: Active and passive voice
   topics:
@@ -82,6 +83,11 @@
   topics:
 
   - rule: |
+      ### Glossary entries<br>
+      Don't capitalize the name of glossary entries or index terms unless the term is a proper noun.
+    audience: [tw, dev]
+
+  - rule: |
       ### HUMAN branding<br>
       Make sure to properly capitalize HUMAN and HUMAN's product names.<br> 
       For more information, see HUMAN's brand guidelines.
@@ -92,11 +98,6 @@
   - rule: |
       However, don't capitalize the names of product features or processes unless the feature or process in question is a proper noun. (Rule of thumb: when in doubt, leave it lowercase.)
     audience: [tw, dev, mktg]
-
-  - rule: |
-      ### Glossary entries<br>
-      Don't capitalize the name of glossary entries or index terms unless the term is a proper noun.
-    audience: [tw, dev]
 
 - section: Contractions
   topics:
@@ -131,7 +132,7 @@
       [Use second-person pronouns like *you* and *your* to address the reader.]({{site.baseurl}}{{page.permalink}}grammar/#second-person-pronouns)
 
   - rule: |
-      ### Gender-neutral pronouns<br>
+      ### Singular *they*<br>
       When referring to a person of indeterminate or unknown gender, use the singular *they* rather than gendered pronouns like *she,* *he,* or any combination thereof (like *(s)he* or *his or her*).
     examples:
       - |
@@ -140,7 +141,7 @@
         **Yes:** Someone left their bike outside.
     audience: [tw, dev, mktg]
     featured: |
-      [Use the singular *they* as a gender-neutral pronoun.]({{site.baseurl}}{{page.permalink}}grammar/#gender-neutral-pronouns)
+      [Use the singular *they* as a gender-neutral pronoun.]({{site.baseurl}}{{page.permalink}}grammar/#singular-they)
 
   - rule: |
       ### Pronouns and clarity<br>
@@ -164,16 +165,6 @@
         **Clear:** Send all data to HUMAN's secure servers via carrier pigeon. This pigeon relay prevents hackers from intercepting your data.<br>
         (The pigeons thwart hackers!)
     audience: [tw, dev, mktg]
-              
-  - rule: |
-      ### Relative pronouns<br>
-      The relative pronouns *that* and *which* are not interchangable—use *that* for restrictive clauses and *which* for nonrestrictive clauses. (A good rule of thumb: nonrestrictive clauses tend to be offset by commas, while restrictive clauses do not.)
-    examples: 
-      - |
-        **Restrictive:** The new bass that I bought last week has two humbucker pickups.  
-      - |
-        **Nonrestrictive:** The new bass, which I bought last week, has two humbucker pickups.
-    audience: [tw, dev, mktg]
 
   - rule: |
       ### Referring to groups of people<br>
@@ -183,7 +174,17 @@
         **No:** Send an email to users that registered early. 
       - |
         **Yes:** Send an email to users who registered early.
-    audience: [tw, dev, mktg]              
+    audience: [tw, dev, mktg]    
+
+  - rule: |
+      ### Relative pronouns<br>
+      The relative pronouns *that* and *which* are not interchangable—use *that* for restrictive clauses and *which* for nonrestrictive clauses. (A good rule of thumb: nonrestrictive clauses tend to be offset by commas, while restrictive clauses do not.)
+    examples: 
+      - |
+        **Restrictive:** The new bass that I bought last week has two humbucker pickups.  
+      - |
+        **Nonrestrictive:** The new bass, which I bought last week, has two humbucker pickups.
+    audience: [tw, dev, mktg]
 
 - section: Sentence structure
   topics:
@@ -230,7 +231,7 @@
         **Example:** If you run multiple reports, each report will generate its own file.
     audience: [tw, dev]
 
-- section: Verb forms
+- section: Verbs
   topics:
 
   - rule: |

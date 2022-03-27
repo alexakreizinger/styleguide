@@ -10,15 +10,15 @@ audience: mktg
 # {{page.title}}
 
 {% assign aud = page.audience %}
-{% assign file1 = site.data.stylerules.grammar %}
-{% assign section1 = "Grammar" %}
-{% capture link1 %}{{site.baseurl}}{{page.permalink}}grammar/{% endcapture %}
-{% assign file2 = site.data.stylerules.tone_and_content %}
-{% assign section2 = "Tone and content" %}
-{% capture link2 %}{{site.baseurl}}{{page.permalink}}tone-and-content/{% endcapture %}
-{% assign file3 = site.data.stylerules.formatting_and_organization %}
-{% assign section3 = "Formatting and organization" %}
-{% capture link3 %}{{site.baseurl}}{{page.permalink}}formatting-and-organization/{% endcapture %}
+{% assign file1 = site.data.stylerules.formatting_and_organization %}
+{% assign section1 = "Formatting and organization" %}
+{% capture link1 %}{{site.baseurl}}{{page.permalink}}formatting-and-organization/{% endcapture %}
+{% assign file2 = site.data.stylerules.grammar %}
+{% assign section2 = "Grammar" %}
+{% capture link2 %}{{site.baseurl}}{{page.permalink}}grammar/{% endcapture %}
+{% assign file3 = site.data.stylerules.tone_and_content %}
+{% assign section3 = "Tone and content" %}
+{% capture link3 %}{{site.baseurl}}{{page.permalink}}tone-and-content/{% endcapture %}
 
 ## Quick tips
 {% include get_featured_rules_for_audience.md filename=file1 audience=aud sectionname=section1 sectionlink=link1 %}
