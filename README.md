@@ -1,13 +1,5 @@
 # Style Guide WIP Readme
 
-## Notes to self
-
-**TO DO:** 
-* add `liquify` syntax to `_include` files
-   * add links to the YAML files as necessary)
-* add the rest of the style rules (grammar is finished, tone and content finished for now, all others are WIP)
-* "featured" rules + minimum threshold rules
-
 ## Repo basics
 
 All of the following information relates to the `main` branch. For all intents and purposes, ignore (but do not delete) the `gh-pages` branch. Everything is configured as intended. (For more information, see the `.github/workflows/build-jekyll.yml` section below.)
@@ -18,10 +10,10 @@ The actual style rules are hosted here (in the form of YAML files). If the Liqui
 
 ### `_includes`
 
-The Liquid tags that pull style rules from their data files. Designed to be modular so you can include the file (`get_all_rules.md` to get all rules or `get_rules_for_audience` to get rules for a specific audience) in your output page rather than re-typing the Liquid all over again.
-    
+The Liquid tags that pull style rules from their data files. Designed to be modular so you can include the file in your output page rather than re-typing the Liquid all over again.
+
 #### `get_all_rules.md`
-Outputs every single rule in a given `_data/stylerules/` file. 
+Outputs every single rule in a given `_data/stylerules/` file. Currently used for the semi-secret `/all/` pages.
     
 **Usage** (when including in an actual page):
 ``` 
@@ -42,6 +34,20 @@ Outputs every applicable rule in a given `_data/stylerules/` file based on your 
 
 {% include get_rules_for_audience.md filename=file audience=aud %}
 ```             
+#### `get_featured_rules_for_audience`
+Outputs every "featured" rule in a given `_data/stylerules/` file based on your audience of choice (current options: `dev`, `mktg`, and `tw`). Currently used on parent pages for each audience.
+
+**Usage** (when including in an actual page):
+```
+{% assign aud = "[YOURAUDIENCE]" %}
+{% assign file1 = site.data.stylerules.[YOURFILE] %}
+{% assign section1 = "[SECTIONNAME]" %}
+{% capture link1 %}{{site.baseurl}}{{page.permalink}}[URL-OF-PAGE-WHERE-THESE-RULES-APPEAR/]{% endcapture %}
+
+{% include get_featured_rules_for_audience.md filename=file1 audience=aud sectionname=section1 sectionlink=link1 %}
+```
+> **NOTE** : You'll need to repeat `file1`/`section1`/`link1` (and its associated `include` statement) as many times as needed to fetch the features rules from every section. However, `aud` should be consistent, so there's no need to repeat that part.
+
 ### `_plugins/liquify.rb`
 
 Sourced from [here](https://github.com/vividh/liquify). For more information about using Liquify, see below. 
@@ -72,6 +78,11 @@ The `pages` folder for the actual style guide output. Each audience has its own 
 
 * As such, the output will include all style rules from `_data/stylerules/grammar.yml` that are aimed at developers.
 
+#### **All**
+* audience: n/a
+* url: `all`
+* title: All
+* (semi-secret; hidden from nav and search)
 #### **Developers**
 * audience: `dev`
 * url: `/dev/`
