@@ -257,7 +257,7 @@
       ### List all the steps<br>
       Use a numbered list to write out each step in a procedure. However, if a procedure only has one step, use a bulleted list instead.<br>
 
-      For more information, see (Ordered and unordered lists)[{{site.baseurl}}{{page.permalink}}formatting-and-organization/#ordered-and-unordered-lists].
+      For more information, see [Ordered and unordered lists]({{site.baseurl}}{{page.permalink}}/#ordered-and-unordered-lists).
     audience: [tw, dev]
 
   - rule: |
@@ -309,7 +309,7 @@
     audience: [tw, dev]
 
   - rule: |
-      If a table only has two columns, you should probably format the information as a [list]({{site.baseurl}}{{page.permalink}}formatting-and-organization/#paired-data) instead.
+      If a table only has two columns, you should probably format the information as a [list]({{site.baseurl}}{{page.permalink}}#paired-data) instead.
     audience: [tw, dev]
 
 - section: Titles and headings
