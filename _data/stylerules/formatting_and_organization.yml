@@ -140,8 +140,6 @@
       ### Introduce lists<br>
       Introduce lists with a summary or description of what the list is for. This introduction can end with a period or with a colon.
     audience: [tw, dev]
-    featured: |
-      [Introduce lists with a summary or description of what the list is for.]({{site.baseurl}}{{page.permalink}}formatting-and-organization/#introduce-lists)
 
   - rule: |
       ### Ordered and unordered lists<br>
@@ -344,18 +342,18 @@
   
   - rule: |
       ### Include descriptions after every heading<br>
-      In public-facing technical documentation, two headings should never "touch." every section of a doc needs an introduction, so every heading should be followed by some kind of summary or description before the next subheading appears.<br>
+      In public-facing technical documentation, two headings should never "touch." Every section of a doc needs an introduction, so every heading should be followed by some kind of summary or description before the next subheading appears.<br>
       Try to provide necessary context for your reader: what is this section describing? Why is it important?
     examples:
       - |
         **Example:**<br>
         \#\# Mammals<br>
-        Mammals are warm-blooded animals. They can live in water or on land.<br>
+        Mammals are warm-blooded vertebrates. They can live in water or on land.<br>
         \#\#\# Aquatic mammals<br>
         Aquatic mammals are mammals that live primarily or entirely in water, including whales, dolphins, seals, and manatees. However, like all mammals, they still breathe air and must surface periodically to do so.
     audience: [tw, dev]
     featured: |
-      [All headings should be followed by a summary or description.]({{site.baseurl}}{{page.permalink}}formatting-and-organization/#include-descriptions-after-every-heading)
+      [After each heading, include a summary or description of the following section.]({{site.baseurl}}{{page.permalink}}formatting-and-organization/#include-descriptions-after-every-heading)
 
   - rule: |
       ### Heading hierarchy<br>
