@@ -28,7 +28,7 @@
 
   - rule: |
       ### Code formatting<br>
-      Use `code` font for inline code samples, including method names and variable names.
+      Use `code` font for inline code samples, including method names and variable names, and code blocks for larger code samples.
     examples:
       - |
         **Example:** The `isRaining` Boolean can be true or false.
@@ -36,13 +36,16 @@
 
   - rule: |
       ### Introduce code samples<br>
-      Most code samples need an introductory sentence (or paragraph) before the code sample begins. This introduction can end with a period or with a colon.
+      Introduce code samples with a summary or description of what the code does. This introduction can end with a period or with a colon.
     examples:
       - |
         **Example:**<br>
         The following sample shows how to activate your death ray:<br>
         ` evilLair.deathRay(max_strength); `
     audience: [tw, dev]
+    featured: |
+      [Introduce code samples with a summary or description of what the code does.]({{site.baseurl}}{{page.permalink}}formatting-and-organization/#introduce-code-samples)
+
 
   - rule: |
       ### Line wrapping<br>
@@ -56,6 +59,9 @@
       ### Captions<br>
       Put captions and descriptions after their associated image.
     audience: [tw, dev, mktg]
+    featured: |
+      [Put captions after their associated image.]({{site.baseurl}}{{page.permalink}}formatting-and-organization/#captions)
+
 
   - rule: |
       If you're including an image in procedural instructions, this means the image should appear first and its associated step (or steps) should appear afterwards.
@@ -92,6 +98,9 @@
       - |
         **Yes:** To <u>get started with FraudSensor</u>, you'll need to set up a detection tag.
     audience: [tw, dev, mktg]
+    featured: |
+      [Use descriptive link text.]({{site.baseurl}}{{page.permalink}}formatting-and-organization/#descriptive-link-text)
+
 
   - rule: |
       One way to write descriptive links is to use link text that's similar to the title of the link destination or provides additional information about the page you're linking to.<br>
@@ -129,8 +138,10 @@
 
   - rule: |
       ### Introduce lists<br>
-      Most lists need an introductory sentence (or paragraph) before the first list item begins. This introduction can end with a period or with a colon.
+      Introduce lists with a summary or description of what the list is for. This introduction can end with a period or with a colon.
     audience: [tw, dev]
+    featured: |
+      [Introduce lists with a summary or description of what the list is for.]({{site.baseurl}}{{page.permalink}}formatting-and-organization/#introduce-lists)
 
   - rule: |
       ### Ordered and unordered lists<br>
@@ -250,8 +261,10 @@
 
   - rule: |
       ### Introduce procedures<br>
-      Most procedural instructions need an introductory sentence (or paragraph) before the instructions begin. This introduction can end with a period or with a colon.
+      Introduce procedural instructions with a summary or description of what the procedure are for and what the reader will accomplish. This introduction can end with a period or with a colon.
     audience: [tw, dev]
+    featured: |
+      [Introduce procedural instructions with a summary or description of what the procedure is for.]({{site.baseurl}}{{page.permalink}}formatting-and-organization/#introduce-procedures)
 
   - rule: |
       ### List all the steps<br>
@@ -342,7 +355,7 @@
         Aquatic mammals are mammals that live primarily or entirely in water, including whales, dolphins, seals, and manatees. However, like all mammals, they still breathe air and must surface periodically to do so.
     audience: [tw, dev]
     featured: |
-      [All subheadings should be followed by a summary or description.]({{site.baseurl}}{{page.permalink}}formatting-and-organization/#include-descriptions-after-every-heading)
+      [All headings should be followed by a summary or description.]({{site.baseurl}}{{page.permalink}}formatting-and-organization/#include-descriptions-after-every-heading)
 
   - rule: |
       ### Heading hierarchy<br>
@@ -361,6 +374,12 @@
 
 - section: Miscellaneous
   topics:
+
+  - rule: |
+      ### Consistency 
+      Above all else, strive to be consistent across similar items in the same document. For example, if you're writing a glossary, decide whether each definition should be a complete sentence or not. Don't use complete sentences for search definitions and not others.
+    audience: [tw, dev, mktg]
+
 
   - rule: |
       ### Spaces
