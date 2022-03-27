@@ -160,7 +160,7 @@
     examples:
       - |
         **Example:**<br>
-        To turn on the light:<br>
+        To turn on the light:
           * Flip the light switch to the ON position.
     audience: [tw, dev]  
 
@@ -186,6 +186,7 @@
   - rule: |
       ### Sentence case for list items<br>
       Use sentence case for list items (including single-word items) unless the list item is case-sensitive or includes a `code` snippet.    
+    audience: [tw, dev]
   - rule: |
       ### To list or not to list?<br>
       If a list has fewer than three items, you might want to present the information in another format instead. 
@@ -293,10 +294,10 @@
     examples:
       - |
         **Example:**<br>
-        1. Open the door.<br>
-        2. Put on your shoes.<br>
-        3. Grab your keys.<br>
-        4. Close and lock the door behind you.
+          1. Open the door.
+          2. Put on your shoes.
+          3. Grab your keys.
+          4. Close and lock the door behind you.
     audience: [tw, dev]
 
 - section: Tables
