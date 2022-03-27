@@ -257,7 +257,7 @@
       ### List all the steps<br>
       Use a numbered list to write out each step in a procedure. However, if a procedure only has one step, use a bulleted list instead.<br>
 
-      For more information, see [Ordered and unordered lists]({{site.baseurl}}{{page.permalink}}/#ordered-and-unordered-lists).
+      For more information, see [Ordered and unordered lists]({{site.baseurl}}{{page.permalink}}#ordered-and-unordered-lists).
     audience: [tw, dev]
 
   - rule: |
