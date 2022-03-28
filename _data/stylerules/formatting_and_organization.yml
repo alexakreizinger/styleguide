@@ -320,6 +320,7 @@
     audience: [tw, dev]
 
   - rule: |
+      ### Table or list?
       If a table only has two columns, you should probably format the information as a [list]({{site.baseurl}}{{page.permalink}}#paired-data) instead.
     audience: [tw, dev]
 
@@ -377,7 +378,6 @@
       ### Consistency 
       Above all else, strive to be consistent across similar items in the same document. For example, if you're writing a glossary, decide whether each definition should be a complete sentence or not. Don't use complete sentences for search definitions and not others.
     audience: [tw, dev, mktg]
-
 
   - rule: |
       ### Spaces
