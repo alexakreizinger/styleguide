@@ -6,5 +6,17 @@ parent: All
 nav_exclude: true
 search_exclude: true
 ---
-# {{page.title}}
-![construction pikachu]({{ site.url }}{{ site.baseurl }}/assets/images/construction.gif)
+# {{page.title}} 
+{: .no_toc }
+<details markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+- TOC
+{:toc}
+</details>
+
+{% assign file = site.data.stylerules.punctuation%}
+
+{% include get_all_rules.md filename=file %}
