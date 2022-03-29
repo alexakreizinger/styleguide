@@ -49,7 +49,7 @@
     audience: [tw, dev]
 
   - rule: |
-      ### ...then add the rest
+      ### ...Then add the rest
       The rest of your description (after that first sentence) should include additional information about how and when to use the class, recommended uses, warnings, and so on.
     audience: [tw, dev]
 
@@ -61,7 +61,7 @@
       For each constant or field, write a brief description that links back to any relevant methods.
     audience: [tw, dev]
 
-- section: name
+- section: Methods
   topics:
 
   - rule: |
@@ -79,7 +79,7 @@
     audience: [tw, dev]
 
   - rule: |
-      ### ...then add the rest
+      ### ...Then add the rest
       The rest of your description (after that first sentence) should include additional information about how and when to use the method, requirements and prerequisites, exceptions that may occur, and so on.
     audience: [tw, dev]
 
