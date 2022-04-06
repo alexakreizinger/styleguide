@@ -16,7 +16,7 @@ If a UI element's name includes an ellipsis, don't include the ellpsis in your d
 Sometimes it's helpful to describe the task the reader should aim to accomplish rather than the specific buttons or steps they need to follow—especially if there are multiple ways to perform the same task or if the way you perform it isn't relevant to its outcome.<br>
 However, this isn't a fixed rule and often depends on other contextual factors.
 **Good:** Select **Save** before continuing.
-**Better:** Save your progress before continuing.
+**Better:** Save your progress before continuing.<br>
 
 ### UI elements as verbs
 Don't use the names of UI elements as verbs.
