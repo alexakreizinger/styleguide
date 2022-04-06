@@ -14,6 +14,7 @@
   - rule: |
       ### HUMAN product names<br>
       Don't abbreviate HUMAN's product names in public-facing documentation.
+      For more information, see [HUMAN's brand guidelines]({{site.baseurl}}{{page.permalink}}human-terminology/#brand-guidelines).
     examples:
       - |
         **No:** BGforA protects your website or application from bots.
@@ -90,7 +91,7 @@
   - rule: |
       ### HUMAN branding<br>
       Make sure to properly capitalize HUMAN and HUMAN's product names.<br> 
-      For more information, see HUMAN's brand guidelines.
+      For more information, see [HUMAN's brand guidelines]({{site.baseurl}}{{page.permalink}}human-terminology/#brand-guidelines).
     audience: [tw, dev, mktg]
     featured: |
       [Make sure to properly capitalize HUMAN and HUMAN's product names.]({{site.baseurl}}{{page.permalink}}grammar/#HUMAN-branding)
