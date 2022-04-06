@@ -55,9 +55,9 @@
       Try not to include generic element names (like *button* or *icon*) when instructing readers to interact with that element; instead, just use the name of the element.
     examples:
       - |
-        **Not ideal:** Select the **Install** button.
+        **No:** Select the **Install** button.
       - |
-        **Better:** Select **Install.**
+        **Yes:** Select **Install.**
     audience: [tw, dev]
 
   - rule: |
@@ -80,8 +80,11 @@
       * **Pane:** A distinct section or area within a larger window or page. Don't use the word *panel* as a substitute.
 
       * **Menu:** A general term for any list of items or options. If applicable, you can specify one of the following menu types:
+
           * **Drop-down menu:** A collapsible menu that lets you select from a list of items.
+
           * **Menu bar:** A menu displayed across the top of a page or window.
+          
           * **Navigation menu:** A menu that lets you select destinations (like a hamburger menu that lets you navigate the various pages of a website).
 
       * **Tab:** An element that resembles a physical file tab. The word *tab* may also refer to the area that that tab leads to or the elements that it contains. (For example: "Select the **Details** tab." versus "In the Details tab, you'll find information about...")
