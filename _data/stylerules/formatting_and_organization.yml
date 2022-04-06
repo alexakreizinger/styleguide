@@ -283,7 +283,7 @@
       ### One action per step<br>
       Generally speaking, each step in a procedure should describe a single action.<br>
 
-      However, sometimes it's helpful to combine several fast, closely related actions into a single step, especially to describe UI navigation. You can use [angle brackets]({{site.baseurl}}{{page.audience}}user-interfaces/#angle-brackets) to describe the process of navigating multiple menu items in a row.
+      However, sometimes it's helpful to combine several fast, closely related actions into a single step, especially to describe UI navigation. You can use [angle brackets]({{site.baseurl}}/{{page.audience}}/user-interfaces/#angle-brackets) to describe the process of navigating multiple menu items in a row.
     examples:
       - |
         **Example:** Select **Filter > Distort > Liquify**.
