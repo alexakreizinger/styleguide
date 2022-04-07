@@ -6,4 +6,4 @@ nav_order: 6
 ---
 ## :warning: UNDER CONSTRUCTION :warning:
 
-![construction pikachu](assets/images/construction.gif)
+![construction pikachu]({{"assets/images/construction.gif.jpg" | absolute_url}})
