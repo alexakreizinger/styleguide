@@ -1,5 +1,0 @@
-- |
-  [click me](https://{{ page.testVar }}.com)
-
-- |
-  {{ page.testVar2 }}
