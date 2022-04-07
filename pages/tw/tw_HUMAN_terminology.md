@@ -1,10 +1,10 @@
 ---
 layout: default
-permalink: /marketing/grammar/
-title: Grammar
-parent: Marketers
-audience: mktg
-nav_order: 2
+permalink: /techdocs/human-terminology/
+title: HUMAN Terminology
+parent: Technical Writers
+audience: tw
+nav_order: 1
 ---
 # {{page.title}} 
 {: .no_toc }
@@ -17,7 +17,7 @@ nav_order: 2
 {:toc}
 </details>
 
-{% assign file = site.data.stylerules.grammar %}
+{% assign file = site.data.stylerules.HUMAN_terminology %}
 {% assign aud = page.audience %}
 
 {% include get_rules_for_audience.md filename=file audience=aud %}

@@ -4,6 +4,20 @@ permalink: /techdocs/punctuation/
 title: Punctuation
 parent: Technical Writers
 audience: tw
+nav_order: 3
 ---
-# {{page.title}}
-![construction pikachu]({{ site.url }}{{ site.baseurl }}/assets/images/construction.gif)
+# {{page.title}} 
+{: .no_toc }
+<details markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+- TOC
+{:toc}
+</details>
+
+{% assign file = site.data.stylerules.punctuation %}
+{% assign aud = page.audience %}
+
+{% include get_rules_for_audience.md filename=file audience=aud %}

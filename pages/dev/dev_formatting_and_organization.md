@@ -4,6 +4,7 @@ permalink: /dev/formatting-and-organization/
 title: Formatting and Organization
 parent: Developers
 audience: dev
+nav_order: 5
 ---
 # {{page.title}} 
 {: .no_toc }

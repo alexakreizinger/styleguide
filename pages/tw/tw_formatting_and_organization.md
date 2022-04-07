@@ -4,6 +4,7 @@ permalink: /techdocs/formatting-and-organization/
 title: Formatting and Organization
 parent: Technical Writers
 audience: tw
+nav_order: 5
 ---
 # {{page.title}} 
 {: .no_toc }
