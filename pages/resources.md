@@ -4,15 +4,6 @@ permalink: /resources/
 title: Resources
 nav_order: 6
 ---
-# {{page.title}} 
-{: .no_toc }
-<details markdown="block">
-  <summary>
-    Table of contents
-  </summary>
-  {: .text-delta }
-- TOC
-{:toc}
-</details>
+## :warning: UNDER CONSTRUCTION :warning:
 
-![construction pikachu]({{ site.url }}{{ site.baseurl }}/assets/images/construction.gif)
+![construction pikachu](assets/images/construction.gif)
