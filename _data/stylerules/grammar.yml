@@ -193,12 +193,17 @@
   - rule: |
       ### *And* and *but*<br>
       It's okay to start a sentence with *and* or *but.*
-    audience: [tw, dev, mktg]
-  
+    audience: [tw, mktg]
+
+  - rule: |
+      ### Conditional clauses<br>
+      When applicable, put conditional clauses at the beginning of a sentence.
+    audience: [tw, mktg]
+
   - rule: |
       ### End prepositions<br>
       It's okay to end a sentence with a preposition. However, if rewriting the sentence to avoid using an end preposition would help make its meaning clearer, you should try to rewrite it.
-    audience: [tw, dev, mktg]
+    audience: [tw, mktg]
 
 - section: Spelling
   topics:
