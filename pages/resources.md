@@ -2,7 +2,7 @@
 layout: default
 permalink: /resources/
 title: Resources
-nav_order: 5
+nav_order: 6
 ---
 # {{page.title}} 
 {: .no_toc }

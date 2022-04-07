@@ -2,7 +2,7 @@
 layout: default
 permalink: /general-principles/
 title: General Principles
-nav_order: 1
+nav_order: 2
 ---
 # {{page.title}} 
 {: .no_toc }

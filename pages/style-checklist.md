@@ -1,8 +1,8 @@
 ---
 layout: default
 permalink: /style-checklist/
-title: Minimum Style Checklist
-nav_order: 6
+title: Style Checklist
+nav_order: 7
 ---
 # {{page.title}} 
 {: .no_toc }
