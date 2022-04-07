@@ -72,14 +72,14 @@ The `pages` folder for the actual style guide output. Each audience has its own 
 
 > **NOTE:** The `^[AUDIENCE].index.md` files start with a caret so that the index file will appear first alphabetically (because it's convenient when it's at the top of the list). The caret doesn't serve an actual purpose, Jekyll-wise.
 
-* For example, `pages/mktg/grammar.md` generates a page you can visit at https://alexakreizinger.github.io/styleguide/marketing/grammar/. 
+* For example, `pages/mktg/grammar.md` generates a page you can visit at https://alexakreizinger.github.io/styleguide/mktg/grammar/. 
 
 * The page itself pulls data from `_data/stylerules/grammar.yml`. It does this by using `include` to call upon the `get_rules_for_audience.md` (where the filename is `site.data.stylerules.grammar` and the audience is `dev`).
 
 * As such, the output will include all style rules from `_data/stylerules/grammar.yml` that are aimed at developers.
 
 #### **All**
-* audience: n/a
+* audience: all
 * url: `all`
 * title: All
 * (semi-secret; hidden from nav and search)
@@ -89,12 +89,14 @@ The `pages` folder for the actual style guide output. Each audience has its own 
 * title: Developers
 #### **Marketers**: 
 * audience: `mktg`
-* url: `/marketing/`
+* url: `/mktg/`
 * title: Marketers
 #### **Technical Writers**
 * audience: `tw`
-* url: `/techdocs/`
+* url: `/tw/`
 * title: Technical Writers
+
+> **NOTE:** Turns out that some of the Liquid stuff for autogenerating links between pages is way easier when an audience's `audience` value and `url` slug are the same. (The `all` audience now has an audience key just to make the URL part easier, even though the audience value isn't used to fetch any rules from the YAML files.)
 
 ### `YAMLtemplate.yml`
 
@@ -165,4 +167,4 @@ It has two lines!
 
 * If you're having issues getting images from the `assets` folder to display properly, try using the `{{ site.url }}{{ site.baseurl }}/assets/images/cats.png` path.
 
-* If you're using the Just the Docs theme and want your sidebar nav to have unclickable parent pages, just make the parent URL and the first child's URL equal the same path—for example, both `^_mktg_index.md` and `mktg_grammar.md` would have a path of `/marketing/grammar/`. However, all other parent/child requirements must be implemented as normal.
+* If you're using the Just the Docs theme and want your sidebar nav to have unclickable parent pages, just make the parent URL and the first child's URL equal the same path—for example, both `^_mktg_index.md` and `mktg_grammar.md` would have a path of `/mktg/grammar/`. However, all other parent/child requirements must be implemented as normal.
