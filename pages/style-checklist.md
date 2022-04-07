@@ -4,15 +4,6 @@ permalink: /style-checklist/
 title: Style Checklist
 nav_order: 7
 ---
-# {{page.title}} 
-{: .no_toc }
-<details markdown="block">
-  <summary>
-    Table of contents
-  </summary>
-  {: .text-delta }
-- TOC
-{:toc}
-</details>
+## :warning: UNDER CONSTRUCTION :warning:
 
-![construction pikachu]({{ site.url }}{{ site.baseurl }}/assets/images/construction.gif)
+![construction pikachu](assets/images/construction.gif)
