@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /marketing/punctuation/
+permalink: /mktg/punctuation/
 title: Punctuation
 parent: Marketers
 audience: mktg

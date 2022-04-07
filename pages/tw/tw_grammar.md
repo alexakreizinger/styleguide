@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /techdocs/grammar/
+permalink: /tw/grammar/
 title: Grammar
 parent: Technical Writers
 audience: tw

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /marketing/grammar/
+permalink: /mktg/grammar/
 title: Grammar
 parent: Marketers
 audience: mktg

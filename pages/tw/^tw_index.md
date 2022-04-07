@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /techdocs/
+permalink: /tw/
 title: Technical Writers
 has_children: true
 has_toc: false

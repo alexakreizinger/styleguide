@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /techdocs/api-reference/
+permalink: /tw/api-reference/
 title: API Reference
 parent: Technical Writers
 audience: tw

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /techdocs/punctuation/
+permalink: /tw/punctuation/
 title: Punctuation
 parent: Technical Writers
 audience: tw

@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /techdocs/human-terminology/
+permalink: /tw/human-terminology/
 title: HUMAN Terminology
 parent: Technical Writers
 audience: tw

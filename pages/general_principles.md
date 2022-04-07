@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /general-principles/
+permalink: /general/
 title: General Principles
 nav_order: 2
 ---

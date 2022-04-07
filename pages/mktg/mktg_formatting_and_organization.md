@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /marketing/formatting-and-organization/
+permalink: /mktg/formatting-and-organization/
 title: Formatting and Organization
 parent: Marketers
 audience: mktg

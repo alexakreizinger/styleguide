@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /marketing/human-terminology/
+permalink: /mktg/human-terminology/
 title: HUMAN Terminology
 parent: Marketers
 audience: mktg

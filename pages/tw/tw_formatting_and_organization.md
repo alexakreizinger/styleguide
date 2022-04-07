@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /techdocs/formatting-and-organization/
+permalink: /tw/formatting-and-organization/
 title: Formatting and Organization
 parent: Technical Writers
 audience: tw

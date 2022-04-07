@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /techdocs/user-interfaces/
+permalink: /tw/user-interfaces/
 title: User Interfaces
 parent: Technical Writers
 audience: tw

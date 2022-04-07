@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /style-checklist/
+permalink: /checklist/
 title: Style Checklist
 nav_order: 7
 ---

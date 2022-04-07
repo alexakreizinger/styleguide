@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /marketing/ 
+permalink: /mktg/ 
 title: Marketers
 has_children: true
 has_toc: false
