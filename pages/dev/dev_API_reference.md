@@ -1,7 +1,7 @@
 ---
 layout: default
-permalink: /dev/api-reference/
-title: API Reference
+permalink: /dev/apis-and-sdks/
+title: APIs and SDKs
 parent: Developers
 audience: dev
 nav_order: 7
@@ -17,7 +17,7 @@ nav_order: 7
 {:toc}
 </details>
 
-{% assign file = site.data.stylerules.API_reference %}
+{% assign file = site.data.stylerules.APIs_and_SDKs %}
 {% assign aud = page.audience %}
 
 {% include get_rules_for_audience.md filename=file audience=aud %}
