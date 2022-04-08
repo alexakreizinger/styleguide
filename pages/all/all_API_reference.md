@@ -1,7 +1,7 @@
 ---
 layout: default
-permalink: /all/api-reference/
-title: API Reference
+permalink: /all/apis-and-sdks/
+title: APIs and SDKs
 parent: All
 nav_exclude: true
 search_exclude: true
@@ -18,6 +18,6 @@ audience: all
 {:toc}
 </details>
 
-{% assign file = site.data.stylerules.API_reference %}
+{% assign file = site.data.stylerules.APIs_and_SDKs %}
 
 {% include get_all_rules.md filename=file %}

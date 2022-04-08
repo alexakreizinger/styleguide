@@ -36,9 +36,9 @@ nav_order: 5
 {% assign section6 = "User interfaces" %}
 {% capture link6 %}{{site.baseurl}}{{page.permalink}}user-interfaces/{% endcapture %}
 
-{% assign file7 = site.data.stylerules.API_reference %}
-{% assign section7 = "API reference" %}
-{% capture link7 %}{{site.baseurl}}{{page.permalink}}api-reference/{% endcapture %}
+{% assign file7 = site.data.stylerules.APIs_and_SDKs %}
+{% assign section7 = "APIs_and_SDKs" %}
+{% capture link7 %}{{site.baseurl}}{{page.permalink}}apis-and-sdks/{% endcapture %}
 
 ## Quick tips
 {% include get_featured_rules_for_audience.md filename=file1 audience=aud sectionname=section1 sectionlink=link1 %}

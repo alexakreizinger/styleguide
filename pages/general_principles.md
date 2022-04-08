@@ -19,6 +19,8 @@ nav_order: 2
 {:toc}
 </details>
 
+All-purpose tips to help you write, no matter the situation.
+
 ## Three pillars
 ### Be concise.
 Use straightforward, approachable language that speaks directly to the reader. 
