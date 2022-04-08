@@ -46,7 +46,7 @@
 
   - rule: |
       ### Simple vs. complex<br>
-      When possible, try to use short and simple words instead of complex, abstract words.
+      When possible, try to use short, simple words instead of complex, abstract words.
     examples:
       - |
         **Weak:** This setting facilitates data filtering.
@@ -54,7 +54,7 @@
         **Strong:** This setting lets you filter data.
     audience: [tw, dev, mktg]
     featured: |
-      [Simple words are usually better than complex words.]({{site.baseurl}}{{page.permalink}}tone-and-content/#simple-vs.-complex)
+      [Try to use short, simple words instead of complex, abstract words.]({{site.baseurl}}{{page.permalink}}tone-and-content/#simple-vs.-complex)
 
   - rule: |
       However, if there's no way to avoid using complicated words or technical jargon, it's often helpful to give a definition, include [a hyperlink]({{site.baseurl}}{{page.permalink}}formatting-and-organization/#links) to related materials, or provide other additional context.

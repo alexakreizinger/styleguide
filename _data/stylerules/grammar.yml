@@ -15,14 +15,7 @@
       ### HUMAN product names<br>
       Don't abbreviate HUMAN's product names in public-facing documentation.<br>
       For more information, see [HUMAN's brand guidelines]({{site.baseurl}}/{{page.audience}}/human-terminology/#brand-guidelines).
-    examples:
-      - |
-        **No:** BGforA protects your website or application from bots.
-      - |
-        **Yes:** BotGuard for Applications protects your website or application from bots.
     audience: [tw, dev, mktg]
-    featured: |
-      [Don't abbreviate HUMAN's product names.]({{site.baseurl}}/{{page.audience}}/grammar/#HUMAN-product-names)
 
   - rule: |
       ### Latin abbreviations<br>
@@ -93,8 +86,6 @@
       Make sure to properly capitalize HUMAN and HUMAN's product names.<br> 
       For more information, see [HUMAN's brand guidelines]({{site.baseurl}}/{{page.audience}}/human-terminology/#brand-guidelines).
     audience: [tw, dev, mktg]
-    featured: |
-      [Make sure to properly capitalize HUMAN and HUMAN's product names.]({{site.baseurl}}{{page.permalink}}grammar/#HUMAN-branding)
 
   - rule: |
       However, don't capitalize the names of product features or processes unless the feature or process in question is a proper noun. (Rule of thumb: when in doubt, leave it lowercase.)

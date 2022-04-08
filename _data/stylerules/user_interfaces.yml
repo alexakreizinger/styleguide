@@ -3,8 +3,13 @@
 
   - rule: |
       ### Bold UI elements<br>
-      When writing procedural instructions, if the reader must interact with a specific UI element, put the name of that UI element in bold. 
+      When writing procedural instructions, if the reader must interact with a specific UI element, put the name of that UI element in bold.
     audience: [tw, dev]
+    examples:
+      - |
+        **Example:** Select **About** to open the About page.
+    featured: |
+      [If the reader must interact with a specific UI element, put the name of that UI element in bold.]({{site.baseurl}}{{page.permalink}}user-interfaces/#bold-ui-elements)
 
   - rule: |
       ### Capitalize UI elements<br>
@@ -23,18 +28,25 @@
 
   - rule: |
       ### Task-oriented instructions<br>
-      Sometimes it's helpful to describe the task the reader should aim to accomplish rather than the specific buttons or steps they need to follow—especially if there are multiple ways to perform the same task or if the way you perform it isn't relevant to its outcome.<br>
-      However, this isn't a fixed rule and often depends on other contextual factors.
+      Sometimes it's helpful to describe the task the reader should aim to accomplish rather than the specific UI elements they need to interact with, especially if there are multiple ways to perform the same task or if the way you perform it isn't relevant to its outcome.<br>
+      However, this isn't a fixed rule and often depends on other factors.
     examples:
       - |
         **Good:** Select **Save** before continuing.
       - |
         **Better:** Save your progress before continuing.
-    audience: [tw, dev]
+    audience: [tw]
+    featured: |
+      [Try to write task-oriented instructions.]({{site.baseurl}}{{page.permalink}}user-interfaces/#task-oriented-instructions)
 
   - rule: |
       ### UI elements as verbs
       Don't use the names of UI elements as verbs.
+    examples: 
+      - |
+        **No:** When you're finished, **Exit** your session.
+      - |
+        **Yes:** When you're finished, select **Exit** to end your session.
     audience: [tw, dev]
 
 - section: Interacting with UIs
@@ -45,10 +57,12 @@
       You can use angle brackets (in bold) to describe the process of navigating multiple menu items in a row.
     examples:
       - |
-        **Good:** In the **Filter** menu, select **Distort**, then select **Liquify**.
+        **Good:** Open the **Filter** menu, then select **Distort**, then select **Liquify**.
       - |
         **Better:** Select **Filter > Distort > Liquify**.
     audience: [tw, dev]
+    featured: |
+      [Use angle brackets to describe the process of navigating multiple menu items in a row.]({{site.baseurl}}{{page.permalink}}user-interfaces/#angle-brackets)
 
   - rule: |
       ### Generic element names<br>
@@ -64,39 +78,41 @@
       ### *Select* vs. *click*<br>
       When directing readers to interact with a UI element, try to use *select* instead of *click*. The word *click* implies that the reader must be using a mouse; *select* is a broad term that encompasses mouse clicks, touchscreen taps, keyboard shortcuts, and more.
     audience: [tw, dev]
+    featured: |
+      [Use *select* instead of *click*.]({{site.baseurl}}{{page.permalink}}user-interfaces/#select-vs-click)
 
 - section: UI terminology
   topics:
 
   - rule: |
-      * **Screen:** The physical screen of a device, like a computer or smartphone. Do not use *screen* in reference to software UIs; however, *screen* is often mistakenly used in place of *page*.
+      * **screen:** The physical screen of a device, like a computer or smartphone. Do not use *screen* in reference to software UIs; however, *screen* is often mistakenly used in place of *page*.
 
-      * **Window:** A self-contained element that you can open and close.
+      * **window:** A self-contained element that you can open and close.
 
-      * **Page:** The active area or interface within an application, program, or website.
+      * **page:** The active area or interface within an application, program, or website.
 
-      * **Dialog box:** A small window that appears on top of the main interface. Although most dialog boxes are technically pop-ups, don't refer to them as *pop-ups*.
+      * **dialog box:** A small window that appears on top of the main interface. Although most dialog boxes are technically pop-ups, don't refer to them as *pop-ups*.
 
-      * **Pane:** A distinct section or area within a larger window or page. Don't use the word *panel* as a substitute.
+      * **pane:** A distinct section or area within a larger window or page. Don't use the word *panel* as a substitute.
 
-      * **Menu:** A general term for any list of items or options. If applicable, you can specify one of the following menu types:
+      * **menu:** A general term for any list of items or options. If applicable, you can specify one of the following menu types:
 
-          * **Drop-down menu:** A collapsible menu that lets you select from a list of items.
+          * **drop-down menu:** A collapsible menu that lets you select from a list of items.
 
-          * **Menu bar:** A menu displayed across the top of a page or window.
+          * **menu bar:** A menu displayed across the top of a page or window.
           
-          * **Navigation menu:** A menu that lets you select destinations (like a hamburger menu that lets you navigate the various pages of a website).
+          * **navigation menu:** A menu that lets you select destinations (like a hamburger menu that lets you navigate the various pages of a website).
 
-      * **Tab:** An element that resembles a physical file tab. The word *tab* may also refer to the area that that tab leads to or the elements that it contains. (For example: "Select the **Details** tab." versus "In the Details tab, you'll find information about...")
+      * **tab:** An element that resembles a physical file tab. The word *tab* may also refer to the area that that tab leads to or the elements that it contains. (For example: "Select the **Details** tab." versus "In the Details tab, you'll find information about...")
 
-      * **Text box:** An element that lets you enter text.
+      * **text box:** An element that lets you enter text.
 
-      * **Checkbox:** An element that lets you select/unselect a single option or select/unselect any combination of options from a list of items. Try not to use the words *check* or *uncheck* to describe interaction with checkboxes; instead, use *select* or *unselect*. 
+      * **checkbox:** An element that lets you select/unselect a single option or select/unselect any combination of options from a list of items. Try not to use the words *check* or *uncheck* to describe interaction with checkboxes; instead, use *select* or *unselect*. 
 
-      * **Radio button:** An element that lets you select one option from a list of multiple items.
+      * **radio button:** An element that lets you select one option from a list of multiple items.
 
-      * **Toggle:** An element that lets you switch a single option between two states (but does not resemble a checkbox). 
+      * **toggle:** An element that lets you switch a single option between two states (but does not resemble a checkbox). 
 
-      * **Expander arrow:** An small arrow or triangle that lets the user expand or collapse a specific UI element. 
+      * **expander arrow:** An small arrow or triangle that lets the user expand or collapse a specific UI element. 
 
     audience: [tw, dev]

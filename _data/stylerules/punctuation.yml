@@ -33,7 +33,7 @@
 
   - rule: |
       ### Introductory phrases<br>
-      Use a comma after introductory phrases (like *however* or *furthermore* or *on the other hand*).
+      Use a comma after an introductory phrase (like *however* or *furthermore* or *on the other hand*).
     examples:
       - |
         **Example:** Despite this, we reached the mouth of the cave by sundown.
@@ -41,13 +41,15 @@
 
   - rule: |
       ### Serial commas<br>
-      Use serial (Oxford) commas.
+      Use serial commas (also known as *Oxford commas*).
     examples:
       - |
         **No:** I love my parents, Godzilla and Wonder Woman.
       - |
         **Yes:** I love my parents, Godzilla, and Wonder Woman.
     audience: [tw, dev, mktg]
+    featured: |
+      [Use serial commas.]({{site.baseurl}}{{page.permalink}}punctuation/#serial-commas)
 
 - section: Dashes
   topics:
@@ -118,7 +120,7 @@
 
   - rule: |
       ### Mid-sentence parentheticals<br>
-      Parenthetical statements are useful for mid-sentence examples and short asides (like this one), but excessively long and complicated parentheticals may be better of rewritten as their own sentence (or else you'll end up with a meandering, monstrous behemoth of a sentence that seems to go on and on and on).
+      Parenthetical statements are useful for mid-sentence examples and short asides (like this one), but excessively long and complicated parentheticals may be better of rewritten as their own sentence (or else you'll end up with a meandering, monstrous behemoth of a sentence that seems to go on and on and on with no end in sight).
     audience: [tw, mktg]
 
 - section: Semicolons

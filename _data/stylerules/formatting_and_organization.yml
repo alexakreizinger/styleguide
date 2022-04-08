@@ -16,12 +16,12 @@
   - rule: |
       ### Callout frequency<br>
       Don't use an excessive number of callout boxes in a single document, and try not to use two callout boxes consecutively with no intervening text between them (if you can avoid it).
-    audience: [tw, dev]
+    audience: [tw]
 
   - rule: |
       ### Keep callouts short<br>
       Try not to use callout boxes that contain long walls of text.
-    audience: [tw, dev]
+    audience: [tw]
 
 - section: Code samples
   topics:
@@ -31,7 +31,7 @@
       Use `code` font for inline code samples, including method names and variable names, and code blocks for larger code samples.
     examples:
       - |
-        **Example:** The `isRaining` Boolean can be true or false.
+        **Example:** The `isRaining` variable can either be true or false.
     audience: [tw, dev]
 
   - rule: |
@@ -46,12 +46,6 @@
     featured: |
       [Introduce code samples with a summary or description of what the code does.]({{site.baseurl}}{{page.permalink}}formatting-and-organization/#introduce-code-samples)
 
-
-  - rule: |
-      ### Line wrapping<br>
-      Use line wrapping in long code blocks.
-    audience: [tw, dev]
-
 - section: Images and screenshots
   topics:
 
@@ -61,7 +55,6 @@
     audience: [tw, dev, mktg]
     featured: |
       [Put captions after their associated image.]({{site.baseurl}}{{page.permalink}}formatting-and-organization/#captions)
-
 
   - rule: |
       If you're including an image in procedural instructions, this means the image should appear first and its associated step (or steps) should appear afterwards.
@@ -189,13 +182,14 @@
 
   - rule: |
       ### Parallel structure<br>
-      Use parallel structure between items in the same list whenever possible. For example, you might start each list item with a verb or write each list item as a complete sentence.
+      Try to use parallel structure between different items in the same list. For example, you might start each list item with a verb or write each list item as a complete sentence.
     audience: [tw, dev]  
 
   - rule: |
       ### Sentence case for list items<br>
       Use sentence case for list items (including single-word items) unless the list item is case-sensitive or includes a `code` snippet.    
     audience: [tw, dev]
+
   - rule: |
       ### To list or not to list?<br>
       If a list has fewer than three items, you might want to present the information in another format instead. 
@@ -212,35 +206,35 @@
         **Example:** A bass guitar can have four, five, or six strings.
       - |
         **Example:** Files should not exceed 8 MB in size.
-    audience: [tw, dev, mktg]
+    audience: [tw, mktg]
 
   - rule: |
       However, if another numeral appears in the same sentence, use numerals consistently throughout.
     examples:
       - |
         **Example:** Of the dentists surveyed, only 1 in 100 recommended using chocolate frosting instead of toothpaste.
-    audience: [tw, dev, mktg]
+    audience: [tw, mktg]
 
   - rule: |
       Use numerals for numbers 10 and higher.
     examples:
       - |
         **Example:** There were 14 penguins at the zoo.
-    audience: [tw, dev, mktg]
+    audience: [tw, mktg]
 
   - rule: |
       If an ordinal number appears in a sentence (like *first*, *third*, or *twenty-ninth*), spell it out.
     examples:
       - |
         **Example:** The seventh page contains information about your warranty.
-    audience: [tw, dev, mktg]
+    audience: [tw, mktg]
 
   - rule: |
       Spell out indefinite and nonspecific numbers.
     examples:
       - |
         **Example:** Millions of people suffer from seasonal allergies.
-    audience: [tw, dev, mktg]
+    audience: [tw, mktg]
 
 - section: Procedural instructions
   topics:
@@ -376,11 +370,16 @@
   topics:
 
   - rule: |
+      ### Avoid walls of text<br>
+      Try to break up long stretches of text by adding subheadings, using bullet points, or splitting one long paragraph into several smaller paragraphs.
+    audience: [tw, dev, mktg]
+
+  - rule: |
       ### Consistency 
       Above all else, strive to be consistent across similar items in the same document. For example, if you're writing a glossary, decide whether each definition should be a complete sentence or not. Don't use complete sentences for search definitions and not others.
     audience: [tw, dev, mktg]
 
   - rule: |
       ### Spaces
-      Use one space after a period (or question mark or exclamation mark), not two.
+      Use one space after each sentence, not two.
     audience: [tw, dev, mktg]

@@ -8,8 +8,12 @@
 
   - rule: |
       ### Describe (almost) everything<br>
-      Include a description for almost every aspect of your API or SDK, including (but not limited to) every class, constant, field, and method. Methods in particular should include a description of each parameter, return value, and possible exceptions thrown.
+      Include a description for almost every aspect of your API or SDK, including (but not limited to) every class, constant, field, and method.<br>
+      
+      Methods in particular should include a description of each parameter, return value, and possible exceptions thrown.
     audience: [tw, dev]
+    featured: |
+      [Describe (almost) everything.]({{site.baseurl}}{{page.permalink}}api-reference/#describe-almost-everything)
 
   - rule: |
       ### Code elements as plural nouns<br>

@@ -5,11 +5,24 @@
       ### Capitalize HUMAN<br>
       The name of our company is **HUMAN** or **HUMAN Security**.
     audience: [tw, dev, mktg]
+    featured: |
+      [Make sure to properly capitalize HUMAN and HUMAN's product names.]({{site.baseurl}}{{page.permalink}}human-terminology/#capitalize-HUMAN)
 
   - rule: |
       ### Product names<br>
       Our product offerings include **MediaGuard**, **FraudSensor**, **BotGuard for Growth Marketing**, **Botguard for Applications**, and **the HUMAN Mobile SDK**.
     audience: [tw, dev, mktg]
+
+  - rule: |
+      Don't abbreviate HUMAN's product names in public-facing documentation.<br>
+    examples:
+      - |
+        **No:** BGforA protects your website or application from bots.
+      - |
+        **Yes:** BotGuard for Applications protects your website or application from bots.
+    audience: [tw, dev, mktg]
+    featured: |
+      [Don't abbreviate HUMAN's product names.]({{site.baseurl}}{{page.permalink}}human-terminology/#product-names)
 
   - rule: |
       ### Internal vs. external names<br>
@@ -20,6 +33,8 @@
       - |
         Instead of Draco, say **the HUMAN Mobile SDK**. 
     audience: [tw, dev]
+    featured: |
+      [Don't use internal product codenames in public-facing documentation.]({{site.baseurl}}{{page.permalink}}human-terminology/#internal-vs-external-names)
 
 - section: Other terminology
   topics:
@@ -28,11 +43,13 @@
       ### Bots aren't always bad<br>
       Don't use the word *bot* to mean *bad bot*; if you're referring to a bad bot, use a descriptive adjective like *bad* or *malicious*. Similarly, if you're referring to a good or neutral bot, use a descriptive adjective like *benign* or *helpful*.
     audience: [tw, dev, mktg]
+    featured: |
+      [Not all bots are bad.]({{site.baseurl}}{{page.permalink}}human-terminology/#bots-aren't-always-bad)
 
   - rule: |
       ### Hackers aren't always bad, either<br>
       Good hackers exist—many of them work for HUMAN! Don't use the word *hacker* to mean *bad hacker*; if you're referring to a bad hacker, use a descriptive adjective like *dangerous* or *malicious*. You can also use general terms like *fraudster*, *cybercriminal*, or *bad actor*. 
-    audience: [tw, dev, mktg]
+    audience: [mktg]
 
   - rule: |
       ### *Signals* vs. *data*<br>
