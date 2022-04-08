@@ -37,7 +37,7 @@ nav_order: 5
 {% capture link6 %}{{site.baseurl}}{{page.permalink}}user-interfaces/{% endcapture %}
 
 {% assign file7 = site.data.stylerules.APIs_and_SDKs %}
-{% assign section7 = "APIs_and_SDKs" %}
+{% assign section7 = "APIs and SDKs" %}
 {% capture link7 %}{{site.baseurl}}{{page.permalink}}apis-and-sdks/{% endcapture %}
 
 ## Quick tips
