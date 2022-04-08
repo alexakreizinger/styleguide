@@ -6,7 +6,7 @@
       The name of our company is **HUMAN** or **HUMAN Security**.
     audience: [tw, dev, mktg]
     featured: |
-      [Make sure to properly capitalize HUMAN and HUMAN's product names.]({{site.baseurl}}{{page.permalink}}human-terminology/#capitalize-HUMAN)
+      [Make sure to properly capitalize HUMAN and HUMAN's product names.]({{site.baseurl}}{{page.permalink}}human-terminology/#capitalize-human)
 
   - rule: |
       ### Product names<br>
