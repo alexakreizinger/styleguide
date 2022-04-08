@@ -18,3 +18,11 @@ nav_order: 1
 * Create "minimum viable documentation" style checklist
 
 * Write a better homepage
+
+* Migrate site from GitHub to GitLab
+
+* Remove the "WIP" terminology from site title/flavor text
+
+* Add HUMAN logo favicon
+
+* Try to add custom CSS for font style/link colors?
