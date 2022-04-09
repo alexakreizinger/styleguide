@@ -1,3 +1,6 @@
+description: This is a description!
+
+rules:
 - section: Best practices
   topics:
 
