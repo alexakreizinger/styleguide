@@ -37,7 +37,7 @@ Outputs every applicable rule in a given `_data/stylerules/` file based on your 
 #### `get_featured_rules_for_audience`
 Outputs every "featured" rule in a given `_data/stylerules/` file based on your audience of choice (current options: `dev`, `mktg`, and `tw`). Currently used on parent pages for each audience.
 
-**Usage** (when including in an actual page):
+**Usage** (when including in an index page):
 ```
 {% assign aud = "[YOURAUDIENCE]" %}
 {% assign file1 = site.data.stylerules.[YOURFILE] %}
