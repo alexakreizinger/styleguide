@@ -1,4 +1,5 @@
-{% for sect in include.filename %}
+{{ include.filename.description }}
+{% for sect in include.filename.rules %}
     {% for stylerule in sect.topics %}
         {% if stylerule.audience contains include.audience %}
 ## {{ sect.section }}

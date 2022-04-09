@@ -1,5 +1,4 @@
 {{ include.filename.description }}
-
 {% for sect in include.filename.rules %}
 ## {{ sect.section }}
     {% for stylerule in sect.topics %}
