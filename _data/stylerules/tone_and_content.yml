@@ -1,3 +1,6 @@
+description: Guidelines about what to say and how to say it.
+
+rules:
 - section: HUMAN products
   topics:
 
@@ -32,7 +35,6 @@
     audience: [tw, dev, mktg]
     featured: |
       [Write for a broad audience, not just for experts.]({{site.baseurl}}{{page.permalink}}tone-and-content/#write-for-non-experts)
-
 
 - section: Word choice
   topics:

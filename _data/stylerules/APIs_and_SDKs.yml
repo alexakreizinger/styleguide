@@ -1,4 +1,4 @@
-description: This is a description!
+description: Guidelines for documenting APIs and SDKs.
 
 rules:
 - section: Best practices
