@@ -19,7 +19,7 @@ nav_order: 2
 {:toc}
 </details>
 
-All-purpose tips to help you write, no matter the situation.
+All-purpose tips to help you write in any situation. 
 
 ## Three pillars
 ### Be concise.
