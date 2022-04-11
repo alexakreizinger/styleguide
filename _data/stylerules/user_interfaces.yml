@@ -88,34 +88,34 @@ rules:
   topics:
 
   - rule: |
-      * **screen:** The physical screen of a device, like a computer or smartphone. Do not use *screen* in reference to software UIs; however, *screen* is often mistakenly used in place of *page*.
+      * **Screen:** The physical screen of a device, like a computer or smartphone. Do not use *screen* in reference to software UIs; however, *screen* is often mistakenly used in place of *page*.
 
-      * **window:** A self-contained element that you can open and close.
+      * **Window:** A self-contained element that you can open and close.
 
-      * **page:** The active area or interface within an application, program, or website.
+      * **Page:** The active area or interface within an application, program, or website.
 
-      * **dialog box:** A small window that appears on top of the main interface. Although most dialog boxes are technically pop-ups, don't refer to them as *pop-ups*.
+      * **Dialog box:** A small window that appears on top of the main interface. Although most dialog boxes are technically pop-ups, don't refer to them as *pop-ups*.
 
-      * **pane:** A distinct section or area within a larger window or page. Don't use the word *panel* as a substitute.
+      * **Pane:** A distinct section or area within a larger window or page. Don't use the word *panel* as a substitute.
 
-      * **menu:** A general term for any list of items or options. If applicable, you can specify one of the following menu types:
+      * **Menu:** A general term for any list of items or options. If applicable, you can specify one of the following menu types:
 
-          * **drop-down menu:** A collapsible menu that lets you select from a list of items.
+          * **Drop-down menu:** A collapsible menu that lets you select from a list of items.
 
-          * **menu bar:** A menu displayed across the top of a page or window.
+          * **Menu bar:** A menu displayed across the top of a page or window.
           
-          * **navigation menu:** A menu that lets you select destinations (like a hamburger menu that lets you navigate the various pages of a website).
+          * **Navigation menu:** A menu that lets you select destinations (like a hamburger menu that lets you navigate the various pages of a website).
 
-      * **tab:** An element that resembles a physical file tab. The word *tab* may also refer to the area that that tab leads to or the elements that it contains. (For example: "Select the **Details** tab." versus "In the Details tab, you'll find information about...")
+      * **Tab:** An element that resembles a physical file tab. The word *tab* may also refer to the area that that tab leads to or the elements that it contains. (For example: "Select the **Details** tab." versus "In the Details tab, you'll find information about...")
 
-      * **text box:** An element that lets you enter text.
+      * **Text box:** An element that lets you enter text.
 
-      * **checkbox:** An element that lets you select/unselect a single option or select/unselect any combination of options from a list of items. Try not to use the words *check* or *uncheck* to describe interaction with checkboxes; instead, use *select* or *unselect*. 
+      * **Checkbox:** An element that lets you select/unselect a single option or select/unselect any combination of options from a list of items. Try not to use the words *check* or *uncheck* to describe interaction with checkboxes; instead, use *select* or *unselect*. 
 
-      * **radio button:** An element that lets you select one option from a list of multiple items.
+      * **Radio button:** An element that lets you select one option from a list of multiple items.
 
-      * **toggle:** An element that lets you switch a single option between two states (but does not resemble a checkbox). 
+      * **Toggle:** An element that lets you switch a single option between two states (but does not resemble a checkbox). 
 
-      * **expander arrow:** An small arrow or triangle that lets the user expand or collapse a specific UI element. 
+      * **Expander arrow:** An small arrow or triangle that lets the user expand or collapse a specific UI element. 
 
     audience: [tw, dev]
