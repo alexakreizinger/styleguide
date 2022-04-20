@@ -88,6 +88,9 @@ rules:
   topics:
 
   - rule: |
+
+      When describing the elements of an interface, use the following standardized terms:<br>
+
       * **Screen:** The physical screen of a device, like a computer or smartphone. Do not use *screen* in reference to software UIs; however, *screen* is often mistakenly used in place of *page*.
 
       * **Window:** A self-contained element that you can open and close.

@@ -54,16 +54,13 @@ rules:
     featured: |
       [Use serial commas.]({{site.baseurl}}{{page.permalink}}punctuation/#serial-commas)
 
-- section: Dashes
+- section: Dashes and hyphens
   topics:
 
   - rule: |
       ### Em dashes<br>
       You can use em dashes—just don't put spaces between the em dash and the words surrounding it.
-    audience: [tw, dev, mktg]
-
-- section: Hyphens
-  topics:
+    audience: [tw, mktg]
 
   - rule: |
       ### Compound modifiers<br>
@@ -77,10 +74,10 @@ rules:
 
   - rule: |
       ### Compound words<br>
-      You can use hyphens to eliminate ambiguity for certain compound words (at your discretion). A good rule of thumb is to use a hyphen for compound words that aren't widely used or that could be mistaken for another word.
+      Sometimes it's helpful to hyphenate compound words to avoid ambiguity. A good rule of thumb is to use a hyphen for compound words that aren't widely used or that could be mistaken for another word.
     examples:
       - |
-        **Hyphenated:** re-create, pre-date
+        **Hyphenated:** re-create, pre-date<br>
       - |
         **Not hyphenated:** remix, prepaid
     audience: [tw, mktg]
@@ -91,7 +88,7 @@ rules:
     examples:
       - |
         **Example:** Files with non-JSON syntax are unsupported.
-    audience: [tw, dev, mktg]
+    audience: [tw, mktg]
 
   - rule: |
       ### Suspended hyphens<br>
@@ -119,7 +116,7 @@ rules:
         **Outside parentheses:** It's legal to own a zebra in certain states (like Nevada).
       - |
         **Inside parentheses:** It's legal to own a zebra in certain states. (Nevada is one of them.)
-    audience: [tw, dev, mktg]
+    audience: [tw, mktg]
 
   - rule: |
       ### Mid-sentence parentheticals<br>

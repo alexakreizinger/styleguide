@@ -18,6 +18,7 @@ rules:
   - rule: |
       ### HUMAN product names<br>
       Don't abbreviate HUMAN's product names in public-facing documentation.<br>
+
       For more information, see [HUMAN's brand guidelines]({{site.baseurl}}/{{page.audience}}/human-terminology/#brand-guidelines).
     audience: [tw, dev, mktg]
 
@@ -33,11 +34,11 @@ rules:
         **Also yes:** Many sea creatures (fish, crabs, sharks, etc.) live at the beach.
       - |
         **Also also yes:** Many sea creatures (e.g., the loggerhead turtle) are endangered.
-    audience: [tw, dev, mktg]
+    audience: [tw, mktg]
 
   - rule: |
       Don't confuse *i.e.* (*id est*, that is to say) and *e.g.* (*exempli gratia*, for the sake of example). When in doubt, spell it out—use the English phrase instead!
-    audience: [tw, dev, mktg]
+    audience: [tw, mktg]
 
   - rule: |
       ### Spell out abbreviations<br>
@@ -46,7 +47,6 @@ rules:
       - |
         **Example:** The HUMAN Dashboard supports single sign-on (SSO). To configure SSO for your organization...
     audience: [tw, dev, mktg]
-
 
 - section: Active and passive voice
   topics:
@@ -75,31 +75,6 @@ rules:
       - |
         **Yes:** Your password will be reset.<br>
         (Since the reader doesn't need to do anything, the performer of the action is less important than its outcome.)
-    audience: [tw, dev, mktg]
-
-- section: Capitalization
-  topics:
-
-  - rule: |
-      ### Glossary entries<br>
-      Don't capitalize the name of glossary entries or index terms unless the term is a proper noun.
-    audience: [tw, dev]
-
-  - rule: |
-      ### HUMAN branding<br>
-      Make sure to properly capitalize HUMAN and HUMAN's product names.<br> 
-      For more information, see [HUMAN's brand guidelines]({{site.baseurl}}/{{page.audience}}/human-terminology/#brand-guidelines).
-    audience: [tw, dev, mktg]
-
-  - rule: |
-      However, don't capitalize the names of product features or processes unless the feature or process in question is a proper noun. (Rule of thumb: when in doubt, leave it lowercase.)
-    audience: [tw, dev, mktg]
-
-- section: Contractions
-  topics:
-  - rule: |
-      ### Contractions are okay<br>
-      It's okay to use contractions. 
     audience: [tw, dev, mktg]
 
 - section: Pronouns
@@ -156,11 +131,11 @@ rules:
     examples:
       - |
         **Unclear:** Send all data to HUMAN's secure servers via carrier pigeon. This prevents hackers from intercepting your data.<br>
-        (Which part thwarts hackers: sending data to HUMAN's secure servers, or the fact it was sent via carrier pigeon?)
+        (Which part thwarts hackers: sending data to HUMAN's secure servers, or the fact your data was sent via carrier pigeon?)
       - |
         **Clear:** Send all data to HUMAN's secure servers via carrier pigeon. This pigeon relay prevents hackers from intercepting your data.<br>
         (The pigeons thwart hackers!)
-    audience: [tw, dev, mktg]
+    audience: [tw, mktg]
 
   - rule: |
       ### Referring to groups of people<br>
@@ -180,7 +155,7 @@ rules:
         **Restrictive:** The new bass that I bought last week has two humbucker pickups.  
       - |
         **Nonrestrictive:** The new bass, which I bought last week, has two humbucker pickups.
-    audience: [tw, dev, mktg]
+    audience: [tw, mktg]
 
 - section: Sentence structure
   topics:
@@ -214,7 +189,7 @@ rules:
       However, there may be exceptions to this rule when addressing audiences who are accustomed to another form of English—for example, if you're writing a sales deck for a European audience, it may be more appropriate to use British English. 
     audience: [mktg]
 
-- section: Tense
+- section: Verbs and tense
   topics:
 
   - rule: |
@@ -231,9 +206,6 @@ rules:
       - |
         **Example:** If you run multiple reports, each report will generate its own file.
     audience: [tw, dev]
-
-- section: Verbs
-  topics:
 
   - rule: |
       ### API reference<br>
@@ -254,8 +226,17 @@ rules:
         **Example:** Call `end()` to cancel the current session.
     audience: [tw, dev]
 
+  - rule: |
+      For more information, see [APIs and SDKs]({{site.baseurl}}/{{page.audience}}/apis-and-sdks/) and [Procedural Instructions]({{site.baseurl}}/{{page.audience}}/formatting-and-organization/#procedural-instructions).
+    audience: [tw, dev]
+
 - section: Miscellaneous
   topics:
+
+  - rule: |
+      ### Contractions<br>
+      It's okay to use contractions. 
+    audience: [tw, dev, mktg]
 
   - rule: |
       ### *Data* is singular<br>

@@ -6,7 +6,7 @@ rules:
 
   - rule: |
       ### Callout types<br>
-      Callout boxes are a great way to highlight important information or notices. There are three main types of callout boxes:
+      Callout boxes (sometimes known as *admonitions*) are a great way to highlight important information or notices. There are three main types of callout boxes:
     examples:
       - |
         **Info/Note:** A useful (but not urgent) message. Notes often provide clarifying information, tips and tricks, or additional advice.
@@ -26,6 +26,20 @@ rules:
       Try not to use callout boxes that contain long walls of text.
     audience: [tw]
 
+- section: Capitalization
+  topics:
+
+  - rule: |
+      ### HUMAN branding<br>
+      Make sure to properly capitalize HUMAN and HUMAN's product names.<br> 
+
+      For more information, see [HUMAN's brand guidelines]({{site.baseurl}}/{{page.audience}}/human-terminology/#brand-guidelines).
+    audience: [tw, dev, mktg]
+
+  - rule: |
+      However, don't capitalize the names of product features or processes unless the feature or process in question is a proper noun. (Rule of thumb: when in doubt, leave it lowercase.)
+    audience: [tw, dev, mktg]
+
 - section: Code samples
   topics:
 
@@ -43,11 +57,15 @@ rules:
     examples:
       - |
         **Example:**<br>
-        The following sample shows how to activate your death ray:<br>
+        The following sample shows how to activate your death ray at maximum strength:<br>
         ` evilLair.deathRay(max_strength); `
     audience: [tw, dev]
     featured: |
       [Introduce code samples with a summary or description of what the code does.]({{site.baseurl}}{{page.permalink}}formatting-and-organization/#introduce-code-samples)
+
+  - rule: |
+      For more information about including code samples in documentation, see [APIs and SDKs]({{site.baseurl}}/{{page.audience}}/apis-and-sdks/).
+    audience: [tw, dev]
 
 - section: Images and screenshots
   topics:
@@ -97,7 +115,6 @@ rules:
     featured: |
       [Use descriptive link text.]({{site.baseurl}}{{page.permalink}}formatting-and-organization/#descriptive-link-text)
 
-
   - rule: |
       One way to write descriptive links is to use link text that's similar to the title of the link destination or provides additional information about the page you're linking to.<br>
 
@@ -105,21 +122,21 @@ rules:
     examples: 
       - |
         **Example:** Follow the steps outlined in <u>Getting Started With FraudSensor</u> before proceeding. 
-    audience: [tw, dev, mktg]
+    audience: [tw, mktg]
 
   - rule: |
       If you don't include the exact title of a page, capitalize the link text as if it were part of a normal sentence.
     examples: 
       - |
         **Example:** Make sure you've <u>installed FraudSensor</u> before proceeding.
-    audience: [tw, dev, mktg]
+    audience: [tw, mktg]
 
   - rule: |
       However, if it's too hard to seamlessly integrate a link into a sentence, you can also write a new, complete sentence that directs readers towards a relevant topic. These sentences should typically begin with a phrase like "For more information," or "To learn more about [topic]," before including the link.
     examples: 
       - |
         **Example:** For more information, consult our <u>FraudSensor Parameters</u> guide.
-    audience: [tw, dev, mktg]
+    audience: [tw, mktg]
 
   - rule: |
       ### Link the first instance<br>
@@ -150,7 +167,7 @@ rules:
     audience: [tw, dev]
 
   - rule: |
-      When the order of list items is important, use a numbered (ordered) list. This usually appplies to sequences of steps or instructions. 
+      When the order of list items is important, use a numbered (ordered) list. This usually appplies to [sequences of steps or instructions]({{site.baseurl}}{{page.permalink}}formatting-and-organization/#procedural-instructions). 
     examples:
       - |
         **Example:** <br>
@@ -187,11 +204,6 @@ rules:
       ### Parallel structure<br>
       Try to use parallel structure between different items in the same list. For example, you might start each list item with a verb or write each list item as a complete sentence.
     audience: [tw, dev]  
-
-  - rule: |
-      ### Sentence case for list items<br>
-      Use sentence case for list items (including single-word items) unless the list item is case-sensitive or includes a `code` snippet.    
-    audience: [tw, dev]
 
   - rule: |
       ### To list or not to list?<br>
@@ -274,7 +286,7 @@ rules:
     examples:
       - |
         **Example:** Using the **Country** drop-down menu, select your country of residence.
-    audience: [tw, dev]
+    audience: [tw]
 
   - rule: |
       ### One action per step<br>
@@ -294,7 +306,7 @@ rules:
         **No:** Select **New file** to create a new file.
       - |
         **Yes:** To create a new file, select **New file**.
-    audience: [tw, dev]
+    audience: [tw]
 
   - rule: |
       ### Parallel structure<br>
@@ -346,10 +358,12 @@ rules:
     examples:
       - |
         **Example:**<br>
-        \#\# Mammals<br>
-        Mammals are warm-blooded vertebrates. They can live in water or on land.<br>
-        \#\#\# Aquatic mammals<br>
+        ```
+        ## Mammals
+        Mammals are warm-blooded vertebrates. They can live in water or on land.
+        ### Aquatic mammals
         Aquatic mammals are mammals that live primarily or entirely in water, including whales, dolphins, seals, and manatees. However, like all mammals, they still breathe air and must surface periodically to do so.
+        ```
     audience: [tw, dev]
     featured: |
       [After each heading, include a summary or description of the following section.]({{site.baseurl}}{{page.permalink}}formatting-and-organization/#include-descriptions-after-every-heading)
@@ -364,9 +378,9 @@ rules:
       If a heading or title describes a task, use an infinitive (a "plain" verb) instead of a gerundive (an *-ing* verb).
     examples:
       - |
-        **No:** Installing Java
+        **No:** `## Installing Java`
       - |
-        **Yes:** Install Java
+        **Yes:** `## Install Java`
     audience: [tw, dev]
 
 - section: Miscellaneous

@@ -31,7 +31,7 @@ rules:
 
   - rule: |
       ### Write for non-experts<br>
-      Write in a way that's easy to understand, even if the reader isn't an expert in a given topic.
+      Write in a way that's easy for most people to understand, even if the reader isn't an expert in a given topic. A good rule of thumb: estimate the expertise of your average reader, then write for an audience with slightly less expertise than that.
     audience: [tw, dev, mktg]
     featured: |
       [Write for a broad audience, not just for experts.]({{site.baseurl}}{{page.permalink}}tone-and-content/#write-for-non-experts)
