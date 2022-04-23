@@ -308,18 +308,6 @@ rules:
         **Yes:** To create a new file, select **New file**.
     audience: [tw]
 
-  - rule: |
-      ### Parallel structure<br>
-      Try to use parallel structure between different steps in the same procedure.
-    examples:
-      - |
-        **Example:**<br>
-          1. Open the door.
-          2. Put on your shoes.
-          3. Grab your keys.
-          4. Close and lock the door behind you.
-    audience: [tw, dev]
-
 - section: Tables
   topics:
 
