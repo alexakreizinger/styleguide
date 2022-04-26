@@ -43,6 +43,20 @@ rules:
   topics:
 
   - rule: |
+      ### HUMAN doesn't block<br>
+      HUMAN's products don't directly block traffic; we merely *analyze* traffic and return our recommendation for how the user should respond. It's up to our users to act on that recommendation.<br>
+
+      As such, be careful not to imply that HUMAN's products block traffic (or take any kind of action at all). Instead, emphasize that we provide a recommendation, often in the form of an actionable data point, which users can then choose whether to incorporate into their own workflows.
+    examples:
+      - |
+        **NO!!!:** The Mitigation API will block all events that were classified as bots.
+      - |
+        **Yes:** The Mitigation API will return a `block` response for all events that were classified as bots.
+    audience: [tw, dev, mktg]
+    featured: |
+      [HUMAN's products don't "block" traffic.]({{site.baseurl}}{{page.permalink}}human-terminology/#HUMAN-doesnt-block)
+
+  - rule: |
       ### Bots aren't always bad<br>
       Don't use the word *bot* to mean *bad bot*; if you're referring to a bad bot, use a descriptive adjective like *bad* or *malicious*. Similarly, if you're referring to a good or neutral bot, use a descriptive adjective like *benign* or *helpful*.
     audience: [tw, dev, mktg]
