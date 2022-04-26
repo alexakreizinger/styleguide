@@ -89,29 +89,29 @@ rules:
 
   - rule: |
 
-      When describing or referring to the elements of an interface, use the following standardized terms:<br>
+      When writing procedural instructions that describe or refer to the elements of an interface, use the following standardized terms:<br>
 
-      * **Screen:** The physical screen of a device, like a computer or smartphone. Do not use *screen* in reference to software UIs; however, *screen* is often mistakenly used in place of *page*.
-
-      * **Window:** A self-contained element that you can open and close.
-
-      * **Page:** The active area or interface within an application, program, or website.
+      * **Page:** The active area or interface within an application, program, or website. (In most circumstances, *page* is preferable to *screen*.)
 
       * **Dialog box:** A small window that appears on top of the main interface. Although most dialog boxes are technically pop-ups, don't refer to them as *pop-ups*.
 
       * **Pane:** A distinct section or area within a larger window or page. Don't use the word *panel* as a substitute.
 
+      * **Card:** A small pane that displays specific information about a single topic. Users can often interact with cards to reveal more information or actions related to a topic. Cards tend to resemble physical cards, sticky notes, or tiles. (However, in most circumstances, *card* is preferable to *tile*).
+
       * **Menu:** A general term for any list of items or options. If applicable, you can specify one of the following menu types:
 
-          * **Drop-down menu:** A collapsible menu that lets you select from a list of items.
+          * **Dropdown menu:** A collapsible menu that lets you select from a list of items.
 
-          * **Menu bar:** A menu displayed across the top of a page or window.
+          * **Menu bar:** A menu displayed across the top of a page or window. Menu bars often contain multiple dropdown menus (for example, Photoshop's menu bar includes *File*, *Edit*, *Image*, *Layer*, *Select*, and so on.)
+
+          * **Sidebar:** A menu displayed on the side of a page, often used for navigation purposes. In some circumstances, users can choose to hide the sidebar when it's not in use.
           
-          * **Navigation menu:** A menu that lets you select destinations (like a hamburger menu that lets you navigate the various pages of a website).
+          * **Navigation menu:** Any menu that lets you navigate between multiple pages. This is a generic term that encompasses many types of menus; some navigation menus may be sidebars or menu bars (or something else altogether), but you can always use the term *navigation menu* if you're not sure what term fits best.
 
       * **Tab:** An element that resembles a physical file tab. The word *tab* may also refer to the area that that tab leads to or the elements that it contains. (For example: "Select the **Details** tab." versus "In the Details tab, you'll find information about...")
 
-      * **Text box:** An element that lets you enter text.
+      * **Text field:** An element that lets you enter text.
 
       * **Checkbox:** An element that lets you select/unselect a single option or select/unselect any combination of options from a list of items. Try not to use the words *check* or *uncheck* to describe interaction with checkboxes; instead, use *select* or *unselect*. 
 
