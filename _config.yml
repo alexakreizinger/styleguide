@@ -4,6 +4,7 @@ url: "https://alexakreizinger.github.io" #theme breaks without this?
 baseurl: "/styleguide" #theme breaks without this?
 
 theme: just-the-docs
+color_scheme: HUMAN_branding # sets the custom fonts/colors to whatever's in /_sass/color_schemes/HUMAN_branding
 
 # Enable or disable the site search
 # Supports true (default) or false
