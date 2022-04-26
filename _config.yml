@@ -4,7 +4,9 @@ url: "https://alexakreizinger.github.io" #theme breaks without this?
 baseurl: "/styleguide" #theme breaks without this?
 
 theme: just-the-docs
-color_scheme: branding # sets the custom fonts/colors to whatever's in /_sass/color_schemes/branding
+# Custom fonts/schemes - uses anything in /_sass/color_schemes/branding to override theme default scss
+# (commented out for now because the line height looks kind of weird and I don't have the patience to fix it yet >_<)
+# color_scheme: branding
 
 # Enable or disable the site search
 # Supports true (default) or false
