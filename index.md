@@ -14,7 +14,7 @@ nav_order: 1
 ### "Day Zero"
 
 - Migrate Jekyll site from GitHub to GitLab
-    - + make site password-protected?
+    - \+ make site password-protected?
 
 - Hide the *Marketers* audience for now; start with just *Developers* and *Technical Writers* to test things out (pilot audiences)
 
